@@ -1,0 +1,5 @@
+show dbs # to show available databases
+use names # Switching to database names
+db # Current db
+db.mynames.insert({ name: 'nathan', email: 'nathan@10.gen.com' }) # Inserting record into collection mynames
+db.mynames.find() # Show documents in collection mynames
