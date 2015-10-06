@@ -1,7 +1,7 @@
 # ed
 Data exploration
 
-Project for studies. Analysis some data from Internet.
+Project for studies. Analysis for some data from quora.com.
 Proposed technology stack: Python + MongoDB
 
 Installing MongoDB on Ubuntu 14.04 LTS:
@@ -19,3 +19,8 @@ Installing PyMongo Python driver:
     michal3141@ubuntuu:~/studia/ed$ sudo pip freeze | grep -i mongo
     pymongo==3.0.3
 
+Installing BeautifulSoup4 Python HTML parser:
+
+    michal3141@ubuntuu:~/studia/ed$ sudo pip install BeautifulSoup4
+    michal3141@ubuntuu:~/studia/ed$ sudo pip freeze | grep -i Beautiful
+    beautifulsoup4==4.4.1
