@@ -1,0 +1,18 @@
+We can easily get statistics about users:
+
+user.stats
+{'answers': 414,
+ 'blogs': None,
+ 'edits': 7,
+ 'followers': 640,
+ 'following': 200,
+ 'name': 'Christopher J. Su',
+ 'posts': 8,
+ 'questions': 107,
+ 'topics': None,
+ 'username': 'Christopher-J-Su'}
+
+We can gather statistics about question like:
+- number of answers
+- topics (connected with particular question)
+- related questions
