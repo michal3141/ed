@@ -24,3 +24,9 @@ Installing BeautifulSoup4 Python HTML parser:
     michal3141@ubuntuu:~/studia/ed$ sudo pip install BeautifulSoup4
     michal3141@ubuntuu:~/studia/ed$ sudo pip freeze | grep -i Beautiful
     beautifulsoup4==4.4.1
+
+Installing feedparser:
+
+    michal3141@ubuntuu:~/studia/ed$ sudo pip install feedparser
+    michal3141@ubuntuu:~/studia/ed$ sudo pip freeze | grep feedparser
+    feedparser==5.2.1
