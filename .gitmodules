@@ -1,0 +1,3 @@
+[submodule "pyquora"]
+	path = pyquora
+	url = https://github.com/michal3141/pyquora.git

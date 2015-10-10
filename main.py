@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 import pymongo
-from quora import Quora
+from pyquora.quora import Quora
 
 def main():
     connection_str = 'mongodb://localhost:27017/'

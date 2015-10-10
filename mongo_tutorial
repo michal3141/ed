@@ -2,4 +2,22 @@ show dbs # to show available databases
 use names # Switching to database names
 db # Current db
 db.mynames.insert({ name: 'nathan', email: 'nathan@10.gen.com' }) # Inserting record into collection mynames
-db.mynames.find() # Show documents in collection mynames
+db.mynames.find() # Show documents in collection mynames (Returns cursor)
+db.collection_names() # Returns collection names for particular database
+
+db.mynames('somefield': {'$eq': 10})
+cur = db.scores.find({'score': {'$gte': 65}}, {'score' : 1, '_id': 0}) # Only scores greater than 65 + show only scores field
+
+db.scores.ensure_index('score') # Ensuring index
+
+db.things.update({'_id': 123 }), {'$set': {'hello': 'PyCon'}} # Updating only hello field for particular document
+
+db.scores.remove() # Removes documents but not collections itself and indexes are preserved
+
+db.drop_collection('things') # Removes collection things
+
+db.safe_example.insert({'_id': 123}, safe=True) #
+# This way you can ensure that write succeeded. Otherwise Mongo won't wait and errors will be silenced on server side. !
+
+conn.end_request() # Returns socket to the pool when
+work is done
