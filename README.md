@@ -30,3 +30,8 @@ Installing feedparser:
     michal3141@ubuntuu:~/studia/ed$ sudo pip install feedparser
     michal3141@ubuntuu:~/studia/ed$ sudo pip freeze | grep feedparser
     feedparser==5.2.1
+
+Installing selenium and deps (use: http://chromedriver.storage.googleapis.com/2.19/chromedriver_linux64.zip for chromedriver !). More:
+
+    http://christopher.su/2015/selenium-chromedriver-ubuntu/
+    
