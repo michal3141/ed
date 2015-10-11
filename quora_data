@@ -1,4 +1,4 @@
-We can easily get statistics about users:
+We can easily get basic statistics about users:
 
 user.stats
 {'answers': 414,
@@ -11,6 +11,12 @@ user.stats
  'questions': 107,
  'topics': None,
  'username': 'Christopher-J-Su'}
+
+In addition to that we can also gather:
+- followers list
+- following list
+
+And some statistics about questions:
 
 We can gather statistics about question like:
 - number of answers
