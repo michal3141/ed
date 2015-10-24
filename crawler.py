@@ -15,13 +15,27 @@ def _sanitize_question(question):
 
 
 class Crawler(object):
-    def __init__(self, connection_str, quora_db):
+    def __init__(self, connection_str, quora_db, maxdepth=1):
+        """
+        :param connection_str: Connection string to Mongo database
+        :param quora_db: Name of DB used to store crawled data
+        :param maxdepth: Limiting depth for crawler, 1 - crawling only seed, 2 - crawling seed and related objects, etc.
+        :return:
+        """
         self.client = pymongo.MongoClient(connection_str)
         self.db = self.client[quora_db]
+        self.maxdepth = maxdepth
         self.crawled_questions = {}
         self.bad_questions = set()
 
     def crawl_by_question(self, question):
+        self._crawl_by_question(question, 1)
+
+    def _crawl_by_question(self, question, depth):
+        # Stopping crawling when depth exceeds maxdepth
+        if depth > self.maxdepth:
+            return
+
         # Not crawling the question that was already crawled
         if question in self.crawled_questions or question in self.bad_questions:
             return
@@ -50,6 +64,6 @@ class Crawler(object):
         for related_question in question_stats['related_questions']:
             # Only considering complete questions (i.e. not ending in ...)
             if not related_question.endswith('...'):
-                self.crawl_by_question(_sanitize_question(related_question))
+                self._crawl_by_question(_sanitize_question(related_question), depth+1)
 
 

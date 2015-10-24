@@ -16,8 +16,11 @@ def main():
 
     connection_str = 'mongodb://localhost:27017/'
     quora_db = 'quora'
-    crawler = Crawler(connection_str, quora_db)
+
+    # Creating crawler object with limited crawling depth
+    crawler = Crawler(connection_str, quora_db, maxdepth=3)
     seed = 'What-is-terrorism'
+    # Starting crawling
     crawler.crawl_by_question(seed)
 
 if __name__ == '__main__':
