@@ -18,7 +18,7 @@ def main():
     quora_db = 'quora'
 
     # Creating crawler object with limited crawling depth
-    crawler = Crawler(connection_str, quora_db, maxdepth=3)
+    crawler = Crawler(connection_str, quora_db, maxdepth=5)
     seed = 'What-is-terrorism'
     # Starting crawling
     crawler.crawl_by_question(seed)
