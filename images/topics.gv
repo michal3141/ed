@@ -1,0 +1,4162 @@
+// Topics graph
+graph {
+	graph [bgcolor="#888888" fontcolor=white fontsize=12 label="Graph" outputorder=edgesfirst overlap=prism]
+	node [color=white fillcolor="#006699" fontcolor=white fontname=Helvetica shape=hexagon style=filled]
+	edge [arrowhead=open color=black fontcolor=white fontname=Courier fontsize=12]
+		"War on Terror" [label="War on Terror"]
+		Terrorism [label=Terrorism]
+		Islam [label=Islam]
+		Politics [label=Politics]
+			"War on Terror" -- Terrorism
+			"War on Terror" -- Islam
+			"War on Terror" -- Politics
+			Terrorism -- Islam
+			Terrorism -- Politics
+			Islam -- Politics
+		"Muslims Against Terrorism" [label="Muslims Against Terrorism"]
+			"Muslims Against Terrorism" -- Terrorism
+			"Muslims Against Terrorism" -- Islam
+			Terrorism -- Islam
+		"Disability and Disabilities" [label="Disability and Disabilities"]
+			"Disability and Disabilities" -- Islam
+		Nigeria [label=Nigeria]
+		People [label=People]
+		Life [label=Life]
+			Nigeria -- "Disability and Disabilities"
+			Nigeria -- People
+			Nigeria -- Life
+			"Disability and Disabilities" -- People
+			"Disability and Disabilities" -- Life
+			People -- Life
+		Accessibility [label=Accessibility]
+		"Game of Thrones (TV series)" [label="Game of Thrones (TV series)"]
+			Accessibility -- "Disability and Disabilities"
+			Accessibility -- "Game of Thrones (TV series)"
+			"Disability and Disabilities" -- "Game of Thrones (TV series)"
+		Africa [label=Africa]
+			Nigeria -- Africa
+		"Indian Minorities" [label="Indian Minorities"]
+		"Indian Culture And Heritage" [label="Indian Culture And Heritage"]
+		India [label=India]
+			"Indian Minorities" -- "Disability and Disabilities"
+			"Indian Minorities" -- "Indian Culture And Heritage"
+			"Indian Minorities" -- India
+			"Disability and Disabilities" -- "Indian Culture And Heritage"
+			"Disability and Disabilities" -- India
+			"Indian Culture And Heritage" -- India
+		"Everyday Life" [label="Everyday Life"]
+			"Everyday Life" -- "Disability and Disabilities"
+			"Everyday Life" -- Life
+			"Disability and Disabilities" -- Life
+		"Standard of Living" [label="Standard of Living"]
+		"War on Poverty" [label="War on Poverty"]
+		"Third World" [label="Third World"]
+		"Quality of Life" [label="Quality of Life"]
+		Poverty [label=Poverty]
+			"Standard of Living" -- "War on Poverty"
+			"Standard of Living" -- "Third World"
+			"Standard of Living" -- "Quality of Life"
+			"Standard of Living" -- Nigeria
+			"Standard of Living" -- Africa
+			"Standard of Living" -- Poverty
+			"War on Poverty" -- "Third World"
+			"War on Poverty" -- "Quality of Life"
+			"War on Poverty" -- Nigeria
+			"War on Poverty" -- Africa
+			"War on Poverty" -- Poverty
+			"Third World" -- "Quality of Life"
+			"Third World" -- Nigeria
+			"Third World" -- Africa
+			"Third World" -- Poverty
+			"Quality of Life" -- Nigeria
+			"Quality of Life" -- Africa
+			"Quality of Life" -- Poverty
+			Nigeria -- Africa
+			Nigeria -- Poverty
+			Africa -- Poverty
+		Men [label=Men]
+		Celebrities [label=Celebrities]
+		Psychology [label=Psychology]
+		"Human Behavior" [label="Human Behavior"]
+			Men -- Celebrities
+			Men -- People
+			Men -- Psychology
+			Men -- "Human Behavior"
+			Celebrities -- People
+			Celebrities -- Psychology
+			Celebrities -- "Human Behavior"
+			People -- Psychology
+			People -- "Human Behavior"
+			Psychology -- "Human Behavior"
+		"Americans with Disabilities Act of 1990 (ADA)" [label="Americans with Disabilities Act of 1990 (ADA)"]
+		Wheelchairs [label=Wheelchairs]
+		Countries [label=Countries]
+		"What Does It Feel Like to X?" [label="What Does It Feel Like to X?"]
+			"Americans with Disabilities Act of 1990 (ADA)" -- Wheelchairs
+			"Americans with Disabilities Act of 1990 (ADA)" -- Accessibility
+			"Americans with Disabilities Act of 1990 (ADA)" -- "Disability and Disabilities"
+			"Americans with Disabilities Act of 1990 (ADA)" -- Countries
+			"Americans with Disabilities Act of 1990 (ADA)" -- "What Does It Feel Like to X?"
+			Wheelchairs -- Accessibility
+			Wheelchairs -- "Disability and Disabilities"
+			Wheelchairs -- Countries
+			Wheelchairs -- "What Does It Feel Like to X?"
+			Accessibility -- "Disability and Disabilities"
+			Accessibility -- Countries
+			Accessibility -- "What Does It Feel Like to X?"
+			"Disability and Disabilities" -- Countries
+			"Disability and Disabilities" -- "What Does It Feel Like to X?"
+			Countries -- "What Does It Feel Like to X?"
+			"Disability and Disabilities" -- Life
+		"Deafness (physiological condition)" [label="Deafness (physiological condition)"]
+		Blindness [label=Blindness]
+		"Social Psychology" [label="Social Psychology"]
+			"Deafness (physiological condition)" -- Blindness
+			"Deafness (physiological condition)" -- "Disability and Disabilities"
+			"Deafness (physiological condition)" -- "Social Psychology"
+			Blindness -- "Disability and Disabilities"
+			Blindness -- "Social Psychology"
+			"Disability and Disabilities" -- "Social Psychology"
+		Emotions [label=Emotions]
+		"Psychology of Everyday Life" [label="Psychology of Everyday Life"]
+			"Disability and Disabilities" -- Emotions
+			"Disability and Disabilities" -- Life
+			"Disability and Disabilities" -- "Psychology of Everyday Life"
+			Emotions -- Life
+			Emotions -- "Psychology of Everyday Life"
+			Life -- "Psychology of Everyday Life"
+		"Medicine and Healthcare" [label="Medicine and Healthcare"]
+			"Disability and Disabilities" -- "What Does It Feel Like to X?"
+			"Disability and Disabilities" -- "Medicine and Healthcare"
+			"What Does It Feel Like to X?" -- "Medicine and Healthcare"
+		"Child Development" [label="Child Development"]
+		Parents [label=Parents]
+		Children [label=Children]
+		Law [label=Law]
+			"Disability and Disabilities" -- "Child Development"
+			"Disability and Disabilities" -- Parents
+			"Disability and Disabilities" -- Children
+			"Disability and Disabilities" -- Law
+			"Child Development" -- Parents
+			"Child Development" -- Children
+			"Child Development" -- Law
+			Parents -- Children
+			Parents -- Law
+			Children -- Law
+			"Disability and Disabilities" -- Countries
+			"Disability and Disabilities" -- India
+		"International Relations" [label="International Relations"]
+			Islam -- "International Relations"
+		Muslims [label=Muslims]
+		Marriage [label=Marriage]
+			Muslims -- Islam
+			Muslims -- Marriage
+			Islam -- Marriage
+		"The Atlantic (magazine)" [label="The Atlantic (magazine)"]
+		Magazines [label=Magazines]
+		"Islamic State of Iraq and Syria (ISIS)" [label="Islamic State of Iraq and Syria (ISIS)"]
+		Religion [label=Religion]
+			"The Atlantic (magazine)" -- Magazines
+			"The Atlantic (magazine)" -- "Islamic State of Iraq and Syria (ISIS)"
+			"The Atlantic (magazine)" -- Muslims
+			"The Atlantic (magazine)" -- Islam
+			"The Atlantic (magazine)" -- Religion
+			Magazines -- "Islamic State of Iraq and Syria (ISIS)"
+			Magazines -- Muslims
+			Magazines -- Islam
+			Magazines -- Religion
+			"Islamic State of Iraq and Syria (ISIS)" -- Muslims
+			"Islamic State of Iraq and Syria (ISIS)" -- Islam
+			"Islamic State of Iraq and Syria (ISIS)" -- Religion
+			Muslims -- Islam
+			Muslims -- Religion
+			Islam -- Religion
+		"Burqas and Related Etiquette & Behavior" [label="Burqas and Related Etiquette & Behavior"]
+		"Islamic Culture" [label="Islamic Culture"]
+		"Muslim Women" [label="Muslim Women"]
+		Hijab [label=Hijab]
+		"What Should Everyone Know About X?" [label="What Should Everyone Know About X?"]
+			"Burqas and Related Etiquette & Behavior" -- "Islamic Culture"
+			"Burqas and Related Etiquette & Behavior" -- "Muslim Women"
+			"Burqas and Related Etiquette & Behavior" -- Hijab
+			"Burqas and Related Etiquette & Behavior" -- "What Should Everyone Know About X?"
+			"Burqas and Related Etiquette & Behavior" -- Muslims
+			"Islamic Culture" -- "Muslim Women"
+			"Islamic Culture" -- Hijab
+			"Islamic Culture" -- "What Should Everyone Know About X?"
+			"Islamic Culture" -- Muslims
+			"Muslim Women" -- Hijab
+			"Muslim Women" -- "What Should Everyone Know About X?"
+			"Muslim Women" -- Muslims
+			Hijab -- "What Should Everyone Know About X?"
+			Hijab -- Muslims
+			"What Should Everyone Know About X?" -- Muslims
+		"Sunni Islam" [label="Sunni Islam"]
+		"Shia Islam" [label="Shia Islam"]
+		"Military History and Wars" [label="Military History and Wars"]
+			"Sunni Islam" -- "Shia Islam"
+			"Sunni Islam" -- "Military History and Wars"
+			"Sunni Islam" -- "Social Psychology"
+			"Sunni Islam" -- Islam
+			"Sunni Islam" -- Politics
+			"Sunni Islam" -- Religion
+			"Shia Islam" -- "Military History and Wars"
+			"Shia Islam" -- "Social Psychology"
+			"Shia Islam" -- Islam
+			"Shia Islam" -- Politics
+			"Shia Islam" -- Religion
+			"Military History and Wars" -- "Social Psychology"
+			"Military History and Wars" -- Islam
+			"Military History and Wars" -- Politics
+			"Military History and Wars" -- Religion
+			"Social Psychology" -- Islam
+			"Social Psychology" -- Politics
+			"Social Psychology" -- Religion
+			Islam -- Politics
+			Islam -- Religion
+			Politics -- Religion
+		"Islamic Corporate Governance" [label="Islamic Corporate Governance"]
+		"Islamic Government" [label="Islamic Government"]
+		Government [label=Government]
+		History [label=History]
+			"Islamic Corporate Governance" -- "Islamic Government"
+			"Islamic Corporate Governance" -- Government
+			"Islamic Corporate Governance" -- Islam
+			"Islamic Corporate Governance" -- "International Relations"
+			"Islamic Corporate Governance" -- History
+			"Islamic Corporate Governance" -- Politics
+			"Islamic Government" -- Government
+			"Islamic Government" -- Islam
+			"Islamic Government" -- "International Relations"
+			"Islamic Government" -- History
+			"Islamic Government" -- Politics
+			Government -- Islam
+			Government -- "International Relations"
+			Government -- History
+			Government -- Politics
+			Islam -- "International Relations"
+			Islam -- History
+			Islam -- Politics
+			"International Relations" -- History
+			"International Relations" -- Politics
+			History -- Politics
+			Muslims -- Islam
+			Muslims -- Religion
+			Muslims -- "Psychology of Everyday Life"
+			Islam -- Religion
+			Islam -- "Psychology of Everyday Life"
+			Religion -- "Psychology of Everyday Life"
+		"Interfaith Marriage and Relationships" [label="Interfaith Marriage and Relationships"]
+		Pork [label=Pork]
+		Husbands [label=Husbands]
+		"Marriage Advice" [label="Marriage Advice"]
+		"Saudi Arabia" [label="Saudi Arabia"]
+		Eating [label=Eating]
+		Food [label=Food]
+			"Interfaith Marriage and Relationships" -- Pork
+			"Interfaith Marriage and Relationships" -- Husbands
+			"Interfaith Marriage and Relationships" -- "Marriage Advice"
+			"Interfaith Marriage and Relationships" -- "Saudi Arabia"
+			"Interfaith Marriage and Relationships" -- Eating
+			"Interfaith Marriage and Relationships" -- Muslims
+			"Interfaith Marriage and Relationships" -- Islam
+			"Interfaith Marriage and Relationships" -- Food
+			"Interfaith Marriage and Relationships" -- Religion
+			Pork -- Husbands
+			Pork -- "Marriage Advice"
+			Pork -- "Saudi Arabia"
+			Pork -- Eating
+			Pork -- Muslims
+			Pork -- Islam
+			Pork -- Food
+			Pork -- Religion
+			Husbands -- "Marriage Advice"
+			Husbands -- "Saudi Arabia"
+			Husbands -- Eating
+			Husbands -- Muslims
+			Husbands -- Islam
+			Husbands -- Food
+			Husbands -- Religion
+			"Marriage Advice" -- "Saudi Arabia"
+			"Marriage Advice" -- Eating
+			"Marriage Advice" -- Muslims
+			"Marriage Advice" -- Islam
+			"Marriage Advice" -- Food
+			"Marriage Advice" -- Religion
+			"Saudi Arabia" -- Eating
+			"Saudi Arabia" -- Muslims
+			"Saudi Arabia" -- Islam
+			"Saudi Arabia" -- Food
+			"Saudi Arabia" -- Religion
+			Eating -- Muslims
+			Eating -- Islam
+			Eating -- Food
+			Eating -- Religion
+			Muslims -- Islam
+			Muslims -- Food
+			Muslims -- Religion
+			Islam -- Food
+			Islam -- Religion
+			Food -- Religion
+		"Religious Studies" [label="Religious Studies"]
+			"Religious Studies" -- Muslims
+			"Religious Studies" -- Islam
+			"Religious Studies" -- Religion
+			Muslims -- Islam
+			Muslims -- Religion
+			Islam -- Religion
+		"Islam in Indonesia" [label="Islam in Indonesia"]
+		Indonesia [label=Indonesia]
+		Movies [label=Movies]
+			"Islam in Indonesia" -- Indonesia
+			"Islam in Indonesia" -- Movies
+			Indonesia -- Movies
+		Judaism [label=Judaism]
+			Judaism -- Muslims
+			Judaism -- Islam
+			Judaism -- Religion
+			Muslims -- Islam
+			Muslims -- Religion
+			Islam -- Religion
+			Muslims -- Islam
+			Muslims -- Religion
+			Islam -- Religion
+		"Conversion to Islam" [label="Conversion to Islam"]
+		"Religious Terrorism" [label="Religious Terrorism"]
+		"Religious Conversion" [label="Religious Conversion"]
+		"Belief and Beliefs" [label="Belief and Beliefs"]
+			"Conversion to Islam" -- "Religious Terrorism"
+			"Conversion to Islam" -- "Religious Conversion"
+			"Conversion to Islam" -- "War on Terror"
+			"Conversion to Islam" -- "Belief and Beliefs"
+			"Conversion to Islam" -- Terrorism
+			"Conversion to Islam" -- Muslims
+			"Conversion to Islam" -- "Social Psychology"
+			"Conversion to Islam" -- Islam
+			"Conversion to Islam" -- Religion
+			"Religious Terrorism" -- "Religious Conversion"
+			"Religious Terrorism" -- "War on Terror"
+			"Religious Terrorism" -- "Belief and Beliefs"
+			"Religious Terrorism" -- Terrorism
+			"Religious Terrorism" -- Muslims
+			"Religious Terrorism" -- "Social Psychology"
+			"Religious Terrorism" -- Islam
+			"Religious Terrorism" -- Religion
+			"Religious Conversion" -- "War on Terror"
+			"Religious Conversion" -- "Belief and Beliefs"
+			"Religious Conversion" -- Terrorism
+			"Religious Conversion" -- Muslims
+			"Religious Conversion" -- "Social Psychology"
+			"Religious Conversion" -- Islam
+			"Religious Conversion" -- Religion
+			"War on Terror" -- "Belief and Beliefs"
+			"War on Terror" -- Terrorism
+			"War on Terror" -- Muslims
+			"War on Terror" -- "Social Psychology"
+			"War on Terror" -- Islam
+			"War on Terror" -- Religion
+			"Belief and Beliefs" -- Terrorism
+			"Belief and Beliefs" -- Muslims
+			"Belief and Beliefs" -- "Social Psychology"
+			"Belief and Beliefs" -- Islam
+			"Belief and Beliefs" -- Religion
+			Terrorism -- Muslims
+			Terrorism -- "Social Psychology"
+			Terrorism -- Islam
+			Terrorism -- Religion
+			Muslims -- "Social Psychology"
+			Muslims -- Islam
+			Muslims -- Religion
+			"Social Psychology" -- Islam
+			"Social Psychology" -- Religion
+			Islam -- Religion
+		Fear [label=Fear]
+		Europe [label=Europe]
+		"The United States of America" [label="The United States of America"]
+			Fear -- Europe
+			Fear -- Islam
+			Fear -- "The United States of America"
+			Fear -- Religion
+			Fear -- "Psychology of Everyday Life"
+			Europe -- Islam
+			Europe -- "The United States of America"
+			Europe -- Religion
+			Europe -- "Psychology of Everyday Life"
+			Islam -- "The United States of America"
+			Islam -- Religion
+			Islam -- "Psychology of Everyday Life"
+			"The United States of America" -- Religion
+			"The United States of America" -- "Psychology of Everyday Life"
+			Religion -- "Psychology of Everyday Life"
+		"Terrorist Attacks" [label="Terrorist Attacks"]
+			"Terrorist Attacks" -- Terrorism
+			"Terrorist Attacks" -- Muslims
+			"Terrorist Attacks" -- Islam
+			Terrorism -- Muslims
+			Terrorism -- Islam
+			Muslims -- Islam
+		"Experiences in Life" [label="Experiences in Life"]
+			"Experiences in Life" -- Muslims
+			"Experiences in Life" -- Islam
+			"Experiences in Life" -- Religion
+			Muslims -- Islam
+			Muslims -- Religion
+			Islam -- Religion
+		"Specific Terrorists" [label="Specific Terrorists"]
+			"Specific Terrorists" -- Terrorism
+			"Specific Terrorists" -- Muslims
+			"Specific Terrorists" -- Islam
+			Terrorism -- Muslims
+			Terrorism -- Islam
+			Muslims -- Islam
+		Misunderstandings [label=Misunderstandings]
+		"The Quran" [label="The Quran"]
+			Misunderstandings -- "The Quran"
+			Misunderstandings -- Terrorism
+			Misunderstandings -- Muslims
+			Misunderstandings -- Islam
+			Misunderstandings -- Religion
+			"The Quran" -- Terrorism
+			"The Quran" -- Muslims
+			"The Quran" -- Islam
+			"The Quran" -- Religion
+			Terrorism -- Muslims
+			Terrorism -- Islam
+			Terrorism -- Religion
+			Muslims -- Islam
+			Muslims -- Religion
+			Islam -- Religion
+			Muslims -- Islam
+			Muslims -- "Human Behavior"
+			Muslims -- Religion
+			Muslims -- "Psychology of Everyday Life"
+			Islam -- "Human Behavior"
+			Islam -- Religion
+			Islam -- "Psychology of Everyday Life"
+			"Human Behavior" -- Religion
+			"Human Behavior" -- "Psychology of Everyday Life"
+			Religion -- "Psychology of Everyday Life"
+		"Islam and Terrorism in 2015" [label="Islam and Terrorism in 2015"]
+		"Government Leaders and Politicians" [label="Government Leaders and Politicians"]
+			"Islam and Terrorism in 2015" -- "Government Leaders and Politicians"
+			"Islam and Terrorism in 2015" -- Terrorism
+			"Islam and Terrorism in 2015" -- Muslims
+			"Islam and Terrorism in 2015" -- Islam
+			"Islam and Terrorism in 2015" -- Politics
+			"Islam and Terrorism in 2015" -- Religion
+			"Government Leaders and Politicians" -- Terrorism
+			"Government Leaders and Politicians" -- Muslims
+			"Government Leaders and Politicians" -- Islam
+			"Government Leaders and Politicians" -- Politics
+			"Government Leaders and Politicians" -- Religion
+			Terrorism -- Muslims
+			Terrorism -- Islam
+			Terrorism -- Politics
+			Terrorism -- Religion
+			Muslims -- Islam
+			Muslims -- Politics
+			Muslims -- Religion
+			Islam -- Politics
+			Islam -- Religion
+			Politics -- Religion
+		Christians [label=Christians]
+		Christianity [label=Christianity]
+			"Sunni Islam" -- "Shia Islam"
+			"Sunni Islam" -- Christians
+			"Sunni Islam" -- Judaism
+			"Sunni Islam" -- Muslims
+			"Sunni Islam" -- Islam
+			"Sunni Islam" -- Christianity
+			"Sunni Islam" -- Religion
+			"Sunni Islam" -- "Psychology of Everyday Life"
+			"Shia Islam" -- Christians
+			"Shia Islam" -- Judaism
+			"Shia Islam" -- Muslims
+			"Shia Islam" -- Islam
+			"Shia Islam" -- Christianity
+			"Shia Islam" -- Religion
+			"Shia Islam" -- "Psychology of Everyday Life"
+			Christians -- Judaism
+			Christians -- Muslims
+			Christians -- Islam
+			Christians -- Christianity
+			Christians -- Religion
+			Christians -- "Psychology of Everyday Life"
+			Judaism -- Muslims
+			Judaism -- Islam
+			Judaism -- Christianity
+			Judaism -- Religion
+			Judaism -- "Psychology of Everyday Life"
+			Muslims -- Islam
+			Muslims -- Christianity
+			Muslims -- Religion
+			Muslims -- "Psychology of Everyday Life"
+			Islam -- Christianity
+			Islam -- Religion
+			Islam -- "Psychology of Everyday Life"
+			Christianity -- Religion
+			Christianity -- "Psychology of Everyday Life"
+			Religion -- "Psychology of Everyday Life"
+		Blame [label=Blame]
+			Blame -- Muslims
+			Blame -- Islam
+			Blame -- Religion
+			Muslims -- Islam
+			Muslims -- Religion
+			Islam -- Religion
+			Muslims -- Islam
+			Muslims -- Religion
+			Islam -- Religion
+			Terrorism -- Muslims
+			Terrorism -- Islam
+			Terrorism -- Religion
+			Muslims -- Islam
+			Muslims -- Religion
+			Islam -- Religion
+		"Michael Jackson" [label="Michael Jackson"]
+		"Pop Music" [label="Pop Music"]
+		Musicians [label=Musicians]
+		"Names and Naming" [label="Names and Naming"]
+		Music [label=Music]
+			"Michael Jackson" -- "Pop Music"
+			"Michael Jackson" -- Musicians
+			"Michael Jackson" -- Muslims
+			"Michael Jackson" -- "Names and Naming"
+			"Michael Jackson" -- Islam
+			"Michael Jackson" -- Music
+			"Pop Music" -- Musicians
+			"Pop Music" -- Muslims
+			"Pop Music" -- "Names and Naming"
+			"Pop Music" -- Islam
+			"Pop Music" -- Music
+			Musicians -- Muslims
+			Musicians -- "Names and Naming"
+			Musicians -- Islam
+			Musicians -- Music
+			Muslims -- "Names and Naming"
+			Muslims -- Islam
+			Muslims -- Music
+			"Names and Naming" -- Islam
+			"Names and Naming" -- Music
+			Islam -- Music
+		"Hypothetical Scenarios" [label="Hypothetical Scenarios"]
+			"Religious Conversion" -- Islam
+			"Religious Conversion" -- "Hypothetical Scenarios"
+			Islam -- "Hypothetical Scenarios"
+		"Peshawar School Assault (December 2014)" [label="Peshawar School Assault (December 2014)"]
+		Pakistan [label=Pakistan]
+			"Peshawar School Assault (December 2014)" -- Terrorism
+			"Peshawar School Assault (December 2014)" -- Pakistan
+			"Peshawar School Assault (December 2014)" -- Islam
+			Terrorism -- Pakistan
+			Terrorism -- Islam
+			Pakistan -- Islam
+		Nazism [label=Nazism]
+		"Indian Muslims" [label="Indian Muslims"]
+		"World War II" [label="World War II"]
+			Nazism -- "War on Terror"
+			Nazism -- "Indian Muslims"
+			Nazism -- Christians
+			Nazism -- "World War II"
+			Nazism -- Terrorism
+			Nazism -- Muslims
+			Nazism -- "Military History and Wars"
+			Nazism -- Islam
+			Nazism -- Christianity
+			"War on Terror" -- "Indian Muslims"
+			"War on Terror" -- Christians
+			"War on Terror" -- "World War II"
+			"War on Terror" -- Terrorism
+			"War on Terror" -- Muslims
+			"War on Terror" -- "Military History and Wars"
+			"War on Terror" -- Islam
+			"War on Terror" -- Christianity
+			"Indian Muslims" -- Christians
+			"Indian Muslims" -- "World War II"
+			"Indian Muslims" -- Terrorism
+			"Indian Muslims" -- Muslims
+			"Indian Muslims" -- "Military History and Wars"
+			"Indian Muslims" -- Islam
+			"Indian Muslims" -- Christianity
+			Christians -- "World War II"
+			Christians -- Terrorism
+			Christians -- Muslims
+			Christians -- "Military History and Wars"
+			Christians -- Islam
+			Christians -- Christianity
+			"World War II" -- Terrorism
+			"World War II" -- Muslims
+			"World War II" -- "Military History and Wars"
+			"World War II" -- Islam
+			"World War II" -- Christianity
+			Terrorism -- Muslims
+			Terrorism -- "Military History and Wars"
+			Terrorism -- Islam
+			Terrorism -- Christianity
+			Muslims -- "Military History and Wars"
+			Muslims -- Islam
+			Muslims -- Christianity
+			"Military History and Wars" -- Islam
+			"Military History and Wars" -- Christianity
+			Islam -- Christianity
+		"Women in Islam" [label="Women in Islam"]
+			"Women in Islam" -- Islam
+			"Women in Islam" -- Religion
+			Islam -- Religion
+			Muslims -- Islam
+			Muslims -- Religion
+			Islam -- Religion
+		"History of Islam" [label="History of Islam"]
+		"Chinese Ethnicity and People" [label="Chinese Ethnicity and People"]
+		China [label=China]
+			"History of Islam" -- "Chinese Ethnicity and People"
+			"History of Islam" -- Muslims
+			"History of Islam" -- Islam
+			"History of Islam" -- China
+			"Chinese Ethnicity and People" -- Muslims
+			"Chinese Ethnicity and People" -- Islam
+			"Chinese Ethnicity and People" -- China
+			Muslims -- Islam
+			Muslims -- China
+			Islam -- China
+		"National Flag" [label="National Flag"]
+		Taiwan [label=Taiwan]
+			"National Flag" -- Taiwan
+			"National Flag" -- China
+			Taiwan -- China
+		Textbooks [label=Textbooks]
+		"Hong Kong" [label="Hong Kong"]
+			Textbooks -- Taiwan
+			Textbooks -- "Hong Kong"
+			Textbooks -- China
+			Textbooks -- History
+			Taiwan -- "Hong Kong"
+			Taiwan -- China
+			Taiwan -- History
+			"Hong Kong" -- China
+			"Hong Kong" -- History
+			China -- History
+		"Taiwanese Americans" [label="Taiwanese Americans"]
+		"Cross-Strait relations (China)" [label="Cross-Strait relations (China)"]
+		"Communist Party of China" [label="Communist Party of China"]
+		Communism [label=Communism]
+			"Taiwanese Americans" -- "Cross-Strait relations (China)"
+			"Taiwanese Americans" -- "Communist Party of China"
+			"Taiwanese Americans" -- Taiwan
+			"Taiwanese Americans" -- Communism
+			"Taiwanese Americans" -- China
+			"Cross-Strait relations (China)" -- "Communist Party of China"
+			"Cross-Strait relations (China)" -- Taiwan
+			"Cross-Strait relations (China)" -- Communism
+			"Cross-Strait relations (China)" -- China
+			"Communist Party of China" -- Taiwan
+			"Communist Party of China" -- Communism
+			"Communist Party of China" -- China
+			Taiwan -- Communism
+			Taiwan -- China
+			Communism -- China
+		Psychotherapy [label=Psychotherapy]
+		Psychiatry [label=Psychiatry]
+		"Chinese Culture" [label="Chinese Culture"]
+		"Mental Illness" [label="Mental Illness"]
+		"Mental Health" [label="Mental Health"]
+			Psychotherapy -- Psychiatry
+			Psychotherapy -- "Chinese Culture"
+			Psychotherapy -- "Mental Illness"
+			Psychotherapy -- "Mental Health"
+			Psychotherapy -- China
+			Psychotherapy -- Psychology
+			Psychiatry -- "Chinese Culture"
+			Psychiatry -- "Mental Illness"
+			Psychiatry -- "Mental Health"
+			Psychiatry -- China
+			Psychiatry -- Psychology
+			"Chinese Culture" -- "Mental Illness"
+			"Chinese Culture" -- "Mental Health"
+			"Chinese Culture" -- China
+			"Chinese Culture" -- Psychology
+			"Mental Illness" -- "Mental Health"
+			"Mental Illness" -- China
+			"Mental Illness" -- Psychology
+			"Mental Health" -- China
+			"Mental Health" -- Psychology
+			China -- Psychology
+		"Schizophrenia Treatment" [label="Schizophrenia Treatment"]
+		Schizophrenia [label=Schizophrenia]
+			"Schizophrenia Treatment" -- Schizophrenia
+			"Schizophrenia Treatment" -- China
+			Schizophrenia -- China
+		Nationality [label=Nationality]
+			"Cross-Strait relations (China)" -- Nationality
+			"Cross-Strait relations (China)" -- Taiwan
+			"Cross-Strait relations (China)" -- China
+			Nationality -- Taiwan
+			Nationality -- China
+			Taiwan -- China
+		"Liu Xiaobo" [label="Liu Xiaobo"]
+		"2010 Nobel Prizes" [label="2010 Nobel Prizes"]
+		"Human Rights" [label="Human Rights"]
+			"Liu Xiaobo" -- "2010 Nobel Prizes"
+			"Liu Xiaobo" -- Taiwan
+			"Liu Xiaobo" -- "Human Rights"
+			"Liu Xiaobo" -- China
+			"2010 Nobel Prizes" -- Taiwan
+			"2010 Nobel Prizes" -- "Human Rights"
+			"2010 Nobel Prizes" -- China
+			Taiwan -- "Human Rights"
+			Taiwan -- China
+			"Human Rights" -- China
+		"Indigenous People" [label="Indigenous People"]
+		"History of China" [label="History of China"]
+			"Indigenous People" -- "History of China"
+			"Indigenous People" -- China
+			"History of China" -- China
+		"Chiang Kai-shek" [label="Chiang Kai-shek"]
+			"Chiang Kai-shek" -- "History of China"
+			"Chiang Kai-shek" -- Taiwan
+			"Chiang Kai-shek" -- China
+			"History of China" -- Taiwan
+			"History of China" -- China
+			Taiwan -- China
+		Tolerance [label=Tolerance]
+			Tolerance -- Muslims
+			Tolerance -- Islam
+			Tolerance -- Religion
+			Muslims -- Islam
+			Muslims -- Religion
+			Islam -- Religion
+		Singapore [label=Singapore]
+			Taiwan -- Singapore
+			Taiwan -- China
+			Taiwan -- "International Relations"
+			Singapore -- China
+			Singapore -- "International Relations"
+			China -- "International Relations"
+		Warfare [label=Warfare]
+			Taiwan -- Warfare
+			Taiwan -- "Hypothetical Scenarios"
+			Taiwan -- China
+			Taiwan -- "International Relations"
+			Warfare -- "Hypothetical Scenarios"
+			Warfare -- China
+			Warfare -- "International Relations"
+			"Hypothetical Scenarios" -- China
+			"Hypothetical Scenarios" -- "International Relations"
+			China -- "International Relations"
+		Pinyin [label=Pinyin]
+		"Chinese (language)" [label="Chinese (language)"]
+			Pinyin -- Taiwan
+			Pinyin -- "Chinese (language)"
+			Pinyin -- China
+			Taiwan -- "Chinese (language)"
+			Taiwan -- China
+			"Chinese (language)" -- China
+		"Dispute Resolution" [label="Dispute Resolution"]
+		"Organizations (corporate and non-profit)" [label="Organizations (corporate and non-profit)"]
+			"Dispute Resolution" -- "Organizations (corporate and non-profit)"
+			"Dispute Resolution" -- Muslims
+			"Organizations (corporate and non-profit)" -- Muslims
+			"Cross-Strait relations (China)" -- Taiwan
+			"Cross-Strait relations (China)" -- China
+			"Cross-Strait relations (China)" -- History
+			Taiwan -- China
+			Taiwan -- History
+			China -- History
+			"Shia Islam" -- Taiwan
+			"Shia Islam" -- "Chinese Culture"
+			"Shia Islam" -- Islam
+			"Shia Islam" -- China
+			Taiwan -- "Chinese Culture"
+			Taiwan -- Islam
+			Taiwan -- China
+			"Chinese Culture" -- Islam
+			"Chinese Culture" -- China
+			Islam -- China
+		"China in 2015" [label="China in 2015"]
+			"China in 2015" -- "Chinese Ethnicity and People"
+			"China in 2015" -- "Chinese Culture"
+			"China in 2015" -- Muslims
+			"China in 2015" -- Islam
+			"China in 2015" -- China
+			"Chinese Ethnicity and People" -- "Chinese Culture"
+			"Chinese Ethnicity and People" -- Muslims
+			"Chinese Ethnicity and People" -- Islam
+			"Chinese Ethnicity and People" -- China
+			"Chinese Culture" -- Muslims
+			"Chinese Culture" -- Islam
+			"Chinese Culture" -- China
+			Muslims -- Islam
+			Muslims -- China
+			Islam -- China
+		"Shi'a-Sunni Relations" [label="Shi'a-Sunni Relations"]
+		"Relationship Advice" [label="Relationship Advice"]
+		"Interpersonal Interaction" [label="Interpersonal Interaction"]
+			"Shi'a-Sunni Relations" -- "Sunni Islam"
+			"Shi'a-Sunni Relations" -- Islam
+			"Shi'a-Sunni Relations" -- "Relationship Advice"
+			"Shi'a-Sunni Relations" -- "Interpersonal Interaction"
+			"Sunni Islam" -- Islam
+			"Sunni Islam" -- "Relationship Advice"
+			"Sunni Islam" -- "Interpersonal Interaction"
+			Islam -- "Relationship Advice"
+			Islam -- "Interpersonal Interaction"
+			"Relationship Advice" -- "Interpersonal Interaction"
+		Peace [label=Peace]
+		"Indian Ethnicity and People" [label="Indian Ethnicity and People"]
+			"Sunni Islam" -- "Shia Islam"
+			"Sunni Islam" -- Peace
+			"Sunni Islam" -- Terrorism
+			"Sunni Islam" -- Muslims
+			"Sunni Islam" -- Islam
+			"Sunni Islam" -- "Indian Ethnicity and People"
+			"Shia Islam" -- Peace
+			"Shia Islam" -- Terrorism
+			"Shia Islam" -- Muslims
+			"Shia Islam" -- Islam
+			"Shia Islam" -- "Indian Ethnicity and People"
+			Peace -- Terrorism
+			Peace -- Muslims
+			Peace -- Islam
+			Peace -- "Indian Ethnicity and People"
+			Terrorism -- Muslims
+			Terrorism -- Islam
+			Terrorism -- "Indian Ethnicity and People"
+			Muslims -- Islam
+			Muslims -- "Indian Ethnicity and People"
+			Islam -- "Indian Ethnicity and People"
+			"Sunni Islam" -- "Shia Islam"
+			"Sunni Islam" -- "Indian Muslims"
+			"Sunni Islam" -- Muslims
+			"Sunni Islam" -- Islam
+			"Shia Islam" -- "Indian Muslims"
+			"Shia Islam" -- Muslims
+			"Shia Islam" -- Islam
+			"Indian Muslims" -- Muslims
+			"Indian Muslims" -- Islam
+			Muslims -- Islam
+		"Politics of Islam" [label="Politics of Islam"]
+		Iran [label=Iran]
+			"Politics of Islam" -- "Sunni Islam"
+			"Politics of Islam" -- "Shia Islam"
+			"Politics of Islam" -- Iran
+			"Sunni Islam" -- "Shia Islam"
+			"Sunni Islam" -- Iran
+			"Shia Islam" -- Iran
+		Friendship [label=Friendship]
+			Friendship -- "Interpersonal Interaction"
+			Friendship -- "Psychology of Everyday Life"
+			"Interpersonal Interaction" -- "Psychology of Everyday Life"
+		"Religious Persecution" [label="Religious Persecution"]
+		Survival [label=Survival]
+			"Religious Persecution" -- "Shi'a-Sunni Relations"
+			"Religious Persecution" -- "Shia Islam"
+			"Religious Persecution" -- Survival
+			"Religious Persecution" -- Iran
+			"Religious Persecution" -- Pakistan
+			"Shi'a-Sunni Relations" -- "Shia Islam"
+			"Shi'a-Sunni Relations" -- Survival
+			"Shi'a-Sunni Relations" -- Iran
+			"Shi'a-Sunni Relations" -- Pakistan
+			"Shia Islam" -- Survival
+			"Shia Islam" -- Iran
+			"Shia Islam" -- Pakistan
+			Survival -- Iran
+			Survival -- Pakistan
+			Iran -- Pakistan
+		Wealth [label=Wealth]
+			"Shia Islam" -- Wealth
+			"Shia Islam" -- Muslims
+			"Shia Islam" -- Islam
+			"Shia Islam" -- Religion
+			Wealth -- Muslims
+			Wealth -- Islam
+			Wealth -- Religion
+			Muslims -- Islam
+			Muslims -- Religion
+			Islam -- Religion
+			"Shia Islam" -- Muslims
+			"Shia Islam" -- Islam
+			"Shia Islam" -- Religion
+			Muslims -- Islam
+			Muslims -- Religion
+			Islam -- Religion
+		Allergies [label=Allergies]
+		"Making Friends" [label="Making Friends"]
+		"Cats (pets)" [label="Cats (pets)"]
+		Pets [label=Pets]
+		"Dogs (pets)" [label="Dogs (pets)"]
+			Allergies -- "Making Friends"
+			Allergies -- "Cats (pets)"
+			Allergies -- Pets
+			Allergies -- "Dogs (pets)"
+			Allergies -- People
+			Allergies -- "Interpersonal Interaction"
+			Allergies -- "Human Behavior"
+			"Making Friends" -- "Cats (pets)"
+			"Making Friends" -- Pets
+			"Making Friends" -- "Dogs (pets)"
+			"Making Friends" -- People
+			"Making Friends" -- "Interpersonal Interaction"
+			"Making Friends" -- "Human Behavior"
+			"Cats (pets)" -- Pets
+			"Cats (pets)" -- "Dogs (pets)"
+			"Cats (pets)" -- People
+			"Cats (pets)" -- "Interpersonal Interaction"
+			"Cats (pets)" -- "Human Behavior"
+			Pets -- "Dogs (pets)"
+			Pets -- People
+			Pets -- "Interpersonal Interaction"
+			Pets -- "Human Behavior"
+			"Dogs (pets)" -- People
+			"Dogs (pets)" -- "Interpersonal Interaction"
+			"Dogs (pets)" -- "Human Behavior"
+			People -- "Interpersonal Interaction"
+			People -- "Human Behavior"
+			"Interpersonal Interaction" -- "Human Behavior"
+		"Philosophy of Everyday Life" [label="Philosophy of Everyday Life"]
+			"Interpersonal Interaction" -- "Human Behavior"
+			"Interpersonal Interaction" -- "Philosophy of Everyday Life"
+			"Interpersonal Interaction" -- "Psychology of Everyday Life"
+			"Human Behavior" -- "Philosophy of Everyday Life"
+			"Human Behavior" -- "Psychology of Everyday Life"
+			"Philosophy of Everyday Life" -- "Psychology of Everyday Life"
+		Moharram [label=Moharram]
+		"Baku, Azerbaijan" [label="Baku, Azerbaijan"]
+		Lebanon [label=Lebanon]
+		Yemen [label=Yemen]
+		Afghanistan [label=Afghanistan]
+		Syria [label=Syria]
+		Iraq [label=Iraq]
+			Moharram -- "Baku, Azerbaijan"
+			Moharram -- Lebanon
+			Moharram -- Yemen
+			Moharram -- "Shia Islam"
+			Moharram -- Afghanistan
+			Moharram -- Syria
+			Moharram -- Iraq
+			Moharram -- Iran
+			Moharram -- Pakistan
+			Moharram -- Islam
+			Moharram -- Religion
+			Moharram -- India
+			"Baku, Azerbaijan" -- Lebanon
+			"Baku, Azerbaijan" -- Yemen
+			"Baku, Azerbaijan" -- "Shia Islam"
+			"Baku, Azerbaijan" -- Afghanistan
+			"Baku, Azerbaijan" -- Syria
+			"Baku, Azerbaijan" -- Iraq
+			"Baku, Azerbaijan" -- Iran
+			"Baku, Azerbaijan" -- Pakistan
+			"Baku, Azerbaijan" -- Islam
+			"Baku, Azerbaijan" -- Religion
+			"Baku, Azerbaijan" -- India
+			Lebanon -- Yemen
+			Lebanon -- "Shia Islam"
+			Lebanon -- Afghanistan
+			Lebanon -- Syria
+			Lebanon -- Iraq
+			Lebanon -- Iran
+			Lebanon -- Pakistan
+			Lebanon -- Islam
+			Lebanon -- Religion
+			Lebanon -- India
+			Yemen -- "Shia Islam"
+			Yemen -- Afghanistan
+			Yemen -- Syria
+			Yemen -- Iraq
+			Yemen -- Iran
+			Yemen -- Pakistan
+			Yemen -- Islam
+			Yemen -- Religion
+			Yemen -- India
+			"Shia Islam" -- Afghanistan
+			"Shia Islam" -- Syria
+			"Shia Islam" -- Iraq
+			"Shia Islam" -- Iran
+			"Shia Islam" -- Pakistan
+			"Shia Islam" -- Islam
+			"Shia Islam" -- Religion
+			"Shia Islam" -- India
+			Afghanistan -- Syria
+			Afghanistan -- Iraq
+			Afghanistan -- Iran
+			Afghanistan -- Pakistan
+			Afghanistan -- Islam
+			Afghanistan -- Religion
+			Afghanistan -- India
+			Syria -- Iraq
+			Syria -- Iran
+			Syria -- Pakistan
+			Syria -- Islam
+			Syria -- Religion
+			Syria -- India
+			Iraq -- Iran
+			Iraq -- Pakistan
+			Iraq -- Islam
+			Iraq -- Religion
+			Iraq -- India
+			Iran -- Pakistan
+			Iran -- Islam
+			Iran -- Religion
+			Iran -- India
+			Pakistan -- Islam
+			Pakistan -- Religion
+			Pakistan -- India
+			Islam -- Religion
+			Islam -- India
+			Religion -- India
+		"Human Psychology" [label="Human Psychology"]
+		"Nonverbal Communication and Body Language" [label="Nonverbal Communication and Body Language"]
+			"Human Psychology" -- "Nonverbal Communication and Body Language"
+			"Human Psychology" -- People
+			"Human Psychology" -- Psychology
+			"Human Psychology" -- "Human Behavior"
+			"Human Psychology" -- "Psychology of Everyday Life"
+			"Nonverbal Communication and Body Language" -- People
+			"Nonverbal Communication and Body Language" -- Psychology
+			"Nonverbal Communication and Body Language" -- "Human Behavior"
+			"Nonverbal Communication and Body Language" -- "Psychology of Everyday Life"
+			People -- Psychology
+			People -- "Human Behavior"
+			People -- "Psychology of Everyday Life"
+			Psychology -- "Human Behavior"
+			Psychology -- "Psychology of Everyday Life"
+			"Human Behavior" -- "Psychology of Everyday Life"
+		"Bad Neighbors" [label="Bad Neighbors"]
+		"Social Advice" [label="Social Advice"]
+		"Life Advice" [label="Life Advice"]
+			"Bad Neighbors" -- "Making Friends"
+			"Bad Neighbors" -- "Social Advice"
+			"Bad Neighbors" -- "Interpersonal Interaction"
+			"Bad Neighbors" -- "Human Behavior"
+			"Bad Neighbors" -- "Life Advice"
+			"Bad Neighbors" -- "Psychology of Everyday Life"
+			"Making Friends" -- "Social Advice"
+			"Making Friends" -- "Interpersonal Interaction"
+			"Making Friends" -- "Human Behavior"
+			"Making Friends" -- "Life Advice"
+			"Making Friends" -- "Psychology of Everyday Life"
+			"Social Advice" -- "Interpersonal Interaction"
+			"Social Advice" -- "Human Behavior"
+			"Social Advice" -- "Life Advice"
+			"Social Advice" -- "Psychology of Everyday Life"
+			"Interpersonal Interaction" -- "Human Behavior"
+			"Interpersonal Interaction" -- "Life Advice"
+			"Interpersonal Interaction" -- "Psychology of Everyday Life"
+			"Human Behavior" -- "Life Advice"
+			"Human Behavior" -- "Psychology of Everyday Life"
+			"Life Advice" -- "Psychology of Everyday Life"
+			People -- "Social Advice"
+			People -- Psychology
+			People -- "Human Behavior"
+			"Social Advice" -- Psychology
+			"Social Advice" -- "Human Behavior"
+			Psychology -- "Human Behavior"
+		Spitefulness [label=Spitefulness]
+		"Jealousy and Envy" [label="Jealousy and Envy"]
+			Spitefulness -- "Jealousy and Envy"
+			Spitefulness -- "Social Advice"
+			Spitefulness -- Friendship
+			Spitefulness -- "Interpersonal Interaction"
+			"Jealousy and Envy" -- "Social Advice"
+			"Jealousy and Envy" -- Friendship
+			"Jealousy and Envy" -- "Interpersonal Interaction"
+			"Social Advice" -- Friendship
+			"Social Advice" -- "Interpersonal Interaction"
+			Friendship -- "Interpersonal Interaction"
+			"Social Advice" -- Friendship
+			"Social Advice" -- "Interpersonal Interaction"
+			Friendship -- "Interpersonal Interaction"
+		"Denominations and Organized Religion" [label="Denominations and Organized Religion"]
+		Thinking [label=Thinking]
+			"Sunni Islam" -- "Shia Islam"
+			"Sunni Islam" -- "Denominations and Organized Religion"
+			"Sunni Islam" -- Thinking
+			"Sunni Islam" -- Islam
+			"Sunni Islam" -- People
+			"Sunni Islam" -- Religion
+			"Shia Islam" -- "Denominations and Organized Religion"
+			"Shia Islam" -- Thinking
+			"Shia Islam" -- Islam
+			"Shia Islam" -- People
+			"Shia Islam" -- Religion
+			"Denominations and Organized Religion" -- Thinking
+			"Denominations and Organized Religion" -- Islam
+			"Denominations and Organized Religion" -- People
+			"Denominations and Organized Religion" -- Religion
+			Thinking -- Islam
+			Thinking -- People
+			Thinking -- Religion
+			Islam -- People
+			Islam -- Religion
+			People -- Religion
+		"Native English Speaker" [label="Native English Speaker"]
+		"Online Friendship" [label="Online Friendship"]
+			"Native English Speaker" -- "Online Friendship"
+			"Native English Speaker" -- "Making Friends"
+			"Native English Speaker" -- "Social Advice"
+			"Native English Speaker" -- Friendship
+			"Online Friendship" -- "Making Friends"
+			"Online Friendship" -- "Social Advice"
+			"Online Friendship" -- Friendship
+			"Making Friends" -- "Social Advice"
+			"Making Friends" -- Friendship
+			"Social Advice" -- Friendship
+		Junior [label=Junior]
+		"Relationships and Dating of Young People" [label="Relationships and Dating of Young People"]
+		Love [label=Love]
+		"Dating and Relationships" [label="Dating and Relationships"]
+			Junior -- "Making Friends"
+			Junior -- "Relationships and Dating of Young People"
+			Junior -- "Social Advice"
+			Junior -- Friendship
+			Junior -- Love
+			Junior -- "Dating and Relationships"
+			"Making Friends" -- "Relationships and Dating of Young People"
+			"Making Friends" -- "Social Advice"
+			"Making Friends" -- Friendship
+			"Making Friends" -- Love
+			"Making Friends" -- "Dating and Relationships"
+			"Relationships and Dating of Young People" -- "Social Advice"
+			"Relationships and Dating of Young People" -- Friendship
+			"Relationships and Dating of Young People" -- Love
+			"Relationships and Dating of Young People" -- "Dating and Relationships"
+			"Social Advice" -- Friendship
+			"Social Advice" -- Love
+			"Social Advice" -- "Dating and Relationships"
+			Friendship -- Love
+			Friendship -- "Dating and Relationships"
+			Love -- "Dating and Relationships"
+		"Best Friends" [label="Best Friends"]
+			"Best Friends" -- "Social Advice"
+			"Best Friends" -- Friendship
+			"Best Friends" -- "Psychology of Everyday Life"
+			"Social Advice" -- Friendship
+			"Social Advice" -- "Psychology of Everyday Life"
+			Friendship -- "Psychology of Everyday Life"
+		Handedness [label=Handedness]
+			Handedness -- "Disability and Disabilities"
+			Handedness -- Islam
+			"Disability and Disabilities" -- Islam
+		"Human Physiology" [label="Human Physiology"]
+			"Disability and Disabilities" -- "Human Physiology"
+			"Disability and Disabilities" -- "Interpersonal Interaction"
+			"Disability and Disabilities" -- "Human Behavior"
+			"Disability and Disabilities" -- Life
+			"Disability and Disabilities" -- "Psychology of Everyday Life"
+			"Human Physiology" -- "Interpersonal Interaction"
+			"Human Physiology" -- "Human Behavior"
+			"Human Physiology" -- Life
+			"Human Physiology" -- "Psychology of Everyday Life"
+			"Interpersonal Interaction" -- "Human Behavior"
+			"Interpersonal Interaction" -- Life
+			"Interpersonal Interaction" -- "Psychology of Everyday Life"
+			"Human Behavior" -- Life
+			"Human Behavior" -- "Psychology of Everyday Life"
+			Life -- "Psychology of Everyday Life"
+		"Public Transportation" [label="Public Transportation"]
+		"Civil Engineering" [label="Civil Engineering"]
+			Accessibility -- "Disability and Disabilities"
+			Accessibility -- "Public Transportation"
+			Accessibility -- "Civil Engineering"
+			"Disability and Disabilities" -- "Public Transportation"
+			"Disability and Disabilities" -- "Civil Engineering"
+			"Public Transportation" -- "Civil Engineering"
+		"Pet Allergies" [label="Pet Allergies"]
+			"Pet Allergies" -- "Americans with Disabilities Act of 1990 (ADA)"
+			"Pet Allergies" -- Allergies
+			"Pet Allergies" -- "Disability and Disabilities"
+			"Pet Allergies" -- "Dogs (pets)"
+			"Americans with Disabilities Act of 1990 (ADA)" -- Allergies
+			"Americans with Disabilities Act of 1990 (ADA)" -- "Disability and Disabilities"
+			"Americans with Disabilities Act of 1990 (ADA)" -- "Dogs (pets)"
+			Allergies -- "Disability and Disabilities"
+			Allergies -- "Dogs (pets)"
+			"Disability and Disabilities" -- "Dogs (pets)"
+		"Sign Languages (visual communication)" [label="Sign Languages (visual communication)"]
+		"Hearing Loss" [label="Hearing Loss"]
+		"Ear, Nose and Throat (ENT Medical Specialty)" [label="Ear, Nose and Throat (ENT Medical Specialty)"]
+		Linguistics [label=Linguistics]
+			"Sign Languages (visual communication)" -- "Hearing Loss"
+			"Sign Languages (visual communication)" -- "Deafness (physiological condition)"
+			"Sign Languages (visual communication)" -- "Ear, Nose and Throat (ENT Medical Specialty)"
+			"Sign Languages (visual communication)" -- Linguistics
+			"Hearing Loss" -- "Deafness (physiological condition)"
+			"Hearing Loss" -- "Ear, Nose and Throat (ENT Medical Specialty)"
+			"Hearing Loss" -- Linguistics
+			"Deafness (physiological condition)" -- "Ear, Nose and Throat (ENT Medical Specialty)"
+			"Deafness (physiological condition)" -- Linguistics
+			"Ear, Nose and Throat (ENT Medical Specialty)" -- Linguistics
+		"Disabilities and Relationships" [label="Disabilities and Relationships"]
+		"Physical Disabilities" [label="Physical Disabilities"]
+		"Dating Advice" [label="Dating Advice"]
+			"Disabilities and Relationships" -- "Physical Disabilities"
+			"Disabilities and Relationships" -- "Disability and Disabilities"
+			"Disabilities and Relationships" -- "Relationship Advice"
+			"Disabilities and Relationships" -- "Dating Advice"
+			"Disabilities and Relationships" -- "Life Advice"
+			"Disabilities and Relationships" -- "Dating and Relationships"
+			"Disabilities and Relationships" -- "Psychology of Everyday Life"
+			"Physical Disabilities" -- "Disability and Disabilities"
+			"Physical Disabilities" -- "Relationship Advice"
+			"Physical Disabilities" -- "Dating Advice"
+			"Physical Disabilities" -- "Life Advice"
+			"Physical Disabilities" -- "Dating and Relationships"
+			"Physical Disabilities" -- "Psychology of Everyday Life"
+			"Disability and Disabilities" -- "Relationship Advice"
+			"Disability and Disabilities" -- "Dating Advice"
+			"Disability and Disabilities" -- "Life Advice"
+			"Disability and Disabilities" -- "Dating and Relationships"
+			"Disability and Disabilities" -- "Psychology of Everyday Life"
+			"Relationship Advice" -- "Dating Advice"
+			"Relationship Advice" -- "Life Advice"
+			"Relationship Advice" -- "Dating and Relationships"
+			"Relationship Advice" -- "Psychology of Everyday Life"
+			"Dating Advice" -- "Life Advice"
+			"Dating Advice" -- "Dating and Relationships"
+			"Dating Advice" -- "Psychology of Everyday Life"
+			"Life Advice" -- "Dating and Relationships"
+			"Life Advice" -- "Psychology of Everyday Life"
+			"Dating and Relationships" -- "Psychology of Everyday Life"
+		"Visual Impairment" [label="Visual Impairment"]
+		"Romance (love)" [label="Romance (love)"]
+			"Visual Impairment" -- "Deafness (physiological condition)"
+			"Visual Impairment" -- Blindness
+			"Visual Impairment" -- "Disability and Disabilities"
+			"Visual Impairment" -- "Romance (love)"
+			"Visual Impairment" -- "Dating and Relationships"
+			"Deafness (physiological condition)" -- Blindness
+			"Deafness (physiological condition)" -- "Disability and Disabilities"
+			"Deafness (physiological condition)" -- "Romance (love)"
+			"Deafness (physiological condition)" -- "Dating and Relationships"
+			Blindness -- "Disability and Disabilities"
+			Blindness -- "Romance (love)"
+			Blindness -- "Dating and Relationships"
+			"Disability and Disabilities" -- "Romance (love)"
+			"Disability and Disabilities" -- "Dating and Relationships"
+			"Romance (love)" -- "Dating and Relationships"
+		"Living In India" [label="Living In India"]
+		Roads [label=Roads]
+			"Living In India" -- Roads
+			"Living In India" -- "Disability and Disabilities"
+			"Living In India" -- India
+			Roads -- "Disability and Disabilities"
+			Roads -- India
+			"Disability and Disabilities" -- India
+		Mutes [label=Mutes]
+		Muteness [label=Muteness]
+		Whistling [label=Whistling]
+			Mutes -- Muteness
+			Mutes -- Whistling
+			Mutes -- "Disability and Disabilities"
+			Muteness -- Whistling
+			Muteness -- "Disability and Disabilities"
+			Whistling -- "Disability and Disabilities"
+		Quora [label=Quora]
+			"Disability and Disabilities" -- Quora
+		Clubbing [label=Clubbing]
+		Clubs [label=Clubs]
+		Nightlife [label=Nightlife]
+			Wheelchairs -- Clubbing
+			Wheelchairs -- Clubs
+			Wheelchairs -- Nightlife
+			Wheelchairs -- "Disability and Disabilities"
+			Clubbing -- Clubs
+			Clubbing -- Nightlife
+			Clubbing -- "Disability and Disabilities"
+			Clubs -- Nightlife
+			Clubs -- "Disability and Disabilities"
+			Nightlife -- "Disability and Disabilities"
+			"Muslims Against Terrorism" -- "The Quran"
+			"Muslims Against Terrorism" -- Terrorism
+			"Muslims Against Terrorism" -- Muslims
+			"Muslims Against Terrorism" -- Islam
+			"Muslims Against Terrorism" -- Politics
+			"Muslims Against Terrorism" -- Religion
+			"The Quran" -- Terrorism
+			"The Quran" -- Muslims
+			"The Quran" -- Islam
+			"The Quran" -- Politics
+			"The Quran" -- Religion
+			Terrorism -- Muslims
+			Terrorism -- Islam
+			Terrorism -- Politics
+			Terrorism -- Religion
+			Muslims -- Islam
+			Muslims -- Politics
+			Muslims -- Religion
+			Islam -- Politics
+			Islam -- Religion
+			Politics -- Religion
+			Terrorism -- Muslims
+			Terrorism -- Islam
+			Terrorism -- "International Relations"
+			Terrorism -- Religion
+			Terrorism -- India
+			Muslims -- Islam
+			Muslims -- "International Relations"
+			Muslims -- Religion
+			Muslims -- India
+			Islam -- "International Relations"
+			Islam -- Religion
+			Islam -- India
+			"International Relations" -- Religion
+			"International Relations" -- India
+			Religion -- India
+		TODAY [label=TODAY]
+		"Islam and Terrorism" [label="Islam and Terrorism"]
+		Comparisons [label=Comparisons]
+			TODAY -- "Islam and Terrorism"
+			TODAY -- Terrorism
+			TODAY -- Muslims
+			TODAY -- Islam
+			TODAY -- Comparisons
+			TODAY -- "International Relations"
+			"Islam and Terrorism" -- Terrorism
+			"Islam and Terrorism" -- Muslims
+			"Islam and Terrorism" -- Islam
+			"Islam and Terrorism" -- Comparisons
+			"Islam and Terrorism" -- "International Relations"
+			Terrorism -- Muslims
+			Terrorism -- Islam
+			Terrorism -- Comparisons
+			Terrorism -- "International Relations"
+			Muslims -- Islam
+			Muslims -- Comparisons
+			Muslims -- "International Relations"
+			Islam -- Comparisons
+			Islam -- "International Relations"
+			Comparisons -- "International Relations"
+			Terrorism -- Muslims
+			Terrorism -- Islam
+			Terrorism -- Religion
+			Muslims -- Islam
+			Muslims -- Religion
+			Islam -- Religion
+			Terrorism -- Religion
+			"Muslims Against Terrorism" -- Terrorism
+			"Muslims Against Terrorism" -- Muslims
+			"Muslims Against Terrorism" -- Islam
+			"Muslims Against Terrorism" -- Religion
+			Terrorism -- Muslims
+			Terrorism -- Islam
+			Terrorism -- Religion
+			Muslims -- Islam
+			Muslims -- Religion
+			Islam -- Religion
+		"Charlie Hebdo (newspaper)" [label="Charlie Hebdo (newspaper)"]
+		"Attack on French Magazine Charlie Hebdo (January 2015)" [label="Attack on French Magazine Charlie Hebdo (January 2015)"]
+		France [label=France]
+			"Islam and Terrorism" -- "Charlie Hebdo (newspaper)"
+			"Islam and Terrorism" -- "Attack on French Magazine Charlie Hebdo (January 2015)"
+			"Islam and Terrorism" -- France
+			"Islam and Terrorism" -- Terrorism
+			"Islam and Terrorism" -- Muslims
+			"Islam and Terrorism" -- Islam
+			"Islam and Terrorism" -- Religion
+			"Charlie Hebdo (newspaper)" -- "Attack on French Magazine Charlie Hebdo (January 2015)"
+			"Charlie Hebdo (newspaper)" -- France
+			"Charlie Hebdo (newspaper)" -- Terrorism
+			"Charlie Hebdo (newspaper)" -- Muslims
+			"Charlie Hebdo (newspaper)" -- Islam
+			"Charlie Hebdo (newspaper)" -- Religion
+			"Attack on French Magazine Charlie Hebdo (January 2015)" -- France
+			"Attack on French Magazine Charlie Hebdo (January 2015)" -- Terrorism
+			"Attack on French Magazine Charlie Hebdo (January 2015)" -- Muslims
+			"Attack on French Magazine Charlie Hebdo (January 2015)" -- Islam
+			"Attack on French Magazine Charlie Hebdo (January 2015)" -- Religion
+			France -- Terrorism
+			France -- Muslims
+			France -- Islam
+			France -- Religion
+			Terrorism -- Muslims
+			Terrorism -- Islam
+			Terrorism -- Religion
+			Muslims -- Islam
+			Muslims -- Religion
+			Islam -- Religion
+		Islamofascism [label=Islamofascism]
+			"Religious Terrorism" -- Islamofascism
+			"Religious Terrorism" -- "Attack on French Magazine Charlie Hebdo (January 2015)"
+			"Religious Terrorism" -- Terrorism
+			"Religious Terrorism" -- Muslims
+			"Religious Terrorism" -- Islam
+			Islamofascism -- "Attack on French Magazine Charlie Hebdo (January 2015)"
+			Islamofascism -- Terrorism
+			Islamofascism -- Muslims
+			Islamofascism -- Islam
+			"Attack on French Magazine Charlie Hebdo (January 2015)" -- Terrorism
+			"Attack on French Magazine Charlie Hebdo (January 2015)" -- Muslims
+			"Attack on French Magazine Charlie Hebdo (January 2015)" -- Islam
+			Terrorism -- Muslims
+			Terrorism -- Islam
+			Muslims -- Islam
+		Sociology [label=Sociology]
+			Blame -- Sociology
+			Blame -- Terrorism
+			Blame -- Muslims
+			Blame -- Islam
+			Blame -- Religion
+			Blame -- "Psychology of Everyday Life"
+			Sociology -- Terrorism
+			Sociology -- Muslims
+			Sociology -- Islam
+			Sociology -- Religion
+			Sociology -- "Psychology of Everyday Life"
+			Terrorism -- Muslims
+			Terrorism -- Islam
+			Terrorism -- Religion
+			Terrorism -- "Psychology of Everyday Life"
+			Muslims -- Islam
+			Muslims -- Religion
+			Muslims -- "Psychology of Everyday Life"
+			Islam -- Religion
+			Islam -- "Psychology of Everyday Life"
+			Religion -- "Psychology of Everyday Life"
+			"Muslims Against Terrorism" -- Religion
+		"Biological Warfare" [label="Biological Warfare"]
+		"Ebola In The U.S. (Fall 2014)" [label="Ebola In The U.S. (Fall 2014)"]
+		Terrorists [label=Terrorists]
+		"Ebola (disease)" [label="Ebola (disease)"]
+			"Biological Warfare" -- "Ebola In The U.S. (Fall 2014)"
+			"Biological Warfare" -- Terrorists
+			"Biological Warfare" -- "Ebola (disease)"
+			"Biological Warfare" -- "War on Terror"
+			"Biological Warfare" -- Terrorism
+			"Biological Warfare" -- Warfare
+			"Biological Warfare" -- "The United States of America"
+			"Ebola In The U.S. (Fall 2014)" -- Terrorists
+			"Ebola In The U.S. (Fall 2014)" -- "Ebola (disease)"
+			"Ebola In The U.S. (Fall 2014)" -- "War on Terror"
+			"Ebola In The U.S. (Fall 2014)" -- Terrorism
+			"Ebola In The U.S. (Fall 2014)" -- Warfare
+			"Ebola In The U.S. (Fall 2014)" -- "The United States of America"
+			Terrorists -- "Ebola (disease)"
+			Terrorists -- "War on Terror"
+			Terrorists -- Terrorism
+			Terrorists -- Warfare
+			Terrorists -- "The United States of America"
+			"Ebola (disease)" -- "War on Terror"
+			"Ebola (disease)" -- Terrorism
+			"Ebola (disease)" -- Warfare
+			"Ebola (disease)" -- "The United States of America"
+			"War on Terror" -- Terrorism
+			"War on Terror" -- Warfare
+			"War on Terror" -- "The United States of America"
+			Terrorism -- Warfare
+			Terrorism -- "The United States of America"
+			Warfare -- "The United States of America"
+		Israel [label=Israel]
+		Hinduism [label=Hinduism]
+			Judaism -- Israel
+			Judaism -- Terrorism
+			Judaism -- Muslims
+			Judaism -- Hinduism
+			Judaism -- Islam
+			Judaism -- Christianity
+			Judaism -- Religion
+			Judaism -- India
+			Israel -- Terrorism
+			Israel -- Muslims
+			Israel -- Hinduism
+			Israel -- Islam
+			Israel -- Christianity
+			Israel -- Religion
+			Israel -- India
+			Terrorism -- Muslims
+			Terrorism -- Hinduism
+			Terrorism -- Islam
+			Terrorism -- Christianity
+			Terrorism -- Religion
+			Terrorism -- India
+			Muslims -- Hinduism
+			Muslims -- Islam
+			Muslims -- Christianity
+			Muslims -- Religion
+			Muslims -- India
+			Hinduism -- Islam
+			Hinduism -- Christianity
+			Hinduism -- Religion
+			Hinduism -- India
+			Islam -- Christianity
+			Islam -- Religion
+			Islam -- India
+			Christianity -- Religion
+			Christianity -- India
+			Religion -- India
+		Islamophobia [label=Islamophobia]
+		"Counter-Terrorism and Counter-Insurgency" [label="Counter-Terrorism and Counter-Insurgency"]
+		Jihad [label=Jihad]
+			"Religious Terrorism" -- Islamophobia
+			"Religious Terrorism" -- "Counter-Terrorism and Counter-Insurgency"
+			"Religious Terrorism" -- "Specific Terrorists"
+			"Religious Terrorism" -- Jihad
+			"Religious Terrorism" -- "Denominations and Organized Religion"
+			"Religious Terrorism" -- Peace
+			"Religious Terrorism" -- Muslims
+			"Religious Terrorism" -- Islam
+			"Religious Terrorism" -- Religion
+			Islamophobia -- "Counter-Terrorism and Counter-Insurgency"
+			Islamophobia -- "Specific Terrorists"
+			Islamophobia -- Jihad
+			Islamophobia -- "Denominations and Organized Religion"
+			Islamophobia -- Peace
+			Islamophobia -- Muslims
+			Islamophobia -- Islam
+			Islamophobia -- Religion
+			"Counter-Terrorism and Counter-Insurgency" -- "Specific Terrorists"
+			"Counter-Terrorism and Counter-Insurgency" -- Jihad
+			"Counter-Terrorism and Counter-Insurgency" -- "Denominations and Organized Religion"
+			"Counter-Terrorism and Counter-Insurgency" -- Peace
+			"Counter-Terrorism and Counter-Insurgency" -- Muslims
+			"Counter-Terrorism and Counter-Insurgency" -- Islam
+			"Counter-Terrorism and Counter-Insurgency" -- Religion
+			"Specific Terrorists" -- Jihad
+			"Specific Terrorists" -- "Denominations and Organized Religion"
+			"Specific Terrorists" -- Peace
+			"Specific Terrorists" -- Muslims
+			"Specific Terrorists" -- Islam
+			"Specific Terrorists" -- Religion
+			Jihad -- "Denominations and Organized Religion"
+			Jihad -- Peace
+			Jihad -- Muslims
+			Jihad -- Islam
+			Jihad -- Religion
+			"Denominations and Organized Religion" -- Peace
+			"Denominations and Organized Religion" -- Muslims
+			"Denominations and Organized Religion" -- Islam
+			"Denominations and Organized Religion" -- Religion
+			Peace -- Muslims
+			Peace -- Islam
+			Peace -- Religion
+			Muslims -- Islam
+			Muslims -- Religion
+			Islam -- Religion
+		Genies [label=Genies]
+		"Dimensions (Physics)" [label="Dimensions (Physics)"]
+			Genies -- "Dimensions (Physics)"
+			Genies -- Islam
+			"Dimensions (Physics)" -- Islam
+		Demographics [label=Demographics]
+			"Sunni Islam" -- "Shia Islam"
+			"Sunni Islam" -- Demographics
+			"Sunni Islam" -- Muslims
+			"Sunni Islam" -- Islam
+			"Shia Islam" -- Demographics
+			"Shia Islam" -- Muslims
+			"Shia Islam" -- Islam
+			Demographics -- Muslims
+			Demographics -- Islam
+			Muslims -- Islam
+		"Dietary Laws" [label="Dietary Laws"]
+		"Islamic Law" [label="Islamic Law"]
+		Anthropology [label=Anthropology]
+		"The Human Race and Condition" [label="The Human Race and Condition"]
+			"Dietary Laws" -- Pork
+			"Dietary Laws" -- "Islamic Law"
+			"Dietary Laws" -- Anthropology
+			"Dietary Laws" -- Judaism
+			"Dietary Laws" -- Muslims
+			"Dietary Laws" -- "The Human Race and Condition"
+			"Dietary Laws" -- Islam
+			"Dietary Laws" -- Christianity
+			"Dietary Laws" -- History
+			"Dietary Laws" -- Food
+			"Dietary Laws" -- Religion
+			Pork -- "Islamic Law"
+			Pork -- Anthropology
+			Pork -- Judaism
+			Pork -- Muslims
+			Pork -- "The Human Race and Condition"
+			Pork -- Islam
+			Pork -- Christianity
+			Pork -- History
+			Pork -- Food
+			Pork -- Religion
+			"Islamic Law" -- Anthropology
+			"Islamic Law" -- Judaism
+			"Islamic Law" -- Muslims
+			"Islamic Law" -- "The Human Race and Condition"
+			"Islamic Law" -- Islam
+			"Islamic Law" -- Christianity
+			"Islamic Law" -- History
+			"Islamic Law" -- Food
+			"Islamic Law" -- Religion
+			Anthropology -- Judaism
+			Anthropology -- Muslims
+			Anthropology -- "The Human Race and Condition"
+			Anthropology -- Islam
+			Anthropology -- Christianity
+			Anthropology -- History
+			Anthropology -- Food
+			Anthropology -- Religion
+			Judaism -- Muslims
+			Judaism -- "The Human Race and Condition"
+			Judaism -- Islam
+			Judaism -- Christianity
+			Judaism -- History
+			Judaism -- Food
+			Judaism -- Religion
+			Muslims -- "The Human Race and Condition"
+			Muslims -- Islam
+			Muslims -- Christianity
+			Muslims -- History
+			Muslims -- Food
+			Muslims -- Religion
+			"The Human Race and Condition" -- Islam
+			"The Human Race and Condition" -- Christianity
+			"The Human Race and Condition" -- History
+			"The Human Race and Condition" -- Food
+			"The Human Race and Condition" -- Religion
+			Islam -- Christianity
+			Islam -- History
+			Islam -- Food
+			Islam -- Religion
+			Christianity -- History
+			Christianity -- Food
+			Christianity -- Religion
+			History -- Food
+			History -- Religion
+			Food -- Religion
+		"Terrorism in India" [label="Terrorism in India"]
+		"Indian Army Fans" [label="Indian Army Fans"]
+		"Indian Army" [label="Indian Army"]
+		"Arvind Kejriwal" [label="Arvind Kejriwal"]
+		"Aam Aadmi Party" [label="Aam Aadmi Party"]
+		"Bharatiya Janata Party (BJP)" [label="Bharatiya Janata Party (BJP)"]
+		"Narendra Modi" [label="Narendra Modi"]
+			"Terrorism in India" -- "Indian Army Fans"
+			"Terrorism in India" -- "Indian Army"
+			"Terrorism in India" -- "Arvind Kejriwal"
+			"Terrorism in India" -- Terrorism
+			"Terrorism in India" -- "Aam Aadmi Party"
+			"Terrorism in India" -- "Bharatiya Janata Party (BJP)"
+			"Terrorism in India" -- "Narendra Modi"
+			"Terrorism in India" -- India
+			"Indian Army Fans" -- "Indian Army"
+			"Indian Army Fans" -- "Arvind Kejriwal"
+			"Indian Army Fans" -- Terrorism
+			"Indian Army Fans" -- "Aam Aadmi Party"
+			"Indian Army Fans" -- "Bharatiya Janata Party (BJP)"
+			"Indian Army Fans" -- "Narendra Modi"
+			"Indian Army Fans" -- India
+			"Indian Army" -- "Arvind Kejriwal"
+			"Indian Army" -- Terrorism
+			"Indian Army" -- "Aam Aadmi Party"
+			"Indian Army" -- "Bharatiya Janata Party (BJP)"
+			"Indian Army" -- "Narendra Modi"
+			"Indian Army" -- India
+			"Arvind Kejriwal" -- Terrorism
+			"Arvind Kejriwal" -- "Aam Aadmi Party"
+			"Arvind Kejriwal" -- "Bharatiya Janata Party (BJP)"
+			"Arvind Kejriwal" -- "Narendra Modi"
+			"Arvind Kejriwal" -- India
+			Terrorism -- "Aam Aadmi Party"
+			Terrorism -- "Bharatiya Janata Party (BJP)"
+			Terrorism -- "Narendra Modi"
+			Terrorism -- India
+			"Aam Aadmi Party" -- "Bharatiya Janata Party (BJP)"
+			"Aam Aadmi Party" -- "Narendra Modi"
+			"Aam Aadmi Party" -- India
+			"Bharatiya Janata Party (BJP)" -- "Narendra Modi"
+			"Bharatiya Janata Party (BJP)" -- India
+			"Narendra Modi" -- India
+			Terrorism -- Pakistan
+			Terrorism -- Muslims
+			Terrorism -- Islam
+			Terrorism -- Religion
+			Pakistan -- Muslims
+			Pakistan -- Islam
+			Pakistan -- Religion
+			Muslims -- Islam
+			Muslims -- Religion
+			Islam -- Religion
+		"Muslim Countries" [label="Muslim Countries"]
+		"Country Comparisons" [label="Country Comparisons"]
+			"Muslim Countries" -- "Country Comparisons"
+			"Muslim Countries" -- Muslims
+			"Muslim Countries" -- Islam
+			"Muslim Countries" -- Religion
+			"Country Comparisons" -- Muslims
+			"Country Comparisons" -- Islam
+			"Country Comparisons" -- Religion
+			Muslims -- Islam
+			Muslims -- Religion
+			Islam -- Religion
+		MNLA [label=MNLA]
+		Qatar [label=Qatar]
+			MNLA -- "Religious Terrorism"
+			MNLA -- Qatar
+			MNLA -- "Islamic State of Iraq and Syria (ISIS)"
+			MNLA -- Terrorism
+			"Religious Terrorism" -- Qatar
+			"Religious Terrorism" -- "Islamic State of Iraq and Syria (ISIS)"
+			"Religious Terrorism" -- Terrorism
+			Qatar -- "Islamic State of Iraq and Syria (ISIS)"
+			Qatar -- Terrorism
+			"Islamic State of Iraq and Syria (ISIS)" -- Terrorism
+		"U.S. Army" [label="U.S. Army"]
+		"U.S. Foreign Policy" [label="U.S. Foreign Policy"]
+		"Foreign Policy" [label="Foreign Policy"]
+		Military [label=Military]
+		"U.S. Politics" [label="U.S. Politics"]
+			"War on Terror" -- "U.S. Army"
+			"War on Terror" -- "U.S. Foreign Policy"
+			"War on Terror" -- "Foreign Policy"
+			"War on Terror" -- Terrorism
+			"War on Terror" -- Military
+			"War on Terror" -- "Military History and Wars"
+			"War on Terror" -- "International Relations"
+			"War on Terror" -- "U.S. Politics"
+			"War on Terror" -- Politics
+			"U.S. Army" -- "U.S. Foreign Policy"
+			"U.S. Army" -- "Foreign Policy"
+			"U.S. Army" -- Terrorism
+			"U.S. Army" -- Military
+			"U.S. Army" -- "Military History and Wars"
+			"U.S. Army" -- "International Relations"
+			"U.S. Army" -- "U.S. Politics"
+			"U.S. Army" -- Politics
+			"U.S. Foreign Policy" -- "Foreign Policy"
+			"U.S. Foreign Policy" -- Terrorism
+			"U.S. Foreign Policy" -- Military
+			"U.S. Foreign Policy" -- "Military History and Wars"
+			"U.S. Foreign Policy" -- "International Relations"
+			"U.S. Foreign Policy" -- "U.S. Politics"
+			"U.S. Foreign Policy" -- Politics
+			"Foreign Policy" -- Terrorism
+			"Foreign Policy" -- Military
+			"Foreign Policy" -- "Military History and Wars"
+			"Foreign Policy" -- "International Relations"
+			"Foreign Policy" -- "U.S. Politics"
+			"Foreign Policy" -- Politics
+			Terrorism -- Military
+			Terrorism -- "Military History and Wars"
+			Terrorism -- "International Relations"
+			Terrorism -- "U.S. Politics"
+			Terrorism -- Politics
+			Military -- "Military History and Wars"
+			Military -- "International Relations"
+			Military -- "U.S. Politics"
+			Military -- Politics
+			"Military History and Wars" -- "International Relations"
+			"Military History and Wars" -- "U.S. Politics"
+			"Military History and Wars" -- Politics
+			"International Relations" -- "U.S. Politics"
+			"International Relations" -- Politics
+			"U.S. Politics" -- Politics
+		"Children's Rights" [label="Children's Rights"]
+		"Malala Yousafzai" [label="Malala Yousafzai"]
+		Taliban [label=Taliban]
+		"Women's Rights" [label="Women's Rights"]
+			"Children's Rights" -- "Malala Yousafzai"
+			"Children's Rights" -- Taliban
+			"Children's Rights" -- "Women's Rights"
+			"Children's Rights" -- "War on Terror"
+			"Children's Rights" -- Terrorism
+			"Children's Rights" -- Pakistan
+			"Malala Yousafzai" -- Taliban
+			"Malala Yousafzai" -- "Women's Rights"
+			"Malala Yousafzai" -- "War on Terror"
+			"Malala Yousafzai" -- Terrorism
+			"Malala Yousafzai" -- Pakistan
+			Taliban -- "Women's Rights"
+			Taliban -- "War on Terror"
+			Taliban -- Terrorism
+			Taliban -- Pakistan
+			"Women's Rights" -- "War on Terror"
+			"Women's Rights" -- Terrorism
+			"Women's Rights" -- Pakistan
+			"War on Terror" -- Terrorism
+			"War on Terror" -- Pakistan
+			Terrorism -- Pakistan
+		Monarchies [label=Monarchies]
+		"Middle East" [label="Middle East"]
+			Qatar -- Monarchies
+			Qatar -- "Middle East"
+			Monarchies -- "Middle East"
+		"Military Strategy" [label="Military Strategy"]
+			"Military Strategy" -- "Islamic State of Iraq and Syria (ISIS)"
+			"Military Strategy" -- Terrorism
+			"Islamic State of Iraq and Syria (ISIS)" -- Terrorism
+			Qatar -- "Middle East"
+			Qatar -- Countries
+			Qatar -- "International Relations"
+			"Middle East" -- Countries
+			"Middle East" -- "International Relations"
+			Countries -- "International Relations"
+			Qatar -- "Human Rights"
+		Hamas [label=Hamas]
+		"Al-Qaeda" [label="Al-Qaeda"]
+			Terrorists -- Hamas
+			Terrorists -- "Al-Qaeda"
+			Terrorists -- Terrorism
+			Terrorists -- Religion
+			Hamas -- "Al-Qaeda"
+			Hamas -- Terrorism
+			Hamas -- Religion
+			"Al-Qaeda" -- Terrorism
+			"Al-Qaeda" -- Religion
+			Terrorism -- Religion
+		"Guerilla Warfare" [label="Guerilla Warfare"]
+		"Hypothetical Wars" [label="Hypothetical Wars"]
+			"Guerilla Warfare" -- "Counter-Terrorism and Counter-Insurgency"
+			"Guerilla Warfare" -- "Hypothetical Wars"
+			"Guerilla Warfare" -- Terrorism
+			"Guerilla Warfare" -- Warfare
+			"Guerilla Warfare" -- Europe
+			"Guerilla Warfare" -- "Military History and Wars"
+			"Counter-Terrorism and Counter-Insurgency" -- "Hypothetical Wars"
+			"Counter-Terrorism and Counter-Insurgency" -- Terrorism
+			"Counter-Terrorism and Counter-Insurgency" -- Warfare
+			"Counter-Terrorism and Counter-Insurgency" -- Europe
+			"Counter-Terrorism and Counter-Insurgency" -- "Military History and Wars"
+			"Hypothetical Wars" -- Terrorism
+			"Hypothetical Wars" -- Warfare
+			"Hypothetical Wars" -- Europe
+			"Hypothetical Wars" -- "Military History and Wars"
+			Terrorism -- Warfare
+			Terrorism -- Europe
+			Terrorism -- "Military History and Wars"
+			Warfare -- Europe
+			Warfare -- "Military History and Wars"
+			Europe -- "Military History and Wars"
+		"Goa, India" [label="Goa, India"]
+		"Visiting and Travel" [label="Visiting and Travel"]
+			"Goa, India" -- Terrorism
+			"Goa, India" -- "Visiting and Travel"
+			Terrorism -- "Visiting and Travel"
+		Democracy [label=Democracy]
+			Democracy -- Terrorism
+			Democracy -- Government
+			Democracy -- "International Relations"
+			Democracy -- Politics
+			Terrorism -- Government
+			Terrorism -- "International Relations"
+			Terrorism -- Politics
+			Government -- "International Relations"
+			Government -- Politics
+			"International Relations" -- Politics
+			"Specific Terrorists" -- Terrorism
+			"Specific Terrorists" -- Muslims
+			"Specific Terrorists" -- Islam
+			Terrorism -- Muslims
+			Terrorism -- Islam
+			Muslims -- Islam
+			"Religious Terrorism" -- Terrorism
+			"Religious Terrorism" -- Muslims
+			"Religious Terrorism" -- Islam
+			"Religious Terrorism" -- Religion
+			Terrorism -- Muslims
+			Terrorism -- Islam
+			Terrorism -- Religion
+			Muslims -- Islam
+			Muslims -- Religion
+			Islam -- Religion
+		Mujahideen [label=Mujahideen]
+		Security [label=Security]
+			Mujahideen -- "Terrorist Attacks"
+			Mujahideen -- Taliban
+			Mujahideen -- "Al-Qaeda"
+			Mujahideen -- Security
+			Mujahideen -- "Islamic State of Iraq and Syria (ISIS)"
+			Mujahideen -- Terrorism
+			Mujahideen -- Islam
+			"Terrorist Attacks" -- Taliban
+			"Terrorist Attacks" -- "Al-Qaeda"
+			"Terrorist Attacks" -- Security
+			"Terrorist Attacks" -- "Islamic State of Iraq and Syria (ISIS)"
+			"Terrorist Attacks" -- Terrorism
+			"Terrorist Attacks" -- Islam
+			Taliban -- "Al-Qaeda"
+			Taliban -- Security
+			Taliban -- "Islamic State of Iraq and Syria (ISIS)"
+			Taliban -- Terrorism
+			Taliban -- Islam
+			"Al-Qaeda" -- Security
+			"Al-Qaeda" -- "Islamic State of Iraq and Syria (ISIS)"
+			"Al-Qaeda" -- Terrorism
+			"Al-Qaeda" -- Islam
+			Security -- "Islamic State of Iraq and Syria (ISIS)"
+			Security -- Terrorism
+			Security -- Islam
+			"Islamic State of Iraq and Syria (ISIS)" -- Terrorism
+			"Islamic State of Iraq and Syria (ISIS)" -- Islam
+			Terrorism -- Islam
+		"Muslim Extremist" [label="Muslim Extremist"]
+			"Muslim Extremist" -- "Religious Terrorism"
+			"Muslim Extremist" -- Islamofascism
+			"Muslim Extremist" -- Terrorism
+			"Muslim Extremist" -- Muslims
+			"Muslim Extremist" -- Islam
+			"Muslim Extremist" -- Religion
+			"Religious Terrorism" -- Islamofascism
+			"Religious Terrorism" -- Terrorism
+			"Religious Terrorism" -- Muslims
+			"Religious Terrorism" -- Islam
+			"Religious Terrorism" -- Religion
+			Islamofascism -- Terrorism
+			Islamofascism -- Muslims
+			Islamofascism -- Islam
+			Islamofascism -- Religion
+			Terrorism -- Muslims
+			Terrorism -- Islam
+			Terrorism -- Religion
+			Muslims -- Islam
+			Muslims -- Religion
+			Islam -- Religion
+			"War on Terror" -- Terrorism
+			"War on Terror" -- India
+			Terrorism -- India
+		Victimization [label=Victimization]
+		"Muhammad (Islam)" [label="Muhammad (Islam)"]
+			Victimization -- "Muhammad (Islam)"
+			Victimization -- Terrorism
+			Victimization -- Muslims
+			Victimization -- Islam
+			Victimization -- Religion
+			"Muhammad (Islam)" -- Terrorism
+			"Muhammad (Islam)" -- Muslims
+			"Muhammad (Islam)" -- Islam
+			"Muhammad (Islam)" -- Religion
+			Terrorism -- Muslims
+			Terrorism -- Islam
+			Terrorism -- Religion
+			Muslims -- Islam
+			Muslims -- Religion
+			Islam -- Religion
+			Terrorism -- Muslims
+			Terrorism -- Islam
+			Terrorism -- Religion
+			Muslims -- Islam
+			Muslims -- Religion
+			Islam -- Religion
+			Terrorism -- Muslims
+			Terrorism -- Islam
+			Terrorism -- Religion
+			Muslims -- Islam
+			Muslims -- Religion
+			Islam -- Religion
+			"Muslims Against Terrorism" -- Terrorism
+			"Muslims Against Terrorism" -- Muslims
+			"Muslims Against Terrorism" -- Islam
+			"Muslims Against Terrorism" -- "Interpersonal Interaction"
+			"Muslims Against Terrorism" -- Religion
+			Terrorism -- Muslims
+			Terrorism -- Islam
+			Terrorism -- "Interpersonal Interaction"
+			Terrorism -- Religion
+			Muslims -- Islam
+			Muslims -- "Interpersonal Interaction"
+			Muslims -- Religion
+			Islam -- "Interpersonal Interaction"
+			Islam -- Religion
+			"Interpersonal Interaction" -- Religion
+		Humanitarianism [label=Humanitarianism]
+		"Budgets (corporate and government)" [label="Budgets (corporate and government)"]
+		Money [label=Money]
+		Investing [label=Investing]
+			Humanitarianism -- "Budgets (corporate and government)"
+			Humanitarianism -- Terrorism
+			Humanitarianism -- Pakistan
+			Humanitarianism -- Money
+			Humanitarianism -- Investing
+			"Budgets (corporate and government)" -- Terrorism
+			"Budgets (corporate and government)" -- Pakistan
+			"Budgets (corporate and government)" -- Money
+			"Budgets (corporate and government)" -- Investing
+			Terrorism -- Pakistan
+			Terrorism -- Money
+			Terrorism -- Investing
+			Pakistan -- Money
+			Pakistan -- Investing
+			Money -- Investing
+		Technology [label=Technology]
+		"Career Advice" [label="Career Advice"]
+			Terrorists -- Terrorism
+			Terrorists -- Technology
+			Terrorists -- "Career Advice"
+			Terrorism -- Technology
+			Terrorism -- "Career Advice"
+			Technology -- "Career Advice"
+		"Boko Haram" [label="Boko Haram"]
+		"Current Events" [label="Current Events"]
+			"Boko Haram" -- Nigeria
+			"Boko Haram" -- "Current Events"
+			"Boko Haram" -- Terrorism
+			"Boko Haram" -- "International Relations"
+			"Boko Haram" -- Religion
+			Nigeria -- "Current Events"
+			Nigeria -- Terrorism
+			Nigeria -- "International Relations"
+			Nigeria -- Religion
+			"Current Events" -- Terrorism
+			"Current Events" -- "International Relations"
+			"Current Events" -- Religion
+			Terrorism -- "International Relations"
+			Terrorism -- Religion
+			"International Relations" -- Religion
+		"Government of India" [label="Government of India"]
+			"Government of India" -- Terrorism
+			"Government of India" -- Government
+			"Government of India" -- "Indian Ethnicity and People"
+			"Government of India" -- India
+			Terrorism -- Government
+			Terrorism -- "Indian Ethnicity and People"
+			Terrorism -- India
+			Government -- "Indian Ethnicity and People"
+			Government -- India
+			"Indian Ethnicity and People" -- India
+		Naxalism [label=Naxalism]
+		"Politics of India" [label="Politics of India"]
+			Naxalism -- "Politics of India"
+		"Model Indian Governance" [label="Model Indian Governance"]
+			"Model Indian Governance" -- "Government of India"
+		"Intelligence Bureau" [label="Intelligence Bureau"]
+			"Intelligence Bureau" -- "Government of India"
+			"Intelligence Bureau" -- Terrorism
+			"Intelligence Bureau" -- "Politics of India"
+			"Government of India" -- Terrorism
+			"Government of India" -- "Politics of India"
+			Terrorism -- "Politics of India"
+			"Government Leaders and Politicians" -- Government
+			"Government Leaders and Politicians" -- Politics
+			Government -- Politics
+		"Air Force" [label="Air Force"]
+		Media [label=Media]
+		"Indian Air Force (IAF)" [label="Indian Air Force (IAF)"]
+			"Air Force" -- Media
+			"Air Force" -- "Indian Air Force (IAF)"
+			"Air Force" -- Government
+			"Air Force" -- "Indian Ethnicity and People"
+			Media -- "Indian Air Force (IAF)"
+			Media -- Government
+			Media -- "Indian Ethnicity and People"
+			"Indian Air Force (IAF)" -- Government
+			"Indian Air Force (IAF)" -- "Indian Ethnicity and People"
+			Government -- "Indian Ethnicity and People"
+		"U.S. Federal Government" [label="U.S. Federal Government"]
+			"U.S. Federal Government" -- "Government of India"
+			"U.S. Federal Government" -- Government
+			"U.S. Federal Government" -- "Hypothetical Scenarios"
+			"Government of India" -- Government
+			"Government of India" -- "Hypothetical Scenarios"
+			Government -- "Hypothetical Scenarios"
+		Motorsports [label=Motorsports]
+			Motorsports -- "Government of India"
+			Motorsports -- Government
+			Motorsports -- Politics
+			Motorsports -- India
+			"Government of India" -- Government
+			"Government of India" -- Politics
+			"Government of India" -- India
+			Government -- Politics
+			Government -- India
+			Politics -- India
+			"Al-Qaeda" -- "War on Terror"
+			"Al-Qaeda" -- Terrorism
+			"War on Terror" -- Terrorism
+		"Federal Bureau of Investigation" [label="Federal Bureau of Investigation"]
+			"Counter-Terrorism and Counter-Insurgency" -- "Federal Bureau of Investigation"
+			"Counter-Terrorism and Counter-Insurgency" -- "War on Terror"
+			"Counter-Terrorism and Counter-Insurgency" -- Terrorism
+			"Federal Bureau of Investigation" -- "War on Terror"
+			"Federal Bureau of Investigation" -- Terrorism
+			"War on Terror" -- Terrorism
+		"State-supported Terrorism" [label="State-supported Terrorism"]
+			"State-supported Terrorism" -- "War on Terror"
+			"State-supported Terrorism" -- Iraq
+			"State-supported Terrorism" -- Iran
+			"State-supported Terrorism" -- Terrorism
+			"War on Terror" -- Iraq
+			"War on Terror" -- Iran
+			"War on Terror" -- Terrorism
+			Iraq -- Iran
+			Iraq -- Terrorism
+			Iran -- Terrorism
+			Government -- "Indian Ethnicity and People"
+			Government -- Politics
+			"Indian Ethnicity and People" -- Politics
+		"Net Neutrality in India (April 2015)" [label="Net Neutrality in India (April 2015)"]
+		"Internet in India" [label="Internet in India"]
+		"Internet Law" [label="Internet Law"]
+		"Net Neutrality" [label="Net Neutrality"]
+		"The Internet" [label="The Internet"]
+			"Net Neutrality in India (April 2015)" -- "Internet in India"
+			"Net Neutrality in India (April 2015)" -- "Internet Law"
+			"Net Neutrality in India (April 2015)" -- "Net Neutrality"
+			"Net Neutrality in India (April 2015)" -- "Government of India"
+			"Net Neutrality in India (April 2015)" -- "The Internet"
+			"Internet in India" -- "Internet Law"
+			"Internet in India" -- "Net Neutrality"
+			"Internet in India" -- "Government of India"
+			"Internet in India" -- "The Internet"
+			"Internet Law" -- "Net Neutrality"
+			"Internet Law" -- "Government of India"
+			"Internet Law" -- "The Internet"
+			"Net Neutrality" -- "Government of India"
+			"Net Neutrality" -- "The Internet"
+			"Government of India" -- "The Internet"
+		Terror [label=Terror]
+		"Philosophy of Religion" [label="Philosophy of Religion"]
+			Terror -- Islamofascism
+			Terror -- "Philosophy of Religion"
+			Terror -- Terrorism
+			Terror -- Islam
+			Islamofascism -- "Philosophy of Religion"
+			Islamofascism -- Terrorism
+			Islamofascism -- Islam
+			"Philosophy of Religion" -- Terrorism
+			"Philosophy of Religion" -- Islam
+			Terrorism -- Islam
+		"Indian National Congress" [label="Indian National Congress"]
+			"Indian National Congress" -- "Aam Aadmi Party"
+			"Indian National Congress" -- "Bharatiya Janata Party (BJP)"
+			"Indian National Congress" -- Hinduism
+			"Indian National Congress" -- Islam
+			"Indian National Congress" -- Religion
+			"Indian National Congress" -- India
+			"Aam Aadmi Party" -- "Bharatiya Janata Party (BJP)"
+			"Aam Aadmi Party" -- Hinduism
+			"Aam Aadmi Party" -- Islam
+			"Aam Aadmi Party" -- Religion
+			"Aam Aadmi Party" -- India
+			"Bharatiya Janata Party (BJP)" -- Hinduism
+			"Bharatiya Janata Party (BJP)" -- Islam
+			"Bharatiya Janata Party (BJP)" -- Religion
+			"Bharatiya Janata Party (BJP)" -- India
+			Hinduism -- Islam
+			Hinduism -- Religion
+			Hinduism -- India
+			Islam -- Religion
+			Islam -- India
+			Religion -- India
+			Peace -- Terrorism
+			Peace -- Muslims
+			Peace -- Islam
+			Peace -- "International Relations"
+			Peace -- Religion
+			Terrorism -- Muslims
+			Terrorism -- Islam
+			Terrorism -- "International Relations"
+			Terrorism -- Religion
+			Muslims -- Islam
+			Muslims -- "International Relations"
+			Muslims -- Religion
+			Islam -- "International Relations"
+			Islam -- Religion
+			"International Relations" -- Religion
+		"Islamic Sects" [label="Islamic Sects"]
+		Motivation [label=Motivation]
+			"Islamic Sects" -- Motivation
+			"Islamic Sects" -- Muslims
+			"Islamic Sects" -- Islam
+			Motivation -- Muslims
+			Motivation -- Islam
+			Muslims -- Islam
+			"Muslims Against Terrorism" -- "War on Terror"
+			"Muslims Against Terrorism" -- Terrorism
+			"Muslims Against Terrorism" -- Muslims
+			"Muslims Against Terrorism" -- Islam
+			"Muslims Against Terrorism" -- Religion
+			"War on Terror" -- Terrorism
+			"War on Terror" -- Muslims
+			"War on Terror" -- Islam
+			"War on Terror" -- Religion
+			Terrorism -- Muslims
+			Terrorism -- Islam
+			Terrorism -- Religion
+			Muslims -- Islam
+			Muslims -- Religion
+			Islam -- Religion
+		"Reformation Theology" [label="Reformation Theology"]
+			"Reformation Theology" -- "War on Terror"
+			"Reformation Theology" -- Terrorism
+			"Reformation Theology" -- Muslims
+			"Reformation Theology" -- Islam
+			"Reformation Theology" -- Religion
+			"War on Terror" -- Terrorism
+			"War on Terror" -- Muslims
+			"War on Terror" -- Islam
+			"War on Terror" -- Religion
+			Terrorism -- Muslims
+			Terrorism -- Islam
+			Terrorism -- Religion
+			Muslims -- Islam
+			Muslims -- Religion
+			Islam -- Religion
+		Globalization [label=Globalization]
+		"Problems and Problem Solving" [label="Problems and Problem Solving"]
+			Globalization -- Terrorism
+			Globalization -- "Problems and Problem Solving"
+			Globalization -- Islam
+			Terrorism -- "Problems and Problem Solving"
+			Terrorism -- Islam
+			"Problems and Problem Solving" -- Islam
+			Terrorism -- Muslims
+			Terrorism -- Islam
+			Terrorism -- Religion
+			Muslims -- Islam
+			Muslims -- Religion
+			Islam -- Religion
+			Terrorism -- "Military History and Wars"
+			Terrorism -- "International Relations"
+			Terrorism -- "The United States of America"
+			"Military History and Wars" -- "International Relations"
+			"Military History and Wars" -- "The United States of America"
+			"International Relations" -- "The United States of America"
+			"Religious Terrorism" -- Terrorism
+			"Religious Terrorism" -- Muslims
+			"Religious Terrorism" -- Islam
+			"Religious Terrorism" -- Religion
+			Terrorism -- Muslims
+			Terrorism -- Islam
+			Terrorism -- Religion
+			Muslims -- Islam
+			Muslims -- Religion
+			Islam -- Religion
+			"War on Terror" -- Terrorism
+			"War on Terror" -- Muslims
+			"War on Terror" -- Islam
+			"War on Terror" -- China
+			"War on Terror" -- "International Relations"
+			"War on Terror" -- Religion
+			Terrorism -- Muslims
+			Terrorism -- Islam
+			Terrorism -- China
+			Terrorism -- "International Relations"
+			Terrorism -- Religion
+			Muslims -- Islam
+			Muslims -- China
+			Muslims -- "International Relations"
+			Muslims -- Religion
+			Islam -- China
+			Islam -- "International Relations"
+			Islam -- Religion
+			China -- "International Relations"
+			China -- Religion
+			"International Relations" -- Religion
+			"Islamic Law" -- "The Quran"
+			"Islamic Law" -- "Islamic State of Iraq and Syria (ISIS)"
+			"Islamic Law" -- Islam
+			"Islamic Law" -- Law
+			"Islamic Law" -- Religion
+			"The Quran" -- "Islamic State of Iraq and Syria (ISIS)"
+			"The Quran" -- Islam
+			"The Quran" -- Law
+			"The Quran" -- Religion
+			"Islamic State of Iraq and Syria (ISIS)" -- Islam
+			"Islamic State of Iraq and Syria (ISIS)" -- Law
+			"Islamic State of Iraq and Syria (ISIS)" -- Religion
+			Islam -- Law
+			Islam -- Religion
+			Law -- Religion
+		"Abrahamic Religions" [label="Abrahamic Religions"]
+		"Arab Ethnicity and People" [label="Arab Ethnicity and People"]
+		"Arabic (language)" [label="Arabic (language)"]
+		Language [label=Language]
+			"Abrahamic Religions" -- "Arab Ethnicity and People"
+			"Abrahamic Religions" -- "Arabic (language)"
+			"Abrahamic Religions" -- Linguistics
+			"Abrahamic Religions" -- Language
+			"Abrahamic Religions" -- Islam
+			"Arab Ethnicity and People" -- "Arabic (language)"
+			"Arab Ethnicity and People" -- Linguistics
+			"Arab Ethnicity and People" -- Language
+			"Arab Ethnicity and People" -- Islam
+			"Arabic (language)" -- Linguistics
+			"Arabic (language)" -- Language
+			"Arabic (language)" -- Islam
+			Linguistics -- Language
+			Linguistics -- Islam
+			Language -- Islam
+		Moving [label=Moving]
+		"All ages" [label="All ages"]
+		Advice [label=Advice]
+		Family [label=Family]
+			Moving -- "All ages"
+			Moving -- Advice
+			Moving -- Muslims
+			Moving -- Family
+			Moving -- "Life Advice"
+			"All ages" -- Advice
+			"All ages" -- Muslims
+			"All ages" -- Family
+			"All ages" -- "Life Advice"
+			Advice -- Muslims
+			Advice -- Family
+			Advice -- "Life Advice"
+			Muslims -- Family
+			Muslims -- "Life Advice"
+			Family -- "Life Advice"
+		"Yakub Memon" [label="Yakub Memon"]
+			"Yakub Memon" -- Terrorism
+			"Yakub Memon" -- Law
+			Terrorism -- Law
+		"What Are the Strengths of X?" [label="What Are the Strengths of X?"]
+		"Comparative Religion" [label="Comparative Religion"]
+		"Sufi Islam" [label="Sufi Islam"]
+		Jesus [label=Jesus]
+		God [label=God]
+			"What Are the Strengths of X?" -- "Comparative Religion"
+			"What Are the Strengths of X?" -- "Sufi Islam"
+			"What Are the Strengths of X?" -- "Islamic Law"
+			"What Are the Strengths of X?" -- "Religious Conversion"
+			"What Are the Strengths of X?" -- "Muhammad (Islam)"
+			"What Are the Strengths of X?" -- Jesus
+			"What Are the Strengths of X?" -- Muslims
+			"What Are the Strengths of X?" -- God
+			"What Are the Strengths of X?" -- Islam
+			"What Are the Strengths of X?" -- Christianity
+			"What Are the Strengths of X?" -- Religion
+			"Comparative Religion" -- "Sufi Islam"
+			"Comparative Religion" -- "Islamic Law"
+			"Comparative Religion" -- "Religious Conversion"
+			"Comparative Religion" -- "Muhammad (Islam)"
+			"Comparative Religion" -- Jesus
+			"Comparative Religion" -- Muslims
+			"Comparative Religion" -- God
+			"Comparative Religion" -- Islam
+			"Comparative Religion" -- Christianity
+			"Comparative Religion" -- Religion
+			"Sufi Islam" -- "Islamic Law"
+			"Sufi Islam" -- "Religious Conversion"
+			"Sufi Islam" -- "Muhammad (Islam)"
+			"Sufi Islam" -- Jesus
+			"Sufi Islam" -- Muslims
+			"Sufi Islam" -- God
+			"Sufi Islam" -- Islam
+			"Sufi Islam" -- Christianity
+			"Sufi Islam" -- Religion
+			"Islamic Law" -- "Religious Conversion"
+			"Islamic Law" -- "Muhammad (Islam)"
+			"Islamic Law" -- Jesus
+			"Islamic Law" -- Muslims
+			"Islamic Law" -- God
+			"Islamic Law" -- Islam
+			"Islamic Law" -- Christianity
+			"Islamic Law" -- Religion
+			"Religious Conversion" -- "Muhammad (Islam)"
+			"Religious Conversion" -- Jesus
+			"Religious Conversion" -- Muslims
+			"Religious Conversion" -- God
+			"Religious Conversion" -- Islam
+			"Religious Conversion" -- Christianity
+			"Religious Conversion" -- Religion
+			"Muhammad (Islam)" -- Jesus
+			"Muhammad (Islam)" -- Muslims
+			"Muhammad (Islam)" -- God
+			"Muhammad (Islam)" -- Islam
+			"Muhammad (Islam)" -- Christianity
+			"Muhammad (Islam)" -- Religion
+			Jesus -- Muslims
+			Jesus -- God
+			Jesus -- Islam
+			Jesus -- Christianity
+			Jesus -- Religion
+			Muslims -- God
+			Muslims -- Islam
+			Muslims -- Christianity
+			Muslims -- Religion
+			God -- Islam
+			God -- Christianity
+			God -- Religion
+			Islam -- Christianity
+			Islam -- Religion
+			Christianity -- Religion
+		"American Culture, Habits, and Behavior" [label="American Culture, Habits, and Behavior"]
+		"Culture (social science)" [label="Culture (social science)"]
+			"Chinese Culture" -- "American Culture, Habits, and Behavior"
+			"Chinese Culture" -- "Culture (social science)"
+			"Chinese Culture" -- China
+			"Chinese Culture" -- "The United States of America"
+			"American Culture, Habits, and Behavior" -- "Culture (social science)"
+			"American Culture, Habits, and Behavior" -- China
+			"American Culture, Habits, and Behavior" -- "The United States of America"
+			"Culture (social science)" -- China
+			"Culture (social science)" -- "The United States of America"
+			China -- "The United States of America"
+		Japan [label=Japan]
+			Japan -- China
+		"International Economics" [label="International Economics"]
+		"The World" [label="The World"]
+		Electronics [label=Electronics]
+			"International Economics" -- "The World"
+			"International Economics" -- Electronics
+			"International Economics" -- China
+			"International Economics" -- "Interpersonal Interaction"
+			"The World" -- Electronics
+			"The World" -- China
+			"The World" -- "Interpersonal Interaction"
+			Electronics -- China
+			Electronics -- "Interpersonal Interaction"
+			China -- "Interpersonal Interaction"
+		Descendents [label=Descendents]
+		"Family Tree" [label="Family Tree"]
+		Prophets [label=Prophets]
+		Genealogy [label=Genealogy]
+			Descendents -- "Family Tree"
+			Descendents -- Prophets
+			Descendents -- Genealogy
+			Descendents -- "Muhammad (Islam)"
+			Descendents -- Islam
+			Descendents -- Religion
+			"Family Tree" -- Prophets
+			"Family Tree" -- Genealogy
+			"Family Tree" -- "Muhammad (Islam)"
+			"Family Tree" -- Islam
+			"Family Tree" -- Religion
+			Prophets -- Genealogy
+			Prophets -- "Muhammad (Islam)"
+			Prophets -- Islam
+			Prophets -- Religion
+			Genealogy -- "Muhammad (Islam)"
+			Genealogy -- Islam
+			Genealogy -- Religion
+			"Muhammad (Islam)" -- Islam
+			"Muhammad (Islam)" -- Religion
+			Islam -- Religion
+		Polygamy [label=Polygamy]
+			Polygamy -- "Muhammad (Islam)"
+			Polygamy -- "Saudi Arabia"
+			Polygamy -- Islam
+			"Muhammad (Islam)" -- "Saudi Arabia"
+			"Muhammad (Islam)" -- Islam
+			"Saudi Arabia" -- Islam
+		"World History" [label="World History"]
+			Blame -- Terrorism
+			Blame -- "World History"
+			Blame -- "The World"
+			Blame -- Islam
+			Blame -- History
+			Blame -- "The United States of America"
+			Blame -- Politics
+			Blame -- Religion
+			Terrorism -- "World History"
+			Terrorism -- "The World"
+			Terrorism -- Islam
+			Terrorism -- History
+			Terrorism -- "The United States of America"
+			Terrorism -- Politics
+			Terrorism -- Religion
+			"World History" -- "The World"
+			"World History" -- Islam
+			"World History" -- History
+			"World History" -- "The United States of America"
+			"World History" -- Politics
+			"World History" -- Religion
+			"The World" -- Islam
+			"The World" -- History
+			"The World" -- "The United States of America"
+			"The World" -- Politics
+			"The World" -- Religion
+			Islam -- History
+			Islam -- "The United States of America"
+			Islam -- Politics
+			Islam -- Religion
+			History -- "The United States of America"
+			History -- Politics
+			History -- Religion
+			"The United States of America" -- Politics
+			"The United States of America" -- Religion
+			Politics -- Religion
+		"American Ethnicity and People" [label="American Ethnicity and People"]
+			"Foreign Policy" -- "American Ethnicity and People"
+			"Foreign Policy" -- Terrorism
+			"Foreign Policy" -- Islam
+			"Foreign Policy" -- Politics
+			"Foreign Policy" -- Religion
+			"American Ethnicity and People" -- Terrorism
+			"American Ethnicity and People" -- Islam
+			"American Ethnicity and People" -- Politics
+			"American Ethnicity and People" -- Religion
+			Terrorism -- Islam
+			Terrorism -- Politics
+			Terrorism -- Religion
+			Islam -- Politics
+			Islam -- Religion
+			Politics -- Religion
+		"Unidentified Flying Objects" [label="Unidentified Flying Objects"]
+		"Extraterrestrial Intelligence" [label="Extraterrestrial Intelligence"]
+		"Extraterrestrial Life" [label="Extraterrestrial Life"]
+		"Outer Space" [label="Outer Space"]
+			"Unidentified Flying Objects" -- "Extraterrestrial Intelligence"
+			"Unidentified Flying Objects" -- "Extraterrestrial Life"
+			"Unidentified Flying Objects" -- "Outer Space"
+			"Unidentified Flying Objects" -- Muslims
+			"Unidentified Flying Objects" -- Islam
+			"Unidentified Flying Objects" -- Religion
+			"Extraterrestrial Intelligence" -- "Extraterrestrial Life"
+			"Extraterrestrial Intelligence" -- "Outer Space"
+			"Extraterrestrial Intelligence" -- Muslims
+			"Extraterrestrial Intelligence" -- Islam
+			"Extraterrestrial Intelligence" -- Religion
+			"Extraterrestrial Life" -- "Outer Space"
+			"Extraterrestrial Life" -- Muslims
+			"Extraterrestrial Life" -- Islam
+			"Extraterrestrial Life" -- Religion
+			"Outer Space" -- Muslims
+			"Outer Space" -- Islam
+			"Outer Space" -- Religion
+			Muslims -- Islam
+			Muslims -- Religion
+			Islam -- Religion
+			"Unidentified Flying Objects" -- "Extraterrestrial Intelligence"
+			"Unidentified Flying Objects" -- "Extraterrestrial Life"
+			"Unidentified Flying Objects" -- Hinduism
+			"Unidentified Flying Objects" -- Religion
+			"Extraterrestrial Intelligence" -- "Extraterrestrial Life"
+			"Extraterrestrial Intelligence" -- Hinduism
+			"Extraterrestrial Intelligence" -- Religion
+			"Extraterrestrial Life" -- Hinduism
+			"Extraterrestrial Life" -- Religion
+			Hinduism -- Religion
+		Draupadi [label=Draupadi]
+		"Mahabharata (Hindu epic)" [label="Mahabharata (Hindu epic)"]
+			Draupadi -- "Mahabharata (Hindu epic)"
+			Draupadi -- Hinduism
+			"Mahabharata (Hindu epic)" -- Hinduism
+		"Swami Vivekananda" [label="Swami Vivekananda"]
+		Stories [label=Stories]
+		Philosophy [label=Philosophy]
+		Books [label=Books]
+			"Swami Vivekananda" -- Stories
+			"Swami Vivekananda" -- Hinduism
+			"Swami Vivekananda" -- Philosophy
+			"Swami Vivekananda" -- "Indian Ethnicity and People"
+			"Swami Vivekananda" -- Books
+			"Swami Vivekananda" -- Religion
+			"Swami Vivekananda" -- India
+			Stories -- Hinduism
+			Stories -- Philosophy
+			Stories -- "Indian Ethnicity and People"
+			Stories -- Books
+			Stories -- Religion
+			Stories -- India
+			Hinduism -- Philosophy
+			Hinduism -- "Indian Ethnicity and People"
+			Hinduism -- Books
+			Hinduism -- Religion
+			Hinduism -- India
+			Philosophy -- "Indian Ethnicity and People"
+			Philosophy -- Books
+			Philosophy -- Religion
+			Philosophy -- India
+			"Indian Ethnicity and People" -- Books
+			"Indian Ethnicity and People" -- Religion
+			"Indian Ethnicity and People" -- India
+			Books -- Religion
+			Books -- India
+			Religion -- India
+		"Arguments and Argumentation" [label="Arguments and Argumentation"]
+		"How-to Question" [label="How-to Question"]
+			"Arguments and Argumentation" -- Hinduism
+			"Arguments and Argumentation" -- "How-to Question"
+			"Arguments and Argumentation" -- India
+			Hinduism -- "How-to Question"
+			Hinduism -- India
+			"How-to Question" -- India
+		"Kumbh Mela" [label="Kumbh Mela"]
+		"Hindu Philosophy" [label="Hindu Philosophy"]
+		Hindus [label=Hindus]
+		"Mind-Blowing Facts" [label="Mind-Blowing Facts"]
+			"Kumbh Mela" -- "Hindu Philosophy"
+			"Kumbh Mela" -- Hindus
+			"Kumbh Mela" -- "Mind-Blowing Facts"
+			"Kumbh Mela" -- Hinduism
+			"Hindu Philosophy" -- Hindus
+			"Hindu Philosophy" -- "Mind-Blowing Facts"
+			"Hindu Philosophy" -- Hinduism
+			Hindus -- "Mind-Blowing Facts"
+			Hindus -- Hinduism
+			"Mind-Blowing Facts" -- Hinduism
+		"Rashtriya Swayamsevak Sangh (RSS)" [label="Rashtriya Swayamsevak Sangh (RSS)"]
+			"Religious Conversion" -- "Rashtriya Swayamsevak Sangh (RSS)"
+			"Religious Conversion" -- "Indian Culture And Heritage"
+			"Religious Conversion" -- Hinduism
+			"Religious Conversion" -- Religion
+			"Religious Conversion" -- India
+			"Rashtriya Swayamsevak Sangh (RSS)" -- "Indian Culture And Heritage"
+			"Rashtriya Swayamsevak Sangh (RSS)" -- Hinduism
+			"Rashtriya Swayamsevak Sangh (RSS)" -- Religion
+			"Rashtriya Swayamsevak Sangh (RSS)" -- India
+			"Indian Culture And Heritage" -- Hinduism
+			"Indian Culture And Heritage" -- Religion
+			"Indian Culture And Heritage" -- India
+			Hinduism -- Religion
+			Hinduism -- India
+			Religion -- India
+		"Abraham (biblical figure)" [label="Abraham (biblical figure)"]
+		"The Old Testament" [label="The Old Testament"]
+		"Vedic Hinduism" [label="Vedic Hinduism"]
+			"Abraham (biblical figure)" -- "The Old Testament"
+			"Abraham (biblical figure)" -- "Vedic Hinduism"
+			"Abraham (biblical figure)" -- Judaism
+			"Abraham (biblical figure)" -- God
+			"Abraham (biblical figure)" -- Hinduism
+			"Abraham (biblical figure)" -- Islam
+			"Abraham (biblical figure)" -- "Indian Ethnicity and People"
+			"Abraham (biblical figure)" -- India
+			"The Old Testament" -- "Vedic Hinduism"
+			"The Old Testament" -- Judaism
+			"The Old Testament" -- God
+			"The Old Testament" -- Hinduism
+			"The Old Testament" -- Islam
+			"The Old Testament" -- "Indian Ethnicity and People"
+			"The Old Testament" -- India
+			"Vedic Hinduism" -- Judaism
+			"Vedic Hinduism" -- God
+			"Vedic Hinduism" -- Hinduism
+			"Vedic Hinduism" -- Islam
+			"Vedic Hinduism" -- "Indian Ethnicity and People"
+			"Vedic Hinduism" -- India
+			Judaism -- God
+			Judaism -- Hinduism
+			Judaism -- Islam
+			Judaism -- "Indian Ethnicity and People"
+			Judaism -- India
+			God -- Hinduism
+			God -- Islam
+			God -- "Indian Ethnicity and People"
+			God -- India
+			Hinduism -- Islam
+			Hinduism -- "Indian Ethnicity and People"
+			Hinduism -- India
+			Islam -- "Indian Ethnicity and People"
+			Islam -- India
+			"Indian Ethnicity and People" -- India
+		Cannabis [label=Cannabis]
+			Cannabis -- Hinduism
+			Polygamy -- Hinduism
+			Polygamy -- Marriage
+			Polygamy -- Religion
+			Hinduism -- Marriage
+			Hinduism -- Religion
+			Marriage -- Religion
+		Superstitions [label=Superstitions]
+		"Epics and legendarium of India" [label="Epics and legendarium of India"]
+		Menstruation [label=Menstruation]
+		"Indian Women" [label="Indian Women"]
+			Superstitions -- "Epics and legendarium of India"
+			Superstitions -- Menstruation
+			Superstitions -- "Indian Women"
+			Superstitions -- Hinduism
+			"Epics and legendarium of India" -- Menstruation
+			"Epics and legendarium of India" -- "Indian Women"
+			"Epics and legendarium of India" -- Hinduism
+			Menstruation -- "Indian Women"
+			Menstruation -- Hinduism
+			"Indian Women" -- Hinduism
+		Vedas [label=Vedas]
+			Vedas -- Hinduism
+			Vedas -- Religion
+			Hinduism -- Religion
+		Debt [label=Debt]
+			Debt -- Hinduism
+			Debt -- Religion
+			Hinduism -- Religion
+		Meat [label=Meat]
+			Meat -- Hinduism
+			Meat -- "Indian Ethnicity and People"
+			Meat -- Food
+			Hinduism -- "Indian Ethnicity and People"
+			Hinduism -- Food
+			"Indian Ethnicity and People" -- Food
+		"Religion and Warfare" [label="Religion and Warfare"]
+			"Religion and Warfare" -- "Hindu Philosophy"
+			"Religion and Warfare" -- Warfare
+			"Religion and Warfare" -- Hinduism
+			"Religion and Warfare" -- Religion
+			"Religion and Warfare" -- "Philosophy of Everyday Life"
+			"Hindu Philosophy" -- Warfare
+			"Hindu Philosophy" -- Hinduism
+			"Hindu Philosophy" -- Religion
+			"Hindu Philosophy" -- "Philosophy of Everyday Life"
+			Warfare -- Hinduism
+			Warfare -- Religion
+			Warfare -- "Philosophy of Everyday Life"
+			Hinduism -- Religion
+			Hinduism -- "Philosophy of Everyday Life"
+			Religion -- "Philosophy of Everyday Life"
+		"What Does Hinduism Say About the X?" [label="What Does Hinduism Say About the X?"]
+		"The Bible" [label="The Bible"]
+			"What Does Hinduism Say About the X?" -- "The Bible"
+			"What Does Hinduism Say About the X?" -- Hinduism
+			"What Does Hinduism Say About the X?" -- Christianity
+			"What Does Hinduism Say About the X?" -- Religion
+			"The Bible" -- Hinduism
+			"The Bible" -- Christianity
+			"The Bible" -- Religion
+			Hinduism -- Christianity
+			Hinduism -- Religion
+			Christianity -- Religion
+		"Time Travel" [label="Time Travel"]
+		"Ancient History" [label="Ancient History"]
+		"Time (physics)" [label="Time (physics)"]
+		"Physics of Everyday Life" [label="Physics of Everyday Life"]
+			"Time Travel" -- "Ancient History"
+			"Time Travel" -- "Time (physics)"
+			"Time Travel" -- "Physics of Everyday Life"
+			"Time Travel" -- Hinduism
+			"Ancient History" -- "Time (physics)"
+			"Ancient History" -- "Physics of Everyday Life"
+			"Ancient History" -- Hinduism
+			"Time (physics)" -- "Physics of Everyday Life"
+			"Time (physics)" -- Hinduism
+			"Physics of Everyday Life" -- Hinduism
+		Creationism [label=Creationism]
+		"History of Religion" [label="History of Religion"]
+		Storytelling [label=Storytelling]
+		"Hindu Mythology" [label="Hindu Mythology"]
+			Creationism -- "History of Religion"
+			Creationism -- Storytelling
+			Creationism -- "Hindu Mythology"
+			Creationism -- Stories
+			Creationism -- God
+			Creationism -- Hinduism
+			Creationism -- Religion
+			Creationism -- India
+			"History of Religion" -- Storytelling
+			"History of Religion" -- "Hindu Mythology"
+			"History of Religion" -- Stories
+			"History of Religion" -- God
+			"History of Religion" -- Hinduism
+			"History of Religion" -- Religion
+			"History of Religion" -- India
+			Storytelling -- "Hindu Mythology"
+			Storytelling -- Stories
+			Storytelling -- God
+			Storytelling -- Hinduism
+			Storytelling -- Religion
+			Storytelling -- India
+			"Hindu Mythology" -- Stories
+			"Hindu Mythology" -- God
+			"Hindu Mythology" -- Hinduism
+			"Hindu Mythology" -- Religion
+			"Hindu Mythology" -- India
+			Stories -- God
+			Stories -- Hinduism
+			Stories -- Religion
+			Stories -- India
+			God -- Hinduism
+			God -- Religion
+			God -- India
+			Hinduism -- Religion
+			Hinduism -- India
+			Religion -- India
+		Homosexuality [label=Homosexuality]
+		LGBTQI [label=LGBTQI]
+			Homosexuality -- LGBTQI
+			Homosexuality -- Muslims
+			Homosexuality -- Islam
+			Homosexuality -- Religion
+			LGBTQI -- Muslims
+			LGBTQI -- Islam
+			LGBTQI -- Religion
+			Muslims -- Islam
+			Muslims -- Religion
+			Islam -- Religion
+		Babylon [label=Babylon]
+			Babylon -- "The Quran"
+			Babylon -- Islam
+			Babylon -- Religion
+			"The Quran" -- Islam
+			"The Quran" -- Religion
+			Islam -- Religion
+		Sin [label=Sin]
+			Sin -- Homosexuality
+			Sin -- Islam
+			Sin -- Religion
+			Homosexuality -- Islam
+			Homosexuality -- Religion
+			Islam -- Religion
+		Buddhism [label=Buddhism]
+		Atheism [label=Atheism]
+			"The Quran" -- Buddhism
+			"The Quran" -- "The Bible"
+			"The Quran" -- Atheism
+			"The Quran" -- Hinduism
+			"The Quran" -- Islam
+			"The Quran" -- Christianity
+			"The Quran" -- Religion
+			Buddhism -- "The Bible"
+			Buddhism -- Atheism
+			Buddhism -- Hinduism
+			Buddhism -- Islam
+			Buddhism -- Christianity
+			Buddhism -- Religion
+			"The Bible" -- Atheism
+			"The Bible" -- Hinduism
+			"The Bible" -- Islam
+			"The Bible" -- Christianity
+			"The Bible" -- Religion
+			Atheism -- Hinduism
+			Atheism -- Islam
+			Atheism -- Christianity
+			Atheism -- Religion
+			Hinduism -- Islam
+			Hinduism -- Christianity
+			Hinduism -- Religion
+			Islam -- Christianity
+			Islam -- Religion
+			Christianity -- Religion
+		Rebirth [label=Rebirth]
+			Rebirth -- "The Quran"
+			Rebirth -- Islam
+			Rebirth -- Religion
+			"The Quran" -- Islam
+			"The Quran" -- Religion
+			Islam -- Religion
+		"Homosexuality and Religion" [label="Homosexuality and Religion"]
+		Aristotle [label=Aristotle]
+		Plato [label=Plato]
+		Homophobia [label=Homophobia]
+			"Homosexuality and Religion" -- Aristotle
+			"Homosexuality and Religion" -- Plato
+			"Homosexuality and Religion" -- Homophobia
+			"Homosexuality and Religion" -- Homosexuality
+			"Homosexuality and Religion" -- LGBTQI
+			"Homosexuality and Religion" -- Philosophy
+			"Homosexuality and Religion" -- "Philosophy of Everyday Life"
+			Aristotle -- Plato
+			Aristotle -- Homophobia
+			Aristotle -- Homosexuality
+			Aristotle -- LGBTQI
+			Aristotle -- Philosophy
+			Aristotle -- "Philosophy of Everyday Life"
+			Plato -- Homophobia
+			Plato -- Homosexuality
+			Plato -- LGBTQI
+			Plato -- Philosophy
+			Plato -- "Philosophy of Everyday Life"
+			Homophobia -- Homosexuality
+			Homophobia -- LGBTQI
+			Homophobia -- Philosophy
+			Homophobia -- "Philosophy of Everyday Life"
+			Homosexuality -- LGBTQI
+			Homosexuality -- Philosophy
+			Homosexuality -- "Philosophy of Everyday Life"
+			LGBTQI -- Philosophy
+			LGBTQI -- "Philosophy of Everyday Life"
+			Philosophy -- "Philosophy of Everyday Life"
+			"Homosexuality and Religion" -- "The Bible"
+			"Homosexuality and Religion" -- Homosexuality
+			"Homosexuality and Religion" -- LGBTQI
+			"Homosexuality and Religion" -- Religion
+			"The Bible" -- Homosexuality
+			"The Bible" -- LGBTQI
+			"The Bible" -- Religion
+			Homosexuality -- LGBTQI
+			Homosexuality -- Religion
+			LGBTQI -- Religion
+		"Mormons and Gay People" [label="Mormons and Gay People"]
+		"The Church of Jesus Christ of Latter-day Saints (the Mormons)" [label="The Church of Jesus Christ of Latter-day Saints (the Mormons)"]
+			"Mormons and Gay People" -- "Homosexuality and Religion"
+			"Mormons and Gay People" -- "The Church of Jesus Christ of Latter-day Saints (the Mormons)"
+			"Mormons and Gay People" -- Homosexuality
+			"Mormons and Gay People" -- LGBTQI
+			"Mormons and Gay People" -- Christianity
+			"Mormons and Gay People" -- Religion
+			"Homosexuality and Religion" -- "The Church of Jesus Christ of Latter-day Saints (the Mormons)"
+			"Homosexuality and Religion" -- Homosexuality
+			"Homosexuality and Religion" -- LGBTQI
+			"Homosexuality and Religion" -- Christianity
+			"Homosexuality and Religion" -- Religion
+			"The Church of Jesus Christ of Latter-day Saints (the Mormons)" -- Homosexuality
+			"The Church of Jesus Christ of Latter-day Saints (the Mormons)" -- LGBTQI
+			"The Church of Jesus Christ of Latter-day Saints (the Mormons)" -- Christianity
+			"The Church of Jesus Christ of Latter-day Saints (the Mormons)" -- Religion
+			Homosexuality -- LGBTQI
+			Homosexuality -- Christianity
+			Homosexuality -- Religion
+			LGBTQI -- Christianity
+			LGBTQI -- Religion
+			Christianity -- Religion
+		"Racial and Ethnic Groups" [label="Racial and Ethnic Groups"]
+		"Ethnic and Cultural Differences" [label="Ethnic and Cultural Differences"]
+			"Racial and Ethnic Groups" -- "Ethnic and Cultural Differences"
+			"Racial and Ethnic Groups" -- Homosexuality
+			"Racial and Ethnic Groups" -- Countries
+			"Racial and Ethnic Groups" -- Politics
+			"Racial and Ethnic Groups" -- Religion
+			"Ethnic and Cultural Differences" -- Homosexuality
+			"Ethnic and Cultural Differences" -- Countries
+			"Ethnic and Cultural Differences" -- Politics
+			"Ethnic and Cultural Differences" -- Religion
+			Homosexuality -- Countries
+			Homosexuality -- Politics
+			Homosexuality -- Religion
+			Countries -- Politics
+			Countries -- Religion
+			Politics -- Religion
+			Buddhism -- Homosexuality
+			Buddhism -- LGBTQI
+			Homosexuality -- LGBTQI
+		Parenting [label=Parenting]
+			"The Quran" -- Parents
+			"The Quran" -- Muslims
+			"The Quran" -- Family
+			"The Quran" -- Islam
+			"The Quran" -- Children
+			"The Quran" -- Parenting
+			"The Quran" -- Religion
+			Parents -- Muslims
+			Parents -- Family
+			Parents -- Islam
+			Parents -- Children
+			Parents -- Parenting
+			Parents -- Religion
+			Muslims -- Family
+			Muslims -- Islam
+			Muslims -- Children
+			Muslims -- Parenting
+			Muslims -- Religion
+			Family -- Islam
+			Family -- Children
+			Family -- Parenting
+			Family -- Religion
+			Islam -- Children
+			Islam -- Parenting
+			Islam -- Religion
+			Children -- Parenting
+			Children -- Religion
+			Parenting -- Religion
+		"Same-Sex Marriage" [label="Same-Sex Marriage"]
+		Hate [label=Hate]
+			Sin -- "Same-Sex Marriage"
+			Sin -- Hate
+			Sin -- Homosexuality
+			Sin -- LGBTQI
+			Sin -- Christianity
+			Sin -- Religion
+			Sin -- "Psychology of Everyday Life"
+			"Same-Sex Marriage" -- Hate
+			"Same-Sex Marriage" -- Homosexuality
+			"Same-Sex Marriage" -- LGBTQI
+			"Same-Sex Marriage" -- Christianity
+			"Same-Sex Marriage" -- Religion
+			"Same-Sex Marriage" -- "Psychology of Everyday Life"
+			Hate -- Homosexuality
+			Hate -- LGBTQI
+			Hate -- Christianity
+			Hate -- Religion
+			Hate -- "Psychology of Everyday Life"
+			Homosexuality -- LGBTQI
+			Homosexuality -- Christianity
+			Homosexuality -- Religion
+			Homosexuality -- "Psychology of Everyday Life"
+			LGBTQI -- Christianity
+			LGBTQI -- Religion
+			LGBTQI -- "Psychology of Everyday Life"
+			Christianity -- Religion
+			Christianity -- "Psychology of Everyday Life"
+			Religion -- "Psychology of Everyday Life"
+		"Bill Nye The Science Guy" [label="Bill Nye The Science Guy"]
+		"Bill Nye" [label="Bill Nye"]
+			"Bill Nye The Science Guy" -- "Bill Nye"
+			"Bill Nye The Science Guy" -- Homosexuality
+			"Bill Nye" -- Homosexuality
+		"Space Aliens" [label="Space Aliens"]
+		"Hypothetical Battles" [label="Hypothetical Battles"]
+			"Space Aliens" -- "Extraterrestrial Intelligence"
+			"Space Aliens" -- "Hypothetical Battles"
+			"Space Aliens" -- "Extraterrestrial Life"
+			"Space Aliens" -- "Hypothetical Scenarios"
+			"Extraterrestrial Intelligence" -- "Hypothetical Battles"
+			"Extraterrestrial Intelligence" -- "Extraterrestrial Life"
+			"Extraterrestrial Intelligence" -- "Hypothetical Scenarios"
+			"Hypothetical Battles" -- "Extraterrestrial Life"
+			"Hypothetical Battles" -- "Hypothetical Scenarios"
+			"Extraterrestrial Life" -- "Hypothetical Scenarios"
+		"Zombie Apocalypse Strategy" [label="Zombie Apocalypse Strategy"]
+		"Zombie Apocalypse" [label="Zombie Apocalypse"]
+		Zombies [label=Zombies]
+			"Zombie Apocalypse Strategy" -- "Zombie Apocalypse"
+			"Zombie Apocalypse Strategy" -- Zombies
+			"Zombie Apocalypse Strategy" -- "Hypothetical Battles"
+			"Zombie Apocalypse Strategy" -- "Military History and Wars"
+			"Zombie Apocalypse Strategy" -- "Hypothetical Scenarios"
+			"Zombie Apocalypse" -- Zombies
+			"Zombie Apocalypse" -- "Hypothetical Battles"
+			"Zombie Apocalypse" -- "Military History and Wars"
+			"Zombie Apocalypse" -- "Hypothetical Scenarios"
+			Zombies -- "Hypothetical Battles"
+			Zombies -- "Military History and Wars"
+			Zombies -- "Hypothetical Scenarios"
+			"Hypothetical Battles" -- "Military History and Wars"
+			"Hypothetical Battles" -- "Hypothetical Scenarios"
+			"Military History and Wars" -- "Hypothetical Scenarios"
+			"Hypothetical Battles" -- "Extraterrestrial Life"
+			"Hypothetical Battles" -- "Hypothetical Scenarios"
+			"Hypothetical Battles" -- Life
+			"Extraterrestrial Life" -- "Hypothetical Scenarios"
+			"Extraterrestrial Life" -- Life
+			"Hypothetical Scenarios" -- Life
+			"Extraterrestrial Life" -- Movies
+			"Hypothetical Scenarios" -- Psychology
+			"Hypothetical Scenarios" -- "Human Behavior"
+			Psychology -- "Human Behavior"
+		"Joke Questions" [label="Joke Questions"]
+			"Joke Questions" -- "Extraterrestrial Life"
+			"Joke Questions" -- God
+			"Joke Questions" -- Religion
+			"Extraterrestrial Life" -- God
+			"Extraterrestrial Life" -- Religion
+			God -- Religion
+			"Extraterrestrial Life" -- "Hypothetical Scenarios"
+		"World Peace" [label="World Peace"]
+			"World Peace" -- "Extraterrestrial Life"
+			"World Peace" -- "Hypothetical Scenarios"
+			"Extraterrestrial Life" -- "Hypothetical Scenarios"
+		"Alien Invasion" [label="Alien Invasion"]
+			"Alien Invasion" -- "Extraterrestrial Life"
+		"Alien Swarm" [label="Alien Swarm"]
+		"Aliens (1986 movie)" [label="Aliens (1986 movie)"]
+		"Ancient Alien Theory" [label="Ancient Alien Theory"]
+		"Star Trek (creative franchise)" [label="Star Trek (creative franchise)"]
+		Survivalism [label=Survivalism]
+		"Star Wars (creative franchise)" [label="Star Wars (creative franchise)"]
+		"Science Fiction (genre)" [label="Science Fiction (genre)"]
+		"PC Gaming" [label="PC Gaming"]
+		"Video Games" [label="Video Games"]
+			"Alien Swarm" -- "Aliens (1986 movie)"
+			"Alien Swarm" -- "Ancient Alien Theory"
+			"Alien Swarm" -- "Zombie Apocalypse"
+			"Alien Swarm" -- "Star Trek (creative franchise)"
+			"Alien Swarm" -- Survivalism
+			"Alien Swarm" -- "Star Wars (creative franchise)"
+			"Alien Swarm" -- "Extraterrestrial Life"
+			"Alien Swarm" -- "Science Fiction (genre)"
+			"Alien Swarm" -- "PC Gaming"
+			"Alien Swarm" -- "Outer Space"
+			"Alien Swarm" -- Warfare
+			"Alien Swarm" -- "Video Games"
+			"Aliens (1986 movie)" -- "Ancient Alien Theory"
+			"Aliens (1986 movie)" -- "Zombie Apocalypse"
+			"Aliens (1986 movie)" -- "Star Trek (creative franchise)"
+			"Aliens (1986 movie)" -- Survivalism
+			"Aliens (1986 movie)" -- "Star Wars (creative franchise)"
+			"Aliens (1986 movie)" -- "Extraterrestrial Life"
+			"Aliens (1986 movie)" -- "Science Fiction (genre)"
+			"Aliens (1986 movie)" -- "PC Gaming"
+			"Aliens (1986 movie)" -- "Outer Space"
+			"Aliens (1986 movie)" -- Warfare
+			"Aliens (1986 movie)" -- "Video Games"
+			"Ancient Alien Theory" -- "Zombie Apocalypse"
+			"Ancient Alien Theory" -- "Star Trek (creative franchise)"
+			"Ancient Alien Theory" -- Survivalism
+			"Ancient Alien Theory" -- "Star Wars (creative franchise)"
+			"Ancient Alien Theory" -- "Extraterrestrial Life"
+			"Ancient Alien Theory" -- "Science Fiction (genre)"
+			"Ancient Alien Theory" -- "PC Gaming"
+			"Ancient Alien Theory" -- "Outer Space"
+			"Ancient Alien Theory" -- Warfare
+			"Ancient Alien Theory" -- "Video Games"
+			"Zombie Apocalypse" -- "Star Trek (creative franchise)"
+			"Zombie Apocalypse" -- Survivalism
+			"Zombie Apocalypse" -- "Star Wars (creative franchise)"
+			"Zombie Apocalypse" -- "Extraterrestrial Life"
+			"Zombie Apocalypse" -- "Science Fiction (genre)"
+			"Zombie Apocalypse" -- "PC Gaming"
+			"Zombie Apocalypse" -- "Outer Space"
+			"Zombie Apocalypse" -- Warfare
+			"Zombie Apocalypse" -- "Video Games"
+			"Star Trek (creative franchise)" -- Survivalism
+			"Star Trek (creative franchise)" -- "Star Wars (creative franchise)"
+			"Star Trek (creative franchise)" -- "Extraterrestrial Life"
+			"Star Trek (creative franchise)" -- "Science Fiction (genre)"
+			"Star Trek (creative franchise)" -- "PC Gaming"
+			"Star Trek (creative franchise)" -- "Outer Space"
+			"Star Trek (creative franchise)" -- Warfare
+			"Star Trek (creative franchise)" -- "Video Games"
+			Survivalism -- "Star Wars (creative franchise)"
+			Survivalism -- "Extraterrestrial Life"
+			Survivalism -- "Science Fiction (genre)"
+			Survivalism -- "PC Gaming"
+			Survivalism -- "Outer Space"
+			Survivalism -- Warfare
+			Survivalism -- "Video Games"
+			"Star Wars (creative franchise)" -- "Extraterrestrial Life"
+			"Star Wars (creative franchise)" -- "Science Fiction (genre)"
+			"Star Wars (creative franchise)" -- "PC Gaming"
+			"Star Wars (creative franchise)" -- "Outer Space"
+			"Star Wars (creative franchise)" -- Warfare
+			"Star Wars (creative franchise)" -- "Video Games"
+			"Extraterrestrial Life" -- "Science Fiction (genre)"
+			"Extraterrestrial Life" -- "PC Gaming"
+			"Extraterrestrial Life" -- "Outer Space"
+			"Extraterrestrial Life" -- Warfare
+			"Extraterrestrial Life" -- "Video Games"
+			"Science Fiction (genre)" -- "PC Gaming"
+			"Science Fiction (genre)" -- "Outer Space"
+			"Science Fiction (genre)" -- Warfare
+			"Science Fiction (genre)" -- "Video Games"
+			"PC Gaming" -- "Outer Space"
+			"PC Gaming" -- Warfare
+			"PC Gaming" -- "Video Games"
+			"Outer Space" -- Warfare
+			"Outer Space" -- "Video Games"
+			Warfare -- "Video Games"
+		"Space Travel" [label="Space Travel"]
+		NASA [label=NASA]
+		"Planetary Science" [label="Planetary Science"]
+			"Extraterrestrial Life" -- "Space Travel"
+			"Extraterrestrial Life" -- NASA
+			"Extraterrestrial Life" -- "Planetary Science"
+			"Space Travel" -- NASA
+			"Space Travel" -- "Planetary Science"
+			NASA -- "Planetary Science"
+			"Hypothetical Battles" -- "Extraterrestrial Life"
+			"Hypothetical Battles" -- "Science Fiction (genre)"
+			"Hypothetical Battles" -- Warfare
+			"Hypothetical Battles" -- "Hypothetical Scenarios"
+			"Extraterrestrial Life" -- "Science Fiction (genre)"
+			"Extraterrestrial Life" -- Warfare
+			"Extraterrestrial Life" -- "Hypothetical Scenarios"
+			"Science Fiction (genre)" -- Warfare
+			"Science Fiction (genre)" -- "Hypothetical Scenarios"
+			Warfare -- "Hypothetical Scenarios"
+		"Movie Story and Plot Themes" [label="Movie Story and Plot Themes"]
+			"Extraterrestrial Life" -- "Movie Story and Plot Themes"
+			"Extraterrestrial Life" -- Movies
+			"Movie Story and Plot Themes" -- Movies
+		"Ethical Dilemmas" [label="Ethical Dilemmas"]
+		"Apocalyptic and Post-Apocalyptic Hypothetical Scenarios" [label="Apocalyptic and Post-Apocalyptic Hypothetical Scenarios"]
+			"Ethical Dilemmas" -- "Apocalyptic and Post-Apocalyptic Hypothetical Scenarios"
+			"Ethical Dilemmas" -- "Extraterrestrial Life"
+			"Apocalyptic and Post-Apocalyptic Hypothetical Scenarios" -- "Extraterrestrial Life"
+			"Extraterrestrial Intelligence" -- "Extraterrestrial Life"
+			"Extraterrestrial Intelligence" -- NASA
+			"Extraterrestrial Intelligence" -- "Outer Space"
+			"Extraterrestrial Life" -- NASA
+			"Extraterrestrial Life" -- "Outer Space"
+			NASA -- "Outer Space"
+		"Illegal Immigrants" [label="Illegal Immigrants"]
+		Immigration [label=Immigration]
+			"Space Aliens" -- "Illegal Immigrants"
+			"Space Aliens" -- "Extraterrestrial Intelligence"
+			"Space Aliens" -- "Extraterrestrial Life"
+			"Space Aliens" -- Immigration
+			"Illegal Immigrants" -- "Extraterrestrial Intelligence"
+			"Illegal Immigrants" -- "Extraterrestrial Life"
+			"Illegal Immigrants" -- Immigration
+			"Extraterrestrial Intelligence" -- "Extraterrestrial Life"
+			"Extraterrestrial Intelligence" -- Immigration
+			"Extraterrestrial Life" -- Immigration
+			"Alien Invasion" -- "Extraterrestrial Intelligence"
+			"Alien Invasion" -- "Extraterrestrial Life"
+			"Alien Invasion" -- "Hypothetical Scenarios"
+			"Extraterrestrial Intelligence" -- "Extraterrestrial Life"
+			"Extraterrestrial Intelligence" -- "Hypothetical Scenarios"
+			"Extraterrestrial Life" -- "Hypothetical Scenarios"
+		"Interstellar Travel" [label="Interstellar Travel"]
+		"Lockheed Martin" [label="Lockheed Martin"]
+		Teleportation [label=Teleportation]
+		Wormholes [label=Wormholes]
+		Boeing [label=Boeing]
+		SpaceX [label=SpaceX]
+		Cosmology [label=Cosmology]
+		"Amazon (company)" [label="Amazon (company)"]
+		Google [label=Google]
+			"Interstellar Travel" -- "Lockheed Martin"
+			"Interstellar Travel" -- Teleportation
+			"Interstellar Travel" -- Wormholes
+			"Interstellar Travel" -- Boeing
+			"Interstellar Travel" -- SpaceX
+			"Interstellar Travel" -- "Space Travel"
+			"Interstellar Travel" -- NASA
+			"Interstellar Travel" -- Cosmology
+			"Interstellar Travel" -- "Amazon (company)"
+			"Interstellar Travel" -- Technology
+			"Interstellar Travel" -- Google
+			"Lockheed Martin" -- Teleportation
+			"Lockheed Martin" -- Wormholes
+			"Lockheed Martin" -- Boeing
+			"Lockheed Martin" -- SpaceX
+			"Lockheed Martin" -- "Space Travel"
+			"Lockheed Martin" -- NASA
+			"Lockheed Martin" -- Cosmology
+			"Lockheed Martin" -- "Amazon (company)"
+			"Lockheed Martin" -- Technology
+			"Lockheed Martin" -- Google
+			Teleportation -- Wormholes
+			Teleportation -- Boeing
+			Teleportation -- SpaceX
+			Teleportation -- "Space Travel"
+			Teleportation -- NASA
+			Teleportation -- Cosmology
+			Teleportation -- "Amazon (company)"
+			Teleportation -- Technology
+			Teleportation -- Google
+			Wormholes -- Boeing
+			Wormholes -- SpaceX
+			Wormholes -- "Space Travel"
+			Wormholes -- NASA
+			Wormholes -- Cosmology
+			Wormholes -- "Amazon (company)"
+			Wormholes -- Technology
+			Wormholes -- Google
+			Boeing -- SpaceX
+			Boeing -- "Space Travel"
+			Boeing -- NASA
+			Boeing -- Cosmology
+			Boeing -- "Amazon (company)"
+			Boeing -- Technology
+			Boeing -- Google
+			SpaceX -- "Space Travel"
+			SpaceX -- NASA
+			SpaceX -- Cosmology
+			SpaceX -- "Amazon (company)"
+			SpaceX -- Technology
+			SpaceX -- Google
+			"Space Travel" -- NASA
+			"Space Travel" -- Cosmology
+			"Space Travel" -- "Amazon (company)"
+			"Space Travel" -- Technology
+			"Space Travel" -- Google
+			NASA -- Cosmology
+			NASA -- "Amazon (company)"
+			NASA -- Technology
+			NASA -- Google
+			Cosmology -- "Amazon (company)"
+			Cosmology -- Technology
+			Cosmology -- Google
+			"Amazon (company)" -- Technology
+			"Amazon (company)" -- Google
+			Technology -- Google
+		"Stars (astronomy)" [label="Stars (astronomy)"]
+		Astrophysics [label=Astrophysics]
+			"Stars (astronomy)" -- Cosmology
+			"Stars (astronomy)" -- "Outer Space"
+			"Stars (astronomy)" -- Astrophysics
+			Cosmology -- "Outer Space"
+			Cosmology -- Astrophysics
+			"Outer Space" -- Astrophysics
+		"Jet Propulsion Laboratory (JPL)" [label="Jet Propulsion Laboratory (JPL)"]
+		Spacecraft [label=Spacecraft]
+		"Space Exploration" [label="Space Exploration"]
+			"Jet Propulsion Laboratory (JPL)" -- Spacecraft
+			"Jet Propulsion Laboratory (JPL)" -- "Space Travel"
+			"Jet Propulsion Laboratory (JPL)" -- NASA
+			"Jet Propulsion Laboratory (JPL)" -- "Space Exploration"
+			"Jet Propulsion Laboratory (JPL)" -- "Outer Space"
+			Spacecraft -- "Space Travel"
+			Spacecraft -- NASA
+			Spacecraft -- "Space Exploration"
+			Spacecraft -- "Outer Space"
+			"Space Travel" -- NASA
+			"Space Travel" -- "Space Exploration"
+			"Space Travel" -- "Outer Space"
+			NASA -- "Space Exploration"
+			NASA -- "Outer Space"
+			"Space Exploration" -- "Outer Space"
+			"Space Travel" -- "Outer Space"
+			"Space Travel" -- "The Human Race and Condition"
+			"Space Travel" -- "Visiting and Travel"
+			"Outer Space" -- "The Human Race and Condition"
+			"Outer Space" -- "Visiting and Travel"
+			"The Human Race and Condition" -- "Visiting and Travel"
+		Exoplanets [label=Exoplanets]
+		"Values and Principles" [label="Values and Principles"]
+		Ethics [label=Ethics]
+			"Interstellar Travel" -- Exoplanets
+			"Interstellar Travel" -- "Values and Principles"
+			"Interstellar Travel" -- "Space Travel"
+			"Interstellar Travel" -- "Belief and Beliefs"
+			"Interstellar Travel" -- "Outer Space"
+			"Interstellar Travel" -- Ethics
+			"Interstellar Travel" -- "The Human Race and Condition"
+			"Interstellar Travel" -- "Human Behavior"
+			Exoplanets -- "Values and Principles"
+			Exoplanets -- "Space Travel"
+			Exoplanets -- "Belief and Beliefs"
+			Exoplanets -- "Outer Space"
+			Exoplanets -- Ethics
+			Exoplanets -- "The Human Race and Condition"
+			Exoplanets -- "Human Behavior"
+			"Values and Principles" -- "Space Travel"
+			"Values and Principles" -- "Belief and Beliefs"
+			"Values and Principles" -- "Outer Space"
+			"Values and Principles" -- Ethics
+			"Values and Principles" -- "The Human Race and Condition"
+			"Values and Principles" -- "Human Behavior"
+			"Space Travel" -- "Belief and Beliefs"
+			"Space Travel" -- "Outer Space"
+			"Space Travel" -- Ethics
+			"Space Travel" -- "The Human Race and Condition"
+			"Space Travel" -- "Human Behavior"
+			"Belief and Beliefs" -- "Outer Space"
+			"Belief and Beliefs" -- Ethics
+			"Belief and Beliefs" -- "The Human Race and Condition"
+			"Belief and Beliefs" -- "Human Behavior"
+			"Outer Space" -- Ethics
+			"Outer Space" -- "The Human Race and Condition"
+			"Outer Space" -- "Human Behavior"
+			Ethics -- "The Human Race and Condition"
+			Ethics -- "Human Behavior"
+			"The Human Race and Condition" -- "Human Behavior"
+		"Humans " [label="Humans "]
+			"Humans " -- "Space Travel"
+			"Humans " -- "Space Exploration"
+			"Humans " -- "Outer Space"
+			"Humans " -- "The Human Race and Condition"
+			"Space Travel" -- "Space Exploration"
+			"Space Travel" -- "Outer Space"
+			"Space Travel" -- "The Human Race and Condition"
+			"Space Exploration" -- "Outer Space"
+			"Space Exploration" -- "The Human Race and Condition"
+			"Outer Space" -- "The Human Race and Condition"
+			"Interstellar Travel" -- "Space Travel"
+			"Interstellar Travel" -- "Visiting and Travel"
+			"Space Travel" -- "Visiting and Travel"
+		Astronomy [label=Astronomy]
+		Physics [label=Physics]
+			"Interstellar Travel" -- "Space Travel"
+			"Interstellar Travel" -- Astronomy
+			"Interstellar Travel" -- Physics
+			"Space Travel" -- Astronomy
+			"Space Travel" -- Physics
+			Astronomy -- Physics
+		"The Sun" [label="The Sun"]
+		Skin [label=Skin]
+		"Human Evolution" [label="Human Evolution"]
+			"Interstellar Travel" -- "The Sun"
+			"Interstellar Travel" -- Skin
+			"Interstellar Travel" -- "Human Evolution"
+			"Interstellar Travel" -- "The Human Race and Condition"
+			"The Sun" -- Skin
+			"The Sun" -- "Human Evolution"
+			"The Sun" -- "The Human Race and Condition"
+			Skin -- "Human Evolution"
+			Skin -- "The Human Race and Condition"
+			"Human Evolution" -- "The Human Race and Condition"
+		Speciation [label=Speciation]
+			Speciation -- "Interstellar Travel"
+			Speciation -- "Human Evolution"
+			"Interstellar Travel" -- "Human Evolution"
+		Tourism [label=Tourism]
+			"Extraterrestrial Intelligence" -- "Extraterrestrial Life"
+			"Extraterrestrial Intelligence" -- "Space Travel"
+			"Extraterrestrial Intelligence" -- Tourism
+			"Extraterrestrial Life" -- "Space Travel"
+			"Extraterrestrial Life" -- Tourism
+			"Space Travel" -- Tourism
+		"Human Spaceflight" [label="Human Spaceflight"]
+			"Human Spaceflight" -- "Interstellar Travel"
+		Gravity [label=Gravity]
+		"Human Brain" [label="Human Brain"]
+		"Human Biology" [label="Human Biology"]
+		Biology [label=Biology]
+			Spacecraft -- "Space Travel"
+			Spacecraft -- Gravity
+			Spacecraft -- "Outer Space"
+			Spacecraft -- "Human Brain"
+			Spacecraft -- Astrophysics
+			Spacecraft -- "Human Biology"
+			Spacecraft -- Biology
+			Spacecraft -- "Medicine and Healthcare"
+			"Space Travel" -- Gravity
+			"Space Travel" -- "Outer Space"
+			"Space Travel" -- "Human Brain"
+			"Space Travel" -- Astrophysics
+			"Space Travel" -- "Human Biology"
+			"Space Travel" -- Biology
+			"Space Travel" -- "Medicine and Healthcare"
+			Gravity -- "Outer Space"
+			Gravity -- "Human Brain"
+			Gravity -- Astrophysics
+			Gravity -- "Human Biology"
+			Gravity -- Biology
+			Gravity -- "Medicine and Healthcare"
+			"Outer Space" -- "Human Brain"
+			"Outer Space" -- Astrophysics
+			"Outer Space" -- "Human Biology"
+			"Outer Space" -- Biology
+			"Outer Space" -- "Medicine and Healthcare"
+			"Human Brain" -- Astrophysics
+			"Human Brain" -- "Human Biology"
+			"Human Brain" -- Biology
+			"Human Brain" -- "Medicine and Healthcare"
+			Astrophysics -- "Human Biology"
+			Astrophysics -- Biology
+			Astrophysics -- "Medicine and Healthcare"
+			"Human Biology" -- Biology
+			"Human Biology" -- "Medicine and Healthcare"
+			Biology -- "Medicine and Healthcare"
+		"Elon Musk" [label="Elon Musk"]
+		"Startup Founders and Entrepreneurs" [label="Startup Founders and Entrepreneurs"]
+			"Interstellar Travel" -- SpaceX
+			"Interstellar Travel" -- "Elon Musk"
+			"Interstellar Travel" -- "Space Travel"
+			"Interstellar Travel" -- "Startup Founders and Entrepreneurs"
+			SpaceX -- "Elon Musk"
+			SpaceX -- "Space Travel"
+			SpaceX -- "Startup Founders and Entrepreneurs"
+			"Elon Musk" -- "Space Travel"
+			"Elon Musk" -- "Startup Founders and Entrepreneurs"
+			"Space Travel" -- "Startup Founders and Entrepreneurs"
+		Costs [label=Costs]
+		"Economics of Everyday Life" [label="Economics of Everyday Life"]
+			"Space Travel" -- NASA
+			"Space Travel" -- Costs
+			"Space Travel" -- "Outer Space"
+			"Space Travel" -- "Economics of Everyday Life"
+			NASA -- Costs
+			NASA -- "Outer Space"
+			NASA -- "Economics of Everyday Life"
+			Costs -- "Outer Space"
+			Costs -- "Economics of Everyday Life"
+			"Outer Space" -- "Economics of Everyday Life"
+			"Interstellar Travel" -- "Space Travel"
+			"Interstellar Travel" -- "Outer Space"
+			"Interstellar Travel" -- Astrophysics
+			"Interstellar Travel" -- "Hypothetical Scenarios"
+			"Interstellar Travel" -- Physics
+			"Space Travel" -- "Outer Space"
+			"Space Travel" -- Astrophysics
+			"Space Travel" -- "Hypothetical Scenarios"
+			"Space Travel" -- Physics
+			"Outer Space" -- Astrophysics
+			"Outer Space" -- "Hypothetical Scenarios"
+			"Outer Space" -- Physics
+			Astrophysics -- "Hypothetical Scenarios"
+			Astrophysics -- Physics
+			"Hypothetical Scenarios" -- Physics
+			"Extraterrestrial Life" -- "Space Travel"
+			"Extraterrestrial Life" -- "Outer Space"
+			"Space Travel" -- "Outer Space"
+			"Space Travel" -- "Space Exploration"
+			"Space Travel" -- "Outer Space"
+			"Space Travel" -- Astrophysics
+			"Space Travel" -- Physics
+			"Space Exploration" -- "Outer Space"
+			"Space Exploration" -- Astrophysics
+			"Space Exploration" -- Physics
+			"Outer Space" -- Astrophysics
+			"Outer Space" -- Physics
+			Astrophysics -- Physics
+		"Relativity (physics)" [label="Relativity (physics)"]
+			"Relativity (physics)" -- "Space Travel"
+		"Alien (movie series and creative franchise)" [label="Alien (movie series and creative franchise)"]
+		"Vacuum (space)" [label="Vacuum (space)"]
+		Science [label=Science]
+			"Alien (movie series and creative franchise)" -- "Vacuum (space)"
+			"Alien (movie series and creative franchise)" -- "Outer Space"
+			"Alien (movie series and creative franchise)" -- Science
+			"Alien (movie series and creative franchise)" -- Physics
+			"Vacuum (space)" -- "Outer Space"
+			"Vacuum (space)" -- Science
+			"Vacuum (space)" -- Physics
+			"Outer Space" -- Science
+			"Outer Space" -- Physics
+			Science -- Physics
+		"The Universe" [label="The Universe"]
+			"Space Travel" -- "The Universe"
+			"Space Travel" -- "Outer Space"
+			"Space Travel" -- Physics
+			"The Universe" -- "Outer Space"
+			"The Universe" -- Physics
+			"Outer Space" -- Physics
+		"Science of Everyday Life" [label="Science of Everyday Life"]
+			"Vacuum (space)" -- "Space Travel"
+			"Vacuum (space)" -- "Space Exploration"
+			"Vacuum (space)" -- "Outer Space"
+			"Vacuum (space)" -- "Science of Everyday Life"
+			"Vacuum (space)" -- Astrophysics
+			"Vacuum (space)" -- Astronomy
+			"Vacuum (space)" -- Physics
+			"Space Travel" -- "Space Exploration"
+			"Space Travel" -- "Outer Space"
+			"Space Travel" -- "Science of Everyday Life"
+			"Space Travel" -- Astrophysics
+			"Space Travel" -- Astronomy
+			"Space Travel" -- Physics
+			"Space Exploration" -- "Outer Space"
+			"Space Exploration" -- "Science of Everyday Life"
+			"Space Exploration" -- Astrophysics
+			"Space Exploration" -- Astronomy
+			"Space Exploration" -- Physics
+			"Outer Space" -- "Science of Everyday Life"
+			"Outer Space" -- Astrophysics
+			"Outer Space" -- Astronomy
+			"Outer Space" -- Physics
+			"Science of Everyday Life" -- Astrophysics
+			"Science of Everyday Life" -- Astronomy
+			"Science of Everyday Life" -- Physics
+			Astrophysics -- Astronomy
+			Astrophysics -- Physics
+			Astronomy -- Physics
+			"Aliens (1986 movie)" -- "Alien (movie series and creative franchise)"
+			"Aliens (1986 movie)" -- "Science Fiction (genre)"
+			"Alien (movie series and creative franchise)" -- "Science Fiction (genre)"
+			"Vacuum (space)" -- Physics
+			"Vacuum (space)" -- "Physics of Everyday Life"
+			"Vacuum (space)" -- "Outer Space"
+			"Physics of Everyday Life" -- "Outer Space"
+		"Movie Magic" [label="Movie Magic"]
+			"Movie Magic" -- "Science Fiction (genre)"
+			"Movie Magic" -- "Space Travel"
+			"Movie Magic" -- "Physics of Everyday Life"
+			"Movie Magic" -- "Outer Space"
+			"Movie Magic" -- "Science of Everyday Life"
+			"Movie Magic" -- Movies
+			"Science Fiction (genre)" -- "Space Travel"
+			"Science Fiction (genre)" -- "Physics of Everyday Life"
+			"Science Fiction (genre)" -- "Outer Space"
+			"Science Fiction (genre)" -- "Science of Everyday Life"
+			"Science Fiction (genre)" -- Movies
+			"Space Travel" -- "Physics of Everyday Life"
+			"Space Travel" -- "Outer Space"
+			"Space Travel" -- "Science of Everyday Life"
+			"Space Travel" -- Movies
+			"Physics of Everyday Life" -- "Outer Space"
+			"Physics of Everyday Life" -- "Science of Everyday Life"
+			"Physics of Everyday Life" -- Movies
+			"Outer Space" -- "Science of Everyday Life"
+			"Outer Space" -- Movies
+			"Science of Everyday Life" -- Movies
+		Sleep [label=Sleep]
+			Survival -- Survivalism
+			Survival -- "Human Biology"
+			Survival -- Sleep
+			Survival -- Science
+			Survival -- "Human Behavior"
+			Survivalism -- "Human Biology"
+			Survivalism -- Sleep
+			Survivalism -- Science
+			Survivalism -- "Human Behavior"
+			"Human Biology" -- Sleep
+			"Human Biology" -- Science
+			"Human Biology" -- "Human Behavior"
+			Sleep -- Science
+			Sleep -- "Human Behavior"
+			Science -- "Human Behavior"
+			"Outer Space" -- Astronomy
+			"Outer Space" -- Physics
+			Astronomy -- Physics
+			"Vacuum (space)" -- "Space Travel"
+			"Vacuum (space)" -- "Outer Space"
+			"Vacuum (space)" -- Astronomy
+			"Vacuum (space)" -- Physics
+			"Space Travel" -- "Outer Space"
+			"Space Travel" -- Astronomy
+			"Space Travel" -- Physics
+			"Outer Space" -- Astronomy
+			"Outer Space" -- Physics
+			Astronomy -- Physics
+		"Heat Transfer" [label="Heat Transfer"]
+		Chemistry [label=Chemistry]
+			"Heat Transfer" -- Chemistry
+			"Heat Transfer" -- Science
+			"Heat Transfer" -- Physics
+			Chemistry -- Science
+			Chemistry -- Physics
+			Science -- Physics
+		Tartigrades [label=Tartigrades]
+		Tardigrades [label=Tardigrades]
+		Animals [label=Animals]
+			Tartigrades -- Tardigrades
+			Tartigrades -- Animals
+			Tartigrades -- Biology
+			Tartigrades -- Physics
+			Tardigrades -- Animals
+			Tardigrades -- Biology
+			Tardigrades -- Physics
+			Animals -- Biology
+			Animals -- Physics
+			Biology -- Physics
+		Sound [label=Sound]
+		"Speed of Light" [label="Speed of Light"]
+			"Vacuum (space)" -- Sound
+			"Vacuum (space)" -- "Speed of Light"
+			"Vacuum (space)" -- Science
+			"Vacuum (space)" -- Physics
+			Sound -- "Speed of Light"
+			Sound -- Science
+			Sound -- Physics
+			"Speed of Light" -- Science
+			"Speed of Light" -- Physics
+			Science -- Physics
+		"Sound Waves" [label="Sound Waves"]
+		"Waves (physics)" [label="Waves (physics)"]
+		"Visible Light" [label="Visible Light"]
+		Electromagnetism [label=Electromagnetism]
+			"Sound Waves" -- "Vacuum (space)"
+			"Sound Waves" -- "Waves (physics)"
+			"Sound Waves" -- "Visible Light"
+			"Sound Waves" -- Electromagnetism
+			"Sound Waves" -- Sound
+			"Sound Waves" -- "Science of Everyday Life"
+			"Sound Waves" -- Physics
+			"Vacuum (space)" -- "Waves (physics)"
+			"Vacuum (space)" -- "Visible Light"
+			"Vacuum (space)" -- Electromagnetism
+			"Vacuum (space)" -- Sound
+			"Vacuum (space)" -- "Science of Everyday Life"
+			"Vacuum (space)" -- Physics
+			"Waves (physics)" -- "Visible Light"
+			"Waves (physics)" -- Electromagnetism
+			"Waves (physics)" -- Sound
+			"Waves (physics)" -- "Science of Everyday Life"
+			"Waves (physics)" -- Physics
+			"Visible Light" -- Electromagnetism
+			"Visible Light" -- Sound
+			"Visible Light" -- "Science of Everyday Life"
+			"Visible Light" -- Physics
+			Electromagnetism -- Sound
+			Electromagnetism -- "Science of Everyday Life"
+			Electromagnetism -- Physics
+			Sound -- "Science of Everyday Life"
+			Sound -- Physics
+			"Science of Everyday Life" -- Physics
+			"Vacuum (space)" -- "Space Travel"
+			"Vacuum (space)" -- "Space Exploration"
+			"Vacuum (space)" -- "Outer Space"
+			"Vacuum (space)" -- Physics
+			"Space Travel" -- "Space Exploration"
+			"Space Travel" -- "Outer Space"
+			"Space Travel" -- Physics
+			"Space Exploration" -- "Outer Space"
+			"Space Exploration" -- Physics
+			"Outer Space" -- Physics
+			"Space Travel" -- "Outer Space"
+			"Space Travel" -- Physics
+			"Outer Space" -- Physics
+		Balloons [label=Balloons]
+		"Earth (planet)" [label="Earth (planet)"]
+			Balloons -- "Vacuum (space)"
+			Balloons -- "Earth (planet)"
+			Balloons -- "Planetary Science"
+			Balloons -- "Outer Space"
+			Balloons -- Astronomy
+			"Vacuum (space)" -- "Earth (planet)"
+			"Vacuum (space)" -- "Planetary Science"
+			"Vacuum (space)" -- "Outer Space"
+			"Vacuum (space)" -- Astronomy
+			"Earth (planet)" -- "Planetary Science"
+			"Earth (planet)" -- "Outer Space"
+			"Earth (planet)" -- Astronomy
+			"Planetary Science" -- "Outer Space"
+			"Planetary Science" -- Astronomy
+			"Outer Space" -- Astronomy
+			"Vacuum (space)" -- "Space Exploration"
+			"Vacuum (space)" -- "Outer Space"
+			"Vacuum (space)" -- Astrophysics
+			"Vacuum (space)" -- Astronomy
+			"Vacuum (space)" -- Physics
+			"Space Exploration" -- "Outer Space"
+			"Space Exploration" -- Astrophysics
+			"Space Exploration" -- Astronomy
+			"Space Exploration" -- Physics
+			"Outer Space" -- Astrophysics
+			"Outer Space" -- Astronomy
+			"Outer Space" -- Physics
+			Astrophysics -- Astronomy
+			Astrophysics -- Physics
+			Astronomy -- Physics
+			"Vacuum (space)" -- "Space Travel"
+			"Vacuum (space)" -- "Space Exploration"
+			"Vacuum (space)" -- "Physics of Everyday Life"
+			"Vacuum (space)" -- "Outer Space"
+			"Vacuum (space)" -- Astrophysics
+			"Vacuum (space)" -- Astronomy
+			"Vacuum (space)" -- Physics
+			"Space Travel" -- "Space Exploration"
+			"Space Travel" -- "Physics of Everyday Life"
+			"Space Travel" -- "Outer Space"
+			"Space Travel" -- Astrophysics
+			"Space Travel" -- Astronomy
+			"Space Travel" -- Physics
+			"Space Exploration" -- "Physics of Everyday Life"
+			"Space Exploration" -- "Outer Space"
+			"Space Exploration" -- Astrophysics
+			"Space Exploration" -- Astronomy
+			"Space Exploration" -- Physics
+			"Physics of Everyday Life" -- "Outer Space"
+			"Physics of Everyday Life" -- Astrophysics
+			"Physics of Everyday Life" -- Astronomy
+			"Physics of Everyday Life" -- Physics
+			"Outer Space" -- Astrophysics
+			"Outer Space" -- Astronomy
+			"Outer Space" -- Physics
+			Astrophysics -- Astronomy
+			Astrophysics -- Physics
+			Astronomy -- Physics
+			Schizophrenia -- "Mental Illness"
+			Schizophrenia -- Muslims
+			Schizophrenia -- Islam
+			Schizophrenia -- Religion
+			"Mental Illness" -- Muslims
+			"Mental Illness" -- Islam
+			"Mental Illness" -- Religion
+			Muslims -- Islam
+			Muslims -- Religion
+			Islam -- Religion
+			Schizophrenia -- "Mental Illness"
+			Schizophrenia -- "Mental Health"
+			"Mental Illness" -- "Mental Health"
+			Schizophrenia -- Psychiatry
+			Schizophrenia -- "Mental Illness"
+			Schizophrenia -- "Mental Health"
+			Schizophrenia -- "Medicine and Healthcare"
+			Psychiatry -- "Mental Illness"
+			Psychiatry -- "Mental Health"
+			Psychiatry -- "Medicine and Healthcare"
+			"Mental Illness" -- "Mental Health"
+			"Mental Illness" -- "Medicine and Healthcare"
+			"Mental Health" -- "Medicine and Healthcare"
+		"Where the Wild Things Are (1963 book)" [label="Where the Wild Things Are (1963 book)"]
+			"Where the Wild Things Are (1963 book)" -- Schizophrenia
+			"Where the Wild Things Are (1963 book)" -- "Mental Illness"
+			Schizophrenia -- "Mental Illness"
+		"Doctor Recommendations" [label="Doctor Recommendations"]
+		"Medicine and Healthcare in India" [label="Medicine and Healthcare in India"]
+		"Clinical Psychology & Psychiatry" [label="Clinical Psychology & Psychiatry"]
+		Health [label=Health]
+			"Schizophrenia Treatment" -- "Doctor Recommendations"
+			"Schizophrenia Treatment" -- "Medicine and Healthcare in India"
+			"Schizophrenia Treatment" -- Schizophrenia
+			"Schizophrenia Treatment" -- "Clinical Psychology & Psychiatry"
+			"Schizophrenia Treatment" -- Psychiatry
+			"Schizophrenia Treatment" -- "Mental Illness"
+			"Schizophrenia Treatment" -- "Mental Health"
+			"Schizophrenia Treatment" -- Health
+			"Doctor Recommendations" -- "Medicine and Healthcare in India"
+			"Doctor Recommendations" -- Schizophrenia
+			"Doctor Recommendations" -- "Clinical Psychology & Psychiatry"
+			"Doctor Recommendations" -- Psychiatry
+			"Doctor Recommendations" -- "Mental Illness"
+			"Doctor Recommendations" -- "Mental Health"
+			"Doctor Recommendations" -- Health
+			"Medicine and Healthcare in India" -- Schizophrenia
+			"Medicine and Healthcare in India" -- "Clinical Psychology & Psychiatry"
+			"Medicine and Healthcare in India" -- Psychiatry
+			"Medicine and Healthcare in India" -- "Mental Illness"
+			"Medicine and Healthcare in India" -- "Mental Health"
+			"Medicine and Healthcare in India" -- Health
+			Schizophrenia -- "Clinical Psychology & Psychiatry"
+			Schizophrenia -- Psychiatry
+			Schizophrenia -- "Mental Illness"
+			Schizophrenia -- "Mental Health"
+			Schizophrenia -- Health
+			"Clinical Psychology & Psychiatry" -- Psychiatry
+			"Clinical Psychology & Psychiatry" -- "Mental Illness"
+			"Clinical Psychology & Psychiatry" -- "Mental Health"
+			"Clinical Psychology & Psychiatry" -- Health
+			Psychiatry -- "Mental Illness"
+			Psychiatry -- "Mental Health"
+			Psychiatry -- Health
+			"Mental Illness" -- "Mental Health"
+			"Mental Illness" -- Health
+			"Mental Health" -- Health
+		"Movie Recommendations" [label="Movie Recommendations"]
+			Schizophrenia -- "Mental Illness"
+			Schizophrenia -- "Movie Recommendations"
+			Schizophrenia -- Movies
+			"Mental Illness" -- "Movie Recommendations"
+			"Mental Illness" -- Movies
+			"Movie Recommendations" -- Movies
+		"Paranoid Delusions" [label="Paranoid Delusions"]
+		"Delusional Disorder" [label="Delusional Disorder"]
+		Paranoia [label=Paranoia]
+		"Personality Disorders" [label="Personality Disorders"]
+			"Paranoid Delusions" -- "Delusional Disorder"
+			"Paranoid Delusions" -- Paranoia
+			"Paranoid Delusions" -- "Personality Disorders"
+			"Paranoid Delusions" -- Schizophrenia
+			"Paranoid Delusions" -- Psychiatry
+			"Paranoid Delusions" -- "Mental Illness"
+			"Paranoid Delusions" -- "Mental Health"
+			"Paranoid Delusions" -- "Social Advice"
+			"Paranoid Delusions" -- "Interpersonal Interaction"
+			"Paranoid Delusions" -- "Medicine and Healthcare"
+			"Paranoid Delusions" -- "Psychology of Everyday Life"
+			"Delusional Disorder" -- Paranoia
+			"Delusional Disorder" -- "Personality Disorders"
+			"Delusional Disorder" -- Schizophrenia
+			"Delusional Disorder" -- Psychiatry
+			"Delusional Disorder" -- "Mental Illness"
+			"Delusional Disorder" -- "Mental Health"
+			"Delusional Disorder" -- "Social Advice"
+			"Delusional Disorder" -- "Interpersonal Interaction"
+			"Delusional Disorder" -- "Medicine and Healthcare"
+			"Delusional Disorder" -- "Psychology of Everyday Life"
+			Paranoia -- "Personality Disorders"
+			Paranoia -- Schizophrenia
+			Paranoia -- Psychiatry
+			Paranoia -- "Mental Illness"
+			Paranoia -- "Mental Health"
+			Paranoia -- "Social Advice"
+			Paranoia -- "Interpersonal Interaction"
+			Paranoia -- "Medicine and Healthcare"
+			Paranoia -- "Psychology of Everyday Life"
+			"Personality Disorders" -- Schizophrenia
+			"Personality Disorders" -- Psychiatry
+			"Personality Disorders" -- "Mental Illness"
+			"Personality Disorders" -- "Mental Health"
+			"Personality Disorders" -- "Social Advice"
+			"Personality Disorders" -- "Interpersonal Interaction"
+			"Personality Disorders" -- "Medicine and Healthcare"
+			"Personality Disorders" -- "Psychology of Everyday Life"
+			Schizophrenia -- Psychiatry
+			Schizophrenia -- "Mental Illness"
+			Schizophrenia -- "Mental Health"
+			Schizophrenia -- "Social Advice"
+			Schizophrenia -- "Interpersonal Interaction"
+			Schizophrenia -- "Medicine and Healthcare"
+			Schizophrenia -- "Psychology of Everyday Life"
+			Psychiatry -- "Mental Illness"
+			Psychiatry -- "Mental Health"
+			Psychiatry -- "Social Advice"
+			Psychiatry -- "Interpersonal Interaction"
+			Psychiatry -- "Medicine and Healthcare"
+			Psychiatry -- "Psychology of Everyday Life"
+			"Mental Illness" -- "Mental Health"
+			"Mental Illness" -- "Social Advice"
+			"Mental Illness" -- "Interpersonal Interaction"
+			"Mental Illness" -- "Medicine and Healthcare"
+			"Mental Illness" -- "Psychology of Everyday Life"
+			"Mental Health" -- "Social Advice"
+			"Mental Health" -- "Interpersonal Interaction"
+			"Mental Health" -- "Medicine and Healthcare"
+			"Mental Health" -- "Psychology of Everyday Life"
+			"Social Advice" -- "Interpersonal Interaction"
+			"Social Advice" -- "Medicine and Healthcare"
+			"Social Advice" -- "Psychology of Everyday Life"
+			"Interpersonal Interaction" -- "Medicine and Healthcare"
+			"Interpersonal Interaction" -- "Psychology of Everyday Life"
+			"Medicine and Healthcare" -- "Psychology of Everyday Life"
+		"Crack Cocaine" [label="Crack Cocaine"]
+		Heroin [label=Heroin]
+		"MDMA (Ecstasy)" [label="MDMA (Ecstasy)"]
+		Methamphetamine [label=Methamphetamine]
+		Cocaine [label=Cocaine]
+		"Psychedelic Drugs" [label="Psychedelic Drugs"]
+		"Recreational Drugs" [label="Recreational Drugs"]
+			"Crack Cocaine" -- Heroin
+			"Crack Cocaine" -- "MDMA (Ecstasy)"
+			"Crack Cocaine" -- Methamphetamine
+			"Crack Cocaine" -- Cocaine
+			"Crack Cocaine" -- "Psychedelic Drugs"
+			"Crack Cocaine" -- Schizophrenia
+			"Crack Cocaine" -- "Recreational Drugs"
+			Heroin -- "MDMA (Ecstasy)"
+			Heroin -- Methamphetamine
+			Heroin -- Cocaine
+			Heroin -- "Psychedelic Drugs"
+			Heroin -- Schizophrenia
+			Heroin -- "Recreational Drugs"
+			"MDMA (Ecstasy)" -- Methamphetamine
+			"MDMA (Ecstasy)" -- Cocaine
+			"MDMA (Ecstasy)" -- "Psychedelic Drugs"
+			"MDMA (Ecstasy)" -- Schizophrenia
+			"MDMA (Ecstasy)" -- "Recreational Drugs"
+			Methamphetamine -- Cocaine
+			Methamphetamine -- "Psychedelic Drugs"
+			Methamphetamine -- Schizophrenia
+			Methamphetamine -- "Recreational Drugs"
+			Cocaine -- "Psychedelic Drugs"
+			Cocaine -- Schizophrenia
+			Cocaine -- "Recreational Drugs"
+			"Psychedelic Drugs" -- Schizophrenia
+			"Psychedelic Drugs" -- "Recreational Drugs"
+			Schizophrenia -- "Recreational Drugs"
+		"Bipolar Disorder" [label="Bipolar Disorder"]
+			Paranoia -- Schizophrenia
+			Paranoia -- "Bipolar Disorder"
+			Paranoia -- "Mental Illness"
+			Paranoia -- Psychology
+			Schizophrenia -- "Bipolar Disorder"
+			Schizophrenia -- "Mental Illness"
+			Schizophrenia -- Psychology
+			"Bipolar Disorder" -- "Mental Illness"
+			"Bipolar Disorder" -- Psychology
+			"Mental Illness" -- Psychology
+		Siblings [label=Siblings]
+			Schizophrenia -- Siblings
+			Schizophrenia -- Family
+			Schizophrenia -- "What Does It Feel Like to X?"
+			Siblings -- Family
+			Siblings -- "What Does It Feel Like to X?"
+			Family -- "What Does It Feel Like to X?"
+			Schizophrenia -- "What Does It Feel Like to X?"
+			Schizophrenia -- Psychotherapy
+		Blasphemy [label=Blasphemy]
+			Blasphemy -- Muslims
+			Blasphemy -- Islam
+			Blasphemy -- Religion
+			Muslims -- Islam
+			Muslims -- Religion
+			Islam -- Religion
+		Legislation [label=Legislation]
+		"Specific Languages" [label="Specific Languages"]
+			Blasphemy -- Legislation
+			Blasphemy -- "Specific Languages"
+			Legislation -- "Specific Languages"
+		"Commercial Media" [label="Commercial Media"]
+		"Historical India" [label="Historical India"]
+			Blasphemy -- "Commercial Media"
+			Blasphemy -- "Historical India"
+			Blasphemy -- "Politics of India"
+			Blasphemy -- Politics
+			Blasphemy -- Religion
+			Blasphemy -- India
+			"Commercial Media" -- "Historical India"
+			"Commercial Media" -- "Politics of India"
+			"Commercial Media" -- Politics
+			"Commercial Media" -- Religion
+			"Commercial Media" -- India
+			"Historical India" -- "Politics of India"
+			"Historical India" -- Politics
+			"Historical India" -- Religion
+			"Historical India" -- India
+			"Politics of India" -- Politics
+			"Politics of India" -- Religion
+			"Politics of India" -- India
+			Politics -- Religion
+			Politics -- India
+			Religion -- India
+			Blasphemy -- Pakistan
+			Blasphemy -- Islam
+			Pakistan -- Islam
+		"User Rights" [label="User Rights"]
+		Lawmaking [label=Lawmaking]
+		"U.S. Federal Law" [label="U.S. Federal Law"]
+		"Technology Law" [label="Technology Law"]
+		"Cloud Security" [label="Cloud Security"]
+		"U.S. Federal, State, and Local Law" [label="U.S. Federal, State, and Local Law"]
+		"U.S. Congress" [label="U.S. Congress"]
+		"Information Security" [label="Information Security"]
+		"Computer Security" [label="Computer Security"]
+			"User Rights" -- Lawmaking
+			"User Rights" -- Legislation
+			"User Rights" -- "U.S. Federal Law"
+			"User Rights" -- "Technology Law"
+			"User Rights" -- "Cloud Security"
+			"User Rights" -- "Internet Law"
+			"User Rights" -- "U.S. Federal, State, and Local Law"
+			"User Rights" -- "U.S. Congress"
+			"User Rights" -- "Information Security"
+			"User Rights" -- "Computer Security"
+			"User Rights" -- "U.S. Politics"
+			Lawmaking -- Legislation
+			Lawmaking -- "U.S. Federal Law"
+			Lawmaking -- "Technology Law"
+			Lawmaking -- "Cloud Security"
+			Lawmaking -- "Internet Law"
+			Lawmaking -- "U.S. Federal, State, and Local Law"
+			Lawmaking -- "U.S. Congress"
+			Lawmaking -- "Information Security"
+			Lawmaking -- "Computer Security"
+			Lawmaking -- "U.S. Politics"
+			Legislation -- "U.S. Federal Law"
+			Legislation -- "Technology Law"
+			Legislation -- "Cloud Security"
+			Legislation -- "Internet Law"
+			Legislation -- "U.S. Federal, State, and Local Law"
+			Legislation -- "U.S. Congress"
+			Legislation -- "Information Security"
+			Legislation -- "Computer Security"
+			Legislation -- "U.S. Politics"
+			"U.S. Federal Law" -- "Technology Law"
+			"U.S. Federal Law" -- "Cloud Security"
+			"U.S. Federal Law" -- "Internet Law"
+			"U.S. Federal Law" -- "U.S. Federal, State, and Local Law"
+			"U.S. Federal Law" -- "U.S. Congress"
+			"U.S. Federal Law" -- "Information Security"
+			"U.S. Federal Law" -- "Computer Security"
+			"U.S. Federal Law" -- "U.S. Politics"
+			"Technology Law" -- "Cloud Security"
+			"Technology Law" -- "Internet Law"
+			"Technology Law" -- "U.S. Federal, State, and Local Law"
+			"Technology Law" -- "U.S. Congress"
+			"Technology Law" -- "Information Security"
+			"Technology Law" -- "Computer Security"
+			"Technology Law" -- "U.S. Politics"
+			"Cloud Security" -- "Internet Law"
+			"Cloud Security" -- "U.S. Federal, State, and Local Law"
+			"Cloud Security" -- "U.S. Congress"
+			"Cloud Security" -- "Information Security"
+			"Cloud Security" -- "Computer Security"
+			"Cloud Security" -- "U.S. Politics"
+			"Internet Law" -- "U.S. Federal, State, and Local Law"
+			"Internet Law" -- "U.S. Congress"
+			"Internet Law" -- "Information Security"
+			"Internet Law" -- "Computer Security"
+			"Internet Law" -- "U.S. Politics"
+			"U.S. Federal, State, and Local Law" -- "U.S. Congress"
+			"U.S. Federal, State, and Local Law" -- "Information Security"
+			"U.S. Federal, State, and Local Law" -- "Computer Security"
+			"U.S. Federal, State, and Local Law" -- "U.S. Politics"
+			"U.S. Congress" -- "Information Security"
+			"U.S. Congress" -- "Computer Security"
+			"U.S. Congress" -- "U.S. Politics"
+			"Information Security" -- "Computer Security"
+			"Information Security" -- "U.S. Politics"
+			"Computer Security" -- "U.S. Politics"
+			Blasphemy -- Pakistan
+			Blasphemy -- Islam
+			Pakistan -- Islam
+		"Legal Issues and Law in Everyday Life" [label="Legal Issues and Law in Everyday Life"]
+			Blasphemy -- "Legal Issues and Law in Everyday Life"
+			Blasphemy -- Law
+			"Legal Issues and Law in Everyday Life" -- Law
+		Secularism [label=Secularism]
+		"Laws in India" [label="Laws in India"]
+			Blasphemy -- Secularism
+			Blasphemy -- "Laws in India"
+			Blasphemy -- "Government of India"
+			Blasphemy -- Law
+			Blasphemy -- Religion
+			Blasphemy -- India
+			Secularism -- "Laws in India"
+			Secularism -- "Government of India"
+			Secularism -- Law
+			Secularism -- Religion
+			Secularism -- India
+			"Laws in India" -- "Government of India"
+			"Laws in India" -- Law
+			"Laws in India" -- Religion
+			"Laws in India" -- India
+			"Government of India" -- Law
+			"Government of India" -- Religion
+			"Government of India" -- India
+			Law -- Religion
+			Law -- India
+			Religion -- India
+		Dogma [label=Dogma]
+			Blasphemy -- Dogma
+			Blasphemy -- Atheism
+			Blasphemy -- Law
+			Blasphemy -- Religion
+			Dogma -- Atheism
+			Dogma -- Law
+			Dogma -- Religion
+			Atheism -- Law
+			Atheism -- Religion
+			Law -- Religion
+			Blasphemy -- Pakistan
+			Blasphemy -- Law
+			Blasphemy -- Religion
+			Pakistan -- Law
+			Pakistan -- Religion
+			Law -- Religion
+			Blasphemy -- Pakistan
+			Blasphemy -- "The World"
+			Blasphemy -- Religion
+			Blasphemy -- India
+			Pakistan -- "The World"
+			Pakistan -- Religion
+			Pakistan -- India
+			"The World" -- Religion
+			"The World" -- India
+			Religion -- India
+		Egypt [label=Egypt]
+			Blasphemy -- Egypt
+			Blasphemy -- "Legal Issues and Law in Everyday Life"
+			Blasphemy -- Law
+			Egypt -- "Legal Issues and Law in Everyday Life"
+			Egypt -- Law
+			"Legal Issues and Law in Everyday Life" -- Law
+		"Islamic Countries" [label="Islamic Countries"]
+		Crime [label=Crime]
+			"Islamic Countries" -- Blasphemy
+			"Islamic Countries" -- "Denominations and Organized Religion"
+			"Islamic Countries" -- Crime
+			"Islamic Countries" -- Muslims
+			"Islamic Countries" -- Islam
+			"Islamic Countries" -- Countries
+			"Islamic Countries" -- Religion
+			Blasphemy -- "Denominations and Organized Religion"
+			Blasphemy -- Crime
+			Blasphemy -- Muslims
+			Blasphemy -- Islam
+			Blasphemy -- Countries
+			Blasphemy -- Religion
+			"Denominations and Organized Religion" -- Crime
+			"Denominations and Organized Religion" -- Muslims
+			"Denominations and Organized Religion" -- Islam
+			"Denominations and Organized Religion" -- Countries
+			"Denominations and Organized Religion" -- Religion
+			Crime -- Muslims
+			Crime -- Islam
+			Crime -- Countries
+			Crime -- Religion
+			Muslims -- Islam
+			Muslims -- Countries
+			Muslims -- Religion
+			Islam -- Countries
+			Islam -- Religion
+			Countries -- Religion
+		Bangladesh [label=Bangladesh]
+			Blasphemy -- Bangladesh
+			Blasphemy -- Islam
+			Blasphemy -- Law
+			Blasphemy -- Religion
+			Bangladesh -- Islam
+			Bangladesh -- Law
+			Bangladesh -- Religion
+			Islam -- Law
+			Islam -- Religion
+			Law -- Religion
+		Society [label=Society]
+			Blasphemy -- Society
+			Blasphemy -- Pakistan
+			Blasphemy -- Islam
+			Blasphemy -- "Legal Issues and Law in Everyday Life"
+			Blasphemy -- Law
+			Blasphemy -- Religion
+			Society -- Pakistan
+			Society -- Islam
+			Society -- "Legal Issues and Law in Everyday Life"
+			Society -- Law
+			Society -- Religion
+			Pakistan -- Islam
+			Pakistan -- "Legal Issues and Law in Everyday Life"
+			Pakistan -- Law
+			Pakistan -- Religion
+			Islam -- "Legal Issues and Law in Everyday Life"
+			Islam -- Law
+			Islam -- Religion
+			"Legal Issues and Law in Everyday Life" -- Law
+			"Legal Issues and Law in Everyday Life" -- Religion
+			Law -- Religion
+		"Freedom of Speech" [label="Freedom of Speech"]
+			Blasphemy -- "Freedom of Speech"
+			Blasphemy -- Crime
+			Blasphemy -- Countries
+			Blasphemy -- Law
+			Blasphemy -- Religion
+			"Freedom of Speech" -- Crime
+			"Freedom of Speech" -- Countries
+			"Freedom of Speech" -- Law
+			"Freedom of Speech" -- Religion
+			Crime -- Countries
+			Crime -- Law
+			Crime -- Religion
+			Countries -- Law
+			Countries -- Religion
+			Law -- Religion
+		"Authoritarian Government" [label="Authoritarian Government"]
+			Blasphemy -- "Authoritarian Government"
+			Blasphemy -- "The Bible"
+			Blasphemy -- Government
+			Blasphemy -- Christianity
+			Blasphemy -- Law
+			Blasphemy -- Religion
+			"Authoritarian Government" -- "The Bible"
+			"Authoritarian Government" -- Government
+			"Authoritarian Government" -- Christianity
+			"Authoritarian Government" -- Law
+			"Authoritarian Government" -- Religion
+			"The Bible" -- Government
+			"The Bible" -- Christianity
+			"The Bible" -- Law
+			"The Bible" -- Religion
+			Government -- Christianity
+			Government -- Law
+			Government -- Religion
+			Christianity -- Law
+			Christianity -- Religion
+			Law -- Religion
+}

@@ -6,8 +6,10 @@ import os
 from collections import namedtuple
 from datetime import date
 from dateutil.relativedelta import relativedelta, MO, TU, WE, TH, FR, SA, SU
-from itertools import groupby
-import os
+from graphviz import Graph
+from itertools import groupby, product
+
+
 
 # This is needed when obtaining date for last Monday, Tuesday, etc.
 WEEKDAYS = {'Mon': MO(-1), 'Tue': TU(-1), 'Wed': WE(-1), 'Thu': TH(-1),
@@ -104,6 +106,71 @@ def analyze_topics(quora_data):
     for topic in sorted_topics:
         print topic
 
+styles = {
+    'graph': {
+        'label': 'Graph',
+        'fontsize': '12',
+        'fontcolor': 'white',
+        'bgcolor': '#888888',
+        'overlap': 'prism',
+        'outputorder': 'edgesfirst'
+        # 'rankdir': 'BT'
+    },
+    'nodes': {
+        'fontname': 'Helvetica',
+        'shape': 'hexagon',
+        'fontcolor': 'white',
+        'color': 'white',
+        'style': 'filled',
+        'fillcolor': '#006699',
+    },
+    'edges': {
+        'color': 'black',
+        'arrowhead': 'open',
+        'fontname': 'Courier',
+        'fontsize': '12',
+        'fontcolor': 'white',
+    }
+}
+
+
+# Visualizing topics using graphviz
+# Topics appearing in the same question are linked together
+def visualize_topics(quora_data):
+    dot = Graph(comment='Topics graph', engine='sfdp')
+    seen_topics = set()
+    for document in quora_data:
+        question = _get_question(document)
+        topics = document[question]['topics']
+        # Iterating over topics and adding nodes for topics if necessary
+        for topic in topics:
+            if topic not in seen_topics:
+                dot.node(topic, label=topic)
+                seen_topics.add(topic)
+        # Iterating over topics and adding edges between topics belonging to the same question
+        for i in xrange(len(topics)):
+            for j in xrange(i+1, len(topics)):
+                dot.edge(topics[i], topics[j])
+
+            #     topic1, topic2 in product(topics, topics):
+            # dot.edge(topic1, topic2)
+    dot = _apply_styles(dot, styles)
+    # print dot.source
+    dot.render(os.path.join('images', 'topics.gv'), view=True)
+
+
+def _apply_styles(graph, styles):
+    graph.graph_attr.update(
+        ('graph' in styles and styles['graph']) or {}
+    )
+    graph.node_attr.update(
+        ('nodes' in styles and styles['nodes']) or {}
+    )
+    graph.edge_attr.update(
+        ('edges' in styles and styles['edges']) or {}
+    )
+    return graph
+
 
 def _plot_bar(x, y, filename='tmp.png', title='title', xlabel='X', ylabel='Y'):
     plt.title(title)
@@ -174,15 +241,16 @@ def main():
     db = client[quora_db]
 
     quora_data = list(db.questions.find())
-    create_date_histogram(quora_data)
-    # Considering only questions that have no answers
-    create_date_histogram(
-        quora_data,
-        questions_without_answers_only=True,
-        filename='date_histogram_without_answers_only.png'
-    )
-    create_answer_histogram(quora_data)
+    # create_date_histogram(quora_data)
+    # # Considering only questions that have no answers
+    # create_date_histogram(
+    #     quora_data,
+    #     questions_without_answers_only=True,
+    #     filename='date_histogram_without_answers_only.png'
+    # )
+    # create_answer_histogram(quora_data)
     analyze_topics(quora_data)
+    visualize_topics(quora_data)
     #print quora_data
     #print quora_data[0]
 
