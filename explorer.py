@@ -56,11 +56,13 @@ def create_date_histogram(quora_data, questions_without_answers_only=False, file
     #print distinct_dates_without_days
     distinct_dates_without_days_counts = [dates_without_days.count(x) for x in distinct_dates_without_days]
     #print distinct_dates_without_days_counts
+
+    title = 'Last asked without answers histogram' if questions_without_answers_only else 'Last asked histogram'
     _plot_bar(
         x=distinct_dates_without_days,
         y=distinct_dates_without_days_counts,
         filename=filename,
-        title='Last asked histogram',
+        title=title,
         xlabel='Last asked',
         ylabel='Frequency'
     )
