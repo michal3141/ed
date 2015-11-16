@@ -1,17 +1,8 @@
 import pymongo
-import re
-from pyquora.quora import Quora
+from pyquora.quora import Quora, User
+from utils import _sanitize_username, _sanitize_question
+
 __author__ = 'michal3141'
-
-
-def _sanitize_question(question):
-    """
-    :param question: question to be sanitized e.g. 'what is terrorism'
-    :return: sanitized question e.g. 'what-is-terrorism'
-    """
-    return re.sub(r'(\W)\1+', r'\1', question.replace(' ', '-').replace('?', '').replace(',', '').replace('/', '-') \
-        .replace("'", '').replace('.', '').replace(':', '').replace('(', '').replace(')', '') \
-        .replace('"', ''))
 
 
 class Crawler(object):
@@ -26,7 +17,40 @@ class Crawler(object):
         self.db = self.client[quora_db]
         self.maxdepth = maxdepth
         self.crawled_questions = {}
+        self.crawled_users = {}
         self.bad_questions = set()
+        self.bad_users = set()
+
+    def crawl_by_user(self, user):
+        self._crawl_by_user(user, 1)
+
+    def _crawl_by_user(self, user, depth):
+        # Stopping crawling when depth exceeds maxdepth
+        if depth > self.maxdepth:
+            return
+
+        if user in self.crawled_users or user in self.bad_users:
+            return
+
+        print 'crawling user: %s' % user
+
+        user_stats = User.get_user_stats(user, followers=True, following=True)
+
+        # If something went awry crawling particular user
+        if user_stats == {}:
+            self.bad_users.add(user)
+            return
+
+        print 'user_stats:\n', user_stats
+        print '---------------------------------------------------'
+
+        self.crawled_users[user] = user_stats
+
+        # Inserting into database as we go...
+        self.db.users.insert({user: user_stats})
+
+        for related_user in user_stats['following'] + user_stats['followers']:
+                self._crawl_by_user(_sanitize_username(related_user), depth+1)
 
     def crawl_by_question(self, question):
         self._crawl_by_question(question, 1)
@@ -40,7 +64,7 @@ class Crawler(object):
         if question in self.crawled_questions or question in self.bad_questions:
             return
 
-        print 'analyzing question: %s' % question
+        print 'crawling question: %s' % question
         question_stats = Quora.get_question_stats(question)
 
         # If something went awry crawling particular question

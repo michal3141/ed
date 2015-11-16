@@ -18,10 +18,14 @@ def main():
     quora_db = 'quora'
 
     # Creating crawler object with limited crawling depth
-    crawler = Crawler(connection_str, quora_db, maxdepth=5)
+    crawler = Crawler(connection_str, quora_db, maxdepth=2)
     seed = 'What-is-terrorism'
     # Starting crawling
-    crawler.crawl_by_question(seed)
+    # crawler.crawl_by_question(seed)
+
+    # The guy who originally asked seed question
+    user = 'Austin-Conlon'
+    crawler.crawl_by_user(user)
 
 if __name__ == '__main__':
     main()

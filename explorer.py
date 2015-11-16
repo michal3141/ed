@@ -3,12 +3,12 @@
 import pymongo
 import matplotlib.pyplot as plt
 import os
-from collections import namedtuple
+from collections import namedtuple, defaultdict
 from datetime import date
 from dateutil.relativedelta import relativedelta, MO, TU, WE, TH, FR, SA, SU
-from graphviz import Graph
+from graphviz import Graph, Digraph
 from itertools import groupby, product
-
+from utils import _sanitize_username
 
 
 # This is needed when obtaining date for last Monday, Tuesday, etc.
@@ -106,6 +106,30 @@ def analyze_topics(quora_data):
     for topic in sorted_topics:
         print topic
 
+
+# Analyzing which topics are occurring the most frequently
+def analyze_topics_frequency(quora_data):
+    topics_frequencies = defaultdict(int)
+    for document in quora_data:
+        question = _get_question(document)
+        topics = document[question]['topics']
+        for topic in topics:
+            topics_frequencies[topic] += 1
+
+    for topic in sorted(topics_frequencies, key=topics_frequencies.get, reverse=True):
+        print topic, topics_frequencies[topic]
+
+
+# Sorting users be specific attribute attribute
+def users_by_attribute(quora_data, attribute):
+    count_by_attribute = {}
+    for document in quora_data:
+        username = _get_username(document)
+        count_by_attribute[username] = document[username][attribute]
+    with open(os.path.join('results', 'users_%s.txt' % attribute), 'w') as f:
+        for user in sorted(count_by_attribute, key=count_by_attribute.get, reverse=True):
+            f.write(user + ': ' + str(count_by_attribute[user]) + '\n')
+
 styles = {
     'graph': {
         'label': 'Graph',
@@ -151,12 +175,41 @@ def visualize_topics(quora_data):
         for i in xrange(len(topics)):
             for j in xrange(i+1, len(topics)):
                 dot.edge(topics[i], topics[j])
-
             #     topic1, topic2 in product(topics, topics):
             # dot.edge(topic1, topic2)
     dot = _apply_styles(dot, styles)
     # print dot.source
     dot.render(os.path.join('images', 'topics.gv'), view=True)
+
+
+# Visualizing network of users (by using followers/following relationship) using graphviz
+def visualize_users(quora_data):
+    dot = Digraph(comment='Users subgraph', engine='sfdp')
+    seen_users = set()
+    for document in quora_data:
+        username = _get_username(document)
+        # Checking if user was already added to the graph
+        if username not in seen_users:
+            # Adding user to graph as node
+            dot.node(username, label=username)
+            seen_users.add(username)
+
+    for document in quora_data:
+        username = _get_username(document)
+        # Traversing over following users and adding edge
+        for following in document[username]['following']:
+            following_sanitized = _sanitize_username(following)
+            if following_sanitized in seen_users:
+                dot.edge(username, following_sanitized)
+        # Traversing over user's followers
+        for follower in document[username]['followers']:
+            follower_sanitized = _sanitize_username(follower)
+            if follower_sanitized in seen_users:
+                dot.edge(follower_sanitized, username)
+
+    dot = _apply_styles(dot, styles)
+    # print dot.source
+    dot.render(os.path.join('images', 'users.gv'), view=True)
 
 
 def _apply_styles(graph, styles):
@@ -227,6 +280,14 @@ def _parse_date(last_asked):
 
 
 def _get_question(document):
+    return _get(document)
+
+
+def _get_username(document):
+    return _get(document)
+
+
+def _get(document):
     keys = document.keys()
     if keys[0] != '_id':
         return keys[0]
@@ -240,17 +301,27 @@ def main():
     client = pymongo.MongoClient(connection_str)
     db = client[quora_db]
 
-    quora_data = list(db.questions.find())
-    # create_date_histogram(quora_data)
+    questions_data = list(db.questions.find())
+    users_data = list(db.users.find())
+    # create_date_histogram(questions_data)
     # # Considering only questions that have no answers
     # create_date_histogram(
-    #     quora_data,
+    #     questions_data,
     #     questions_without_answers_only=True,
     #     filename='date_histogram_without_answers_only.png'
     # )
     # create_answer_histogram(quora_data)
-    analyze_topics(quora_data)
-    visualize_topics(quora_data)
+    # analyze_topics(questions_data)
+    # analyze_topics_frequency(questions_data)
+    # visualize_topics(questions_data)
+    # visualize_users(users_data)
+
+    users_by_attribute(users_data, 'answers')
+    users_by_attribute(users_data, 'questions')
+    users_by_attribute(users_data, 'edits')
+    users_by_attribute(users_data, 'following_count')
+    users_by_attribute(users_data, 'followers_count')
+
     #print quora_data
     #print quora_data[0]
 
