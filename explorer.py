@@ -8,6 +8,7 @@ from datetime import date
 from dateutil.relativedelta import relativedelta, MO, TU, WE, TH, FR, SA, SU
 from graphviz import Graph, Digraph
 from itertools import groupby, product
+from operator import itemgetter
 from utils import _sanitize_username
 
 
@@ -129,6 +130,17 @@ def users_by_attribute(quora_data, attribute):
     with open(os.path.join('results', 'users_%s.txt' % attribute), 'w') as f:
         for user in sorted(count_by_attribute, key=count_by_attribute.get, reverse=True):
             f.write(user + ': ' + str(count_by_attribute[user]) + '\n')
+
+# Questions by attribute
+def questions_by_attribute(quora_data, attribute, f):
+    count_by_attribute = {}
+    for document in quora_data:
+        question = _get_question(document)
+        count_by_attribute[question] = (f(document[question][attribute]), document[question][attribute])
+        #print document[question][attribute]
+    with open(os.path.join('results', 'questions_%s.txt' % attribute), 'w') as f:
+        for question in sorted(count_by_attribute.items(), key=lambda x: x[1][0], reverse=True):
+            f.write(str(question) + '\n')
 
 styles = {
     'graph': {
@@ -321,6 +333,7 @@ def main():
     users_by_attribute(users_data, 'edits')
     users_by_attribute(users_data, 'following_count')
     users_by_attribute(users_data, 'followers_count')
+    questions_by_attribute(questions_data, 'topics', len)
 
     #print quora_data
     #print quora_data[0]
