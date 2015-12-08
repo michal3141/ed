@@ -92,17 +92,46 @@ class Crawler(object):
                 self._crawl_by_question(_sanitize_question(related_question), depth+1)
 
     def crawl_questions_and_answers(self):
-        questions_data = list(self.db.questions.find())
-        for document in questions_data:
+        ## This is for downloading - uncomment if you want to download ##
+        # questions_data = list(self.db.questions.find())
+        # for document in questions_data:
+        #     question = _get_question(document)
+        #     print question
+        #     question_author, answers_authors = Quora.get_authors_of_questions_and_answers(question)
+        #     question_author = _sanitize_username(question_author)
+        #     answers_authors = [_sanitize_username(author) for author in answers_authors] 
+        #     stats = {'question_author' : question_author, 'answers_authors': answers_authors}
+        #     print 'question_author:', question_author
+        #     print 'answers_authors:', answers_authors
+
+        #     # Inserting into database:
+        #     self.db.answers.insert({question: stats})
+
+        ## This is purely for updating ##
+        answers_data = list(self.db.answers.find())
+        for document in answers_data:
             question = _get_question(document)
-            print question
-            question_author, answers_authors = Quora.get_authors_of_questions_and_answers(question)
-            question_author = _sanitize_username(question_author)
-            answers_authors = [_sanitize_username(author) for author in answers_authors] 
-            stats = {'question_author' : question_author, 'answers_authors': answers_authors}
-            print 'question_author:', question_author
-            print 'answers_authors:', answers_authors
 
-            # Inserting into database:
-            self.db.answers.insert({question: stats})
+            if document[question]['question_author'] == '':
+                print question
+                print document['_id']
 
+                question_author, answers_authors = Quora.get_authors_of_questions_and_answers(question)
+                
+                question_author = _sanitize_username(question_author)
+                answers_authors = [_sanitize_username(author) for author in answers_authors]
+
+                print 'question_author:', question_author
+                print 'answers_authors:', answers_authors
+                stats = {'question_author' : question_author, 'answers_authors': answers_authors}
+                self.db.answers.update({'_id':document['_id']}, {"$set": {question: stats}}, upsert=False)
+
+            else:
+                question_author = document[question]['question_author']
+                answers_authors = document[question]['answers_authors']
+
+                question_author = _sanitize_username(question_author)
+                answers_authors = [_sanitize_username(author) for author in answers_authors]
+
+                stats = {'question_author' : question_author, 'answers_authors': answers_authors}
+                self.db.answers.update({'_id':document['_id']}, {"$set": {question: stats}}, upsert=False)
