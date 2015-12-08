@@ -1,6 +1,7 @@
 import pymongo
 from pyquora.quora import Quora, User
 from utils import _sanitize_username, _sanitize_question
+from explorer import _get_question
 
 __author__ = 'michal3141'
 
@@ -90,4 +91,18 @@ class Crawler(object):
             if not related_question.endswith('...'):
                 self._crawl_by_question(_sanitize_question(related_question), depth+1)
 
+    def crawl_questions_and_answers(self):
+        questions_data = list(self.db.questions.find())
+        for document in questions_data:
+            question = _get_question(document)
+            print question
+            question_author, answers_authors = Quora.get_authors_of_questions_and_answers(question)
+            question_author = _sanitize_username(question_author)
+            answers_authors = [_sanitize_username(author) for author in answers_authors] 
+            stats = {'question_author' : question_author, 'answers_authors': answers_authors}
+            print 'question_author:', question_author
+            print 'answers_authors:', answers_authors
+
+            # Inserting into database:
+            self.db.answers.insert({question: stats})
 

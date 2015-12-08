@@ -223,6 +223,35 @@ def visualize_users(quora_data):
     # print dot.source
     dot.render(os.path.join('images', 'users.gv'), view=True)
 
+# Visualizing network of users created based on questions and answers i.e.
+# There is a link from question author to guy who answered this question
+def visualize_questions_and_answers_authors(quora_data):
+    dot = Digraph(comment='Authors subgraph', engine='sfdp')
+    seen_authors = set()
+    for document in quora_data:
+        question = _get_question(document)
+        question_author = document[question]['question_author']
+        if question_author not in seen_authors:
+            if is_valid_author(question_author):
+                seen_authors.add(question_author)
+                dot.node(question_author, label=question_author)
+
+        answers_authors = document[question]['answers_authors']
+        for answer_author in answers_authors:
+            if answer_author not in seen_authors:
+                if is_valid_author(answer_author):
+                    seen_authors.add(answer_author)
+                    dot.node(answer_author, label=answer_author)
+            if question_author in seen_authors and answer_author in seen_authors:
+                dot.edge(question_author, answer_author)
+
+    dot = _apply_styles(dot, styles)
+    dot.render(os.path.join('images', 'authors.gv'), view=True)
+
+def is_valid_author(authorname):
+    return True
+    # Uncomment this below to find only authors with normal names
+    #return authorname != 'Anonymous' and authorname != '' and authorname != 'User' and authorname !='Quora-User'
 
 def _apply_styles(graph, styles):
     graph.graph_attr.update(
@@ -315,6 +344,7 @@ def main():
 
     questions_data = list(db.questions.find())
     users_data = list(db.users.find())
+    answers_data = list(db.answers.find())
     # create_date_histogram(questions_data)
     # # Considering only questions that have no answers
     # create_date_histogram(
@@ -327,13 +357,13 @@ def main():
     # analyze_topics_frequency(questions_data)
     # visualize_topics(questions_data)
     # visualize_users(users_data)
-
-    users_by_attribute(users_data, 'answers')
-    users_by_attribute(users_data, 'questions')
-    users_by_attribute(users_data, 'edits')
-    users_by_attribute(users_data, 'following_count')
-    users_by_attribute(users_data, 'followers_count')
-    questions_by_attribute(questions_data, 'topics', len)
+    visualize_questions_and_answers_authors(answers_data)
+    # users_by_attribute(users_data, 'answers')
+    # users_by_attribute(users_data, 'questions')
+    # users_by_attribute(users_data, 'edits')
+    # users_by_attribute(users_data, 'following_count')
+    # users_by_attribute(users_data, 'followers_count')
+    # questions_by_attribute(questions_data, 'topics', len)
 
     #print quora_data
     #print quora_data[0]

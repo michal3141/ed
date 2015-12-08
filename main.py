@@ -25,7 +25,10 @@ def main():
 
     # The guy who originally asked seed question
     user = 'Austin-Conlon'
-    crawler.crawl_by_user(user)
+    # Crawling by user
+    # crawler.crawl_by_user(user)
+
+    crawler.crawl_questions_and_answers()
 
 if __name__ == '__main__':
     main()
