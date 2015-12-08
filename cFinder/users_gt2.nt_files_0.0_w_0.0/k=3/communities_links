@@ -1,0 +1,165 @@
+# The links inside the communities at k=3
+# from C:\AGH\CFinder-2.0.6--1448\C:\AGH\ed\cFinder\users_gt2.nt
+# at no lower link weight threshold,
+# and at no upper link weight threshold.
+# Links were treated as undirected.
+# No time limit was set for the clique search.
+
+0:
+Craig-Good Roshna-Nazir
+Craig-Good Mhd-Hassan
+Craig-Good Subhakar-Manepalli
+Craig-Good Suneil-Geddam
+Craig-Good Chip-Houston
+Craig-Good Annika-Schauer
+Craig-Good Shubham-Gupta
+Waleed-Kadous Mhd-Hassan
+Waleed-Kadous Omar-Mh
+Waleed-Kadous Prabha-Gaikwad
+Waleed-Kadous Bruce-Bracken
+Waleed-Kadous Malena-Beauregard
+Waleed-Kadous Ariz-Zubair
+Waleed-Kadous Arun-Pandari
+Waleed-Kadous Li-Gangsen
+Waleed-Kadous Bobby-Kapadia
+Waleed-Kadous Satyanand-Gupta
+Waleed-Kadous Tejasi-Latkar
+Roshna-Nazir Christian-Onuoha
+Roshna-Nazir Austin-Conlon
+Roshna-Nazir Adam-Leffert
+Roshna-Nazir Subhakar-Manepalli
+Roshna-Nazir Kelly-Erickson
+Roshna-Nazir Bhanu-Korremula
+Roshna-Nazir Edward-Claro-Mader
+Roshna-Nazir Vaishak-Tirumala
+Roshna-Nazir Siddartha-Reddy
+Roshna-Nazir Shubham-Gupta
+Charles-Tips Robert-Gluck
+Charles-Tips Dhanush-Reddy-Vyata
+Charles-Tips Malena-Beauregard
+Christian-Onuoha Bhanu-Korremula
+Christian-Onuoha Vaishak-Tirumala
+Christian-Onuoha Siddartha-Reddy
+Chrys-Jordan Robert-Gluck
+Chrys-Jordan Chip-Houston
+Austin-Conlon Mhd-Hassan
+Austin-Conlon Omar-Mh
+Austin-Conlon Renan-Prasta-Jenie
+Austin-Conlon Rushi-Ahuja
+Austin-Conlon Subhakar-Manepalli
+Austin-Conlon Suneil-Geddam
+Austin-Conlon Robert-Gluck
+Austin-Conlon Chip-Houston
+Austin-Conlon Allen-Marcos
+Austin-Conlon Carrie-Cutler
+Austin-Conlon Andrew-Wender-Cohen
+Austin-Conlon Dhanush-Reddy-Vyata
+Austin-Conlon Joseph-Pallante
+Austin-Conlon Malena-Beauregard
+Austin-Conlon Annika-Schauer
+Austin-Conlon Ariz-Zubair
+Austin-Conlon Atanu-Guin
+Austin-Conlon Edward-Claro-Mader
+Austin-Conlon Emmanuel-Fabella
+Austin-Conlon Matthew-Hyndman
+Austin-Conlon Monique-Lindquist
+Austin-Conlon Nikita-Butakov
+Austin-Conlon Sudhindra-Katre
+Austin-Conlon Tarun-Nashier
+Austin-Conlon William-Treseder
+Adam-Leffert Mhd-Hassan
+Adam-Leffert Omar-Mh
+Adam-Leffert Subhakar-Manepalli
+Mhd-Hassan Omar-Mh
+Mhd-Hassan Bruce-Bracken
+Mhd-Hassan Annika-Schauer
+Mhd-Hassan Ariz-Zubair
+Mhd-Hassan William-Treseder
+Mhd-Hassan Todd-Akira-Morikawa
+Omar-Mh Bruce-Bracken
+Omar-Mh Annika-Schauer
+Omar-Mh Todd-Akira-Morikawa
+Prabha-Gaikwad Bruce-Bracken
+Renan-Prasta-Jenie Andrew-Wender-Cohen
+Renan-Prasta-Jenie Nikita-Butakov
+Rushi-Ahuja Carrie-Cutler
+Subhakar-Manepalli Kelly-Erickson
+Suneil-Geddam Annika-Schauer
+Kelly-Erickson Siddartha-Reddy
+Robert-Gluck Chip-Houston
+Robert-Gluck David-Kahana
+Robert-Gluck Dhanush-Reddy-Vyata
+Robert-Gluck Malena-Beauregard
+Robert-Gluck Atanu-Guin
+Robert-Gluck Edward-Claro-Mader
+Robert-Gluck Emmanuel-Fabella
+Robert-Gluck Monique-Lindquist
+Chip-Houston Annika-Schauer
+Allen-Marcos Carrie-Cutler
+Carrie-Cutler Monique-Lindquist
+David-Kahana Malena-Beauregard
+Andrew-Wender-Cohen Dhanush-Reddy-Vyata
+Dhanush-Reddy-Vyata Annika-Schauer
+Dhanush-Reddy-Vyata Josh-Manson
+Dhanush-Reddy-Vyata Matthew-Hyndman
+Dhanush-Reddy-Vyata Nikita-Butakov
+Joseph-Pallante Annika-Schauer
+Bruce-Bracken Malena-Beauregard
+Bruce-Bracken Arun-Pandari
+Bruce-Bracken Jean-Marion
+Bruce-Bracken Li-Gangsen
+Bruce-Bracken Bobby-Kapadia
+Bruce-Bracken Satyanand-Gupta
+Bruce-Bracken Tejasi-Latkar
+Annika-Schauer Josh-Manson
+Arun-Pandari Jean-Marion
+Edward-Claro-Mader Emmanuel-Fabella
+Edward-Claro-Mader Monique-Lindquist
+Sudhindra-Katre William-Treseder
+Tarun-Nashier William-Treseder
+1:
+Austin-Conlon Badrinarayan-Varadarajan
+Austin-Conlon Sriniketh-Kovin
+Badrinarayan-Varadarajan Sriniketh-Kovin
+2:
+Christian-Onuoha Sayantan-Sen
+Christian-Onuoha Samanth-Chilukuri
+Sayantan-Sen Samanth-Chilukuri
+3:
+Waleed-Kadous Ihab-Ibarahim-Battawi
+Waleed-Kadous Karuna-Prasad
+Christian-Onuoha Harshit-Wadhwani
+Christian-Onuoha Karthik-Gaddipati
+Robert-Gluck Ihab-Ibarahim-Battawi
+Robert-Gluck Karuna-Prasad
+Malena-Beauregard Karthik-Gaddipati
+Malena-Beauregard Nick-du-Plessis
+Rizwan-Aseem Harshit-Wadhwani
+Rizwan-Aseem Karthik-Gaddipati
+Harshit-Wadhwani Karthik-Gaddipati
+Harshit-Wadhwani Nick-du-Plessis
+Karthik-Gaddipati Nick-du-Plessis
+Karthik-Gaddipati Ihab-Ibarahim-Battawi
+Nick-du-Plessis Ihab-Ibarahim-Battawi
+Nick-du-Plessis Karuna-Prasad
+Nick-du-Plessis Niara-Caur
+Ihab-Ibarahim-Battawi Karuna-Prasad
+Ihab-Ibarahim-Battawi Niara-Caur
+4:
+Adam-Leffert Azmath-Shamrad
+Adam-Leffert Usman-Qazi
+Azmath-Shamrad Usman-Qazi
+5:
+Christian-Onuoha Monique-Lindquist
+Christian-Onuoha Taha-Yavuz-Bodur
+Monique-Lindquist Taha-Yavuz-Bodur
+6:
+Waleed-Kadous Raghav-Kuppan
+Waleed-Kadous Kvr-Vignesh-Ram-Krish
+Raghav-Kuppan Kvr-Vignesh-Ram-Krish
+7:
+Adam-Leffert Ankit-Gupta
+Adam-Leffert Rushi-Ahuja
+Adam-Leffert Suneil-Geddam
+Ankit-Gupta Rushi-Ahuja
+Ankit-Gupta Suneil-Geddam

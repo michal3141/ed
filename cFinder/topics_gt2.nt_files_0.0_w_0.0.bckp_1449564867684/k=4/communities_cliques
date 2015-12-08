@@ -1,0 +1,14 @@
+# The contained cliques in the communities at k=4
+# from C:\AGH\CFinder-2.0.6--1448\C:\AGH\ed\cFinder\topics_gt2.nt
+# at no lower link weight threshold,
+# and at no upper link weight threshold.
+# Links were treated as undirected.
+# No time limit was set for the clique search.
+
+0: 19 31 36 41 52 53 56 59 68 81 89 90 23 32 33 35 38 47 54 58 71 73 82 84 87 22 70 74 44 28 37 48 72 27 66 83 64 65 26 76 77 67 60 80 61 85 21 
+1: 20 
+2: 24 
+3: 25 
+4: 29 79 57 69 34 
+5: 49 50 63 51 
+6: 55 

@@ -1,0 +1,30 @@
+# The contained cliques in the communities at k=9
+# from C:\AGH\CFinder-2.0.6--1448\C:\AGH\ed\cFinder\topics_gt1.nt
+# at no lower link weight threshold,
+# and at no upper link weight threshold.
+# Links were treated as undirected.
+# No time limit was set for the clique search.
+
+0: 166 
+1: 167 
+2: 170 
+3: 171 
+4: 172 
+5: 174 
+6: 175 
+7: 181 
+8: 187 
+9: 189 
+10: 191 
+11: 193 
+12: 194 
+13: 211 
+14: 212 
+15: 216 
+16: 217 
+17: 226 
+18: 230 260 258 
+19: 233 
+20: 236 
+21: 239 
+22: 283 

@@ -1,0 +1,13 @@
+# The node membership distr. in the  communities at k=7
+# from C:\AGH\CFinder-2.0.6--1448\C:\AGH\ed\cFinder\users_gt1.nt
+# at no lower link weight threshold,
+# and at no upper link weight threshold.
+# Links were treated as undirected.
+# No time limit was set for the clique search.
+
+0 464
+1 17
+2 1
+3 4
+5 1
+
