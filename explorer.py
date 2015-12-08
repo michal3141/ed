@@ -3,13 +3,13 @@
 import pymongo
 import matplotlib.pyplot as plt
 import os
-from collections import namedtuple, defaultdict
+from collections import namedtuple, defaultdict, deque
 from datetime import date
 from dateutil.relativedelta import relativedelta, MO, TU, WE, TH, FR, SA, SU
 from graphviz import Graph, Digraph
 from itertools import groupby, product
 from operator import itemgetter
-from utils import _sanitize_username
+from utils import _sanitize_username, _sanitize_question
 
 
 # This is needed when obtaining date for last Monday, Tuesday, etc.
@@ -141,6 +141,42 @@ def questions_by_attribute(quora_data, attribute, f):
     with open(os.path.join('results', 'questions_%s.txt' % attribute), 'w') as f:
         for question in sorted(count_by_attribute.items(), key=lambda x: x[1][0], reverse=True):
             f.write(str(question) + '\n')
+
+
+## Starting with root_question e.g. 'what-is-terrorism' graph of questions is explored
+## and the goal is to find a path through the graph leading to question with particular
+## topic/tag like 'Astronomy'
+def explore_questions_by_topic(quora_data, root_question, topic):
+    already_explored_questions = set()
+    d = {}
+    for document in quora_data:
+        question = _get_question(document)
+        d[question] = document[question]
+        d[question]['related_questions'] = [_sanitize_question(x) for x in d[question]['related_questions']]
+    
+    questions_queue = []
+    already_explored_questions.add(root_question)
+    questions_queue.append([root_question])
+
+    questions_path = []
+    while questions_queue:
+        # get the first path from the queue
+        questions_path = questions_queue.pop(0)
+        # get the last node from the path
+        question = questions_path[-1]
+        # questions_path found
+        print d[question]['topics']
+        if topic in d[question]['topics']:
+            break
+        # enumerate all adjacent nodes, construct a new path and push it into the queue
+        for related_question in d[question]['related_questions']:
+            if related_question not in already_explored_questions and related_question in d:
+                already_explored_questions.add(related_question)
+                new_questions_path = list(questions_path)
+                new_questions_path.append(related_question)
+                questions_queue.append(new_questions_path)
+
+    print 'Path leading to %s : %r' % (topic, questions_path)
 
 styles = {
     'graph': {
@@ -357,7 +393,7 @@ def main():
     # analyze_topics_frequency(questions_data)
     # visualize_topics(questions_data)
     # visualize_users(users_data)
-    visualize_questions_and_answers_authors(answers_data)
+    # visualize_questions_and_answers_authors(answers_data)
     # users_by_attribute(users_data, 'answers')
     # users_by_attribute(users_data, 'questions')
     # users_by_attribute(users_data, 'edits')
@@ -365,6 +401,9 @@ def main():
     # users_by_attribute(users_data, 'followers_count')
     # questions_by_attribute(questions_data, 'topics', len)
 
+    #explore_questions_by_topic(questions_data, 'What-is-terrorism', 'Astronomy')
+    #explore_questions_by_topic(questions_data, 'What-is-terrorism', 'Communist Party of China')
+    explore_questions_by_topic(questions_data, 'What-is-terrorism', 'Google')
     #print quora_data
     #print quora_data[0]
 
