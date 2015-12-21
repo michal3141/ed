@@ -2,10 +2,299 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c965d807-5d36-4ae6-94ee-4481bfcc01ac" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/csvToCFinder.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphs/authors.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphs/topics.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphs/users.csv" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt1.nt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt1.nt_files_0.0_w_0.0/cliques" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt1.nt_files_0.0_w_0.0/graph" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt1.nt_files_0.0_w_0.0/input_params.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt1.nt_files_0.0_w_0.0/k=10/communities" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt1.nt_files_0.0_w_0.0/k=10/communities_cliques" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt1.nt_files_0.0_w_0.0/k=10/communities_links" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt1.nt_files_0.0_w_0.0/k=10/degree_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt1.nt_files_0.0_w_0.0/k=10/graph_of_communities" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt1.nt_files_0.0_w_0.0/k=10/membership_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt1.nt_files_0.0_w_0.0/k=10/overlap_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt1.nt_files_0.0_w_0.0/k=10/size_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt1.nt_files_0.0_w_0.0/k=11/communities" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt1.nt_files_0.0_w_0.0/k=11/communities_cliques" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt1.nt_files_0.0_w_0.0/k=11/communities_links" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt1.nt_files_0.0_w_0.0/k=11/degree_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt1.nt_files_0.0_w_0.0/k=11/graph_of_communities" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt1.nt_files_0.0_w_0.0/k=11/membership_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt1.nt_files_0.0_w_0.0/k=11/overlap_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt1.nt_files_0.0_w_0.0/k=11/size_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt1.nt_files_0.0_w_0.0/k=12/communities" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt1.nt_files_0.0_w_0.0/k=12/communities_cliques" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt1.nt_files_0.0_w_0.0/k=12/communities_links" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt1.nt_files_0.0_w_0.0/k=12/degree_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt1.nt_files_0.0_w_0.0/k=12/graph_of_communities" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt1.nt_files_0.0_w_0.0/k=12/membership_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt1.nt_files_0.0_w_0.0/k=12/overlap_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt1.nt_files_0.0_w_0.0/k=12/size_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt1.nt_files_0.0_w_0.0/k=13/communities" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt1.nt_files_0.0_w_0.0/k=13/communities_cliques" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt1.nt_files_0.0_w_0.0/k=13/communities_links" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt1.nt_files_0.0_w_0.0/k=13/degree_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt1.nt_files_0.0_w_0.0/k=13/graph_of_communities" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt1.nt_files_0.0_w_0.0/k=13/membership_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt1.nt_files_0.0_w_0.0/k=13/overlap_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt1.nt_files_0.0_w_0.0/k=13/size_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt1.nt_files_0.0_w_0.0/k=3/communities" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt1.nt_files_0.0_w_0.0/k=3/communities_cliques" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt1.nt_files_0.0_w_0.0/k=3/communities_links" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt1.nt_files_0.0_w_0.0/k=3/degree_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt1.nt_files_0.0_w_0.0/k=3/graph_of_communities" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt1.nt_files_0.0_w_0.0/k=3/membership_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt1.nt_files_0.0_w_0.0/k=3/overlap_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt1.nt_files_0.0_w_0.0/k=3/size_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt1.nt_files_0.0_w_0.0/k=4/communities" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt1.nt_files_0.0_w_0.0/k=4/communities_cliques" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt1.nt_files_0.0_w_0.0/k=4/communities_links" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt1.nt_files_0.0_w_0.0/k=4/degree_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt1.nt_files_0.0_w_0.0/k=4/graph_of_communities" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt1.nt_files_0.0_w_0.0/k=4/membership_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt1.nt_files_0.0_w_0.0/k=4/overlap_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt1.nt_files_0.0_w_0.0/k=4/size_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt1.nt_files_0.0_w_0.0/k=5/communities" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt1.nt_files_0.0_w_0.0/k=5/communities_cliques" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt1.nt_files_0.0_w_0.0/k=5/communities_links" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt1.nt_files_0.0_w_0.0/k=5/degree_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt1.nt_files_0.0_w_0.0/k=5/graph_of_communities" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt1.nt_files_0.0_w_0.0/k=5/membership_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt1.nt_files_0.0_w_0.0/k=5/overlap_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt1.nt_files_0.0_w_0.0/k=5/size_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt1.nt_files_0.0_w_0.0/k=6/communities" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt1.nt_files_0.0_w_0.0/k=6/communities_cliques" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt1.nt_files_0.0_w_0.0/k=6/communities_links" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt1.nt_files_0.0_w_0.0/k=6/degree_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt1.nt_files_0.0_w_0.0/k=6/graph_of_communities" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt1.nt_files_0.0_w_0.0/k=6/membership_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt1.nt_files_0.0_w_0.0/k=6/overlap_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt1.nt_files_0.0_w_0.0/k=6/size_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt1.nt_files_0.0_w_0.0/k=7/communities" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt1.nt_files_0.0_w_0.0/k=7/communities_cliques" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt1.nt_files_0.0_w_0.0/k=7/communities_links" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt1.nt_files_0.0_w_0.0/k=7/degree_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt1.nt_files_0.0_w_0.0/k=7/graph_of_communities" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt1.nt_files_0.0_w_0.0/k=7/membership_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt1.nt_files_0.0_w_0.0/k=7/overlap_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt1.nt_files_0.0_w_0.0/k=7/size_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt1.nt_files_0.0_w_0.0/k=8/communities" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt1.nt_files_0.0_w_0.0/k=8/communities_cliques" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt1.nt_files_0.0_w_0.0/k=8/communities_links" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt1.nt_files_0.0_w_0.0/k=8/degree_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt1.nt_files_0.0_w_0.0/k=8/graph_of_communities" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt1.nt_files_0.0_w_0.0/k=8/membership_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt1.nt_files_0.0_w_0.0/k=8/overlap_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt1.nt_files_0.0_w_0.0/k=8/size_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt1.nt_files_0.0_w_0.0/k=9/communities" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt1.nt_files_0.0_w_0.0/k=9/communities_cliques" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt1.nt_files_0.0_w_0.0/k=9/communities_links" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt1.nt_files_0.0_w_0.0/k=9/degree_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt1.nt_files_0.0_w_0.0/k=9/graph_of_communities" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt1.nt_files_0.0_w_0.0/k=9/membership_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt1.nt_files_0.0_w_0.0/k=9/overlap_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt1.nt_files_0.0_w_0.0/k=9/size_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt2.nt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt2.nt_files_0.0_w_0.0.bckp_1449563904122/cliques" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt2.nt_files_0.0_w_0.0.bckp_1449563904122/graph" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt2.nt_files_0.0_w_0.0.bckp_1449563904122/input_params.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt2.nt_files_0.0_w_0.0.bckp_1449563904122/k=3/communities" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt2.nt_files_0.0_w_0.0.bckp_1449563904122/k=3/communities_cliques" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt2.nt_files_0.0_w_0.0.bckp_1449563904122/k=3/communities_links" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt2.nt_files_0.0_w_0.0.bckp_1449563904122/k=3/degree_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt2.nt_files_0.0_w_0.0.bckp_1449563904122/k=3/graph_of_communities" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt2.nt_files_0.0_w_0.0.bckp_1449563904122/k=3/membership_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt2.nt_files_0.0_w_0.0.bckp_1449563904122/k=3/overlap_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt2.nt_files_0.0_w_0.0.bckp_1449563904122/k=3/size_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt2.nt_files_0.0_w_0.0.bckp_1449563904122/k=4/communities" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt2.nt_files_0.0_w_0.0.bckp_1449563904122/k=4/communities_cliques" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt2.nt_files_0.0_w_0.0.bckp_1449563904122/k=4/communities_links" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt2.nt_files_0.0_w_0.0.bckp_1449563904122/k=4/degree_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt2.nt_files_0.0_w_0.0.bckp_1449563904122/k=4/graph_of_communities" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt2.nt_files_0.0_w_0.0.bckp_1449563904122/k=4/membership_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt2.nt_files_0.0_w_0.0.bckp_1449563904122/k=4/overlap_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt2.nt_files_0.0_w_0.0.bckp_1449563904122/k=4/size_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt2.nt_files_0.0_w_0.0.bckp_1449563904122/k=5/communities" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt2.nt_files_0.0_w_0.0.bckp_1449563904122/k=5/communities_cliques" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt2.nt_files_0.0_w_0.0.bckp_1449563904122/k=5/communities_links" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt2.nt_files_0.0_w_0.0.bckp_1449563904122/k=5/degree_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt2.nt_files_0.0_w_0.0.bckp_1449563904122/k=5/graph_of_communities" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt2.nt_files_0.0_w_0.0.bckp_1449563904122/k=5/membership_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt2.nt_files_0.0_w_0.0.bckp_1449563904122/k=5/overlap_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt2.nt_files_0.0_w_0.0.bckp_1449563904122/k=5/size_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt2.nt_files_0.0_w_0.0.bckp_1449563904122/k=6/communities" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt2.nt_files_0.0_w_0.0.bckp_1449563904122/k=6/communities_cliques" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt2.nt_files_0.0_w_0.0.bckp_1449563904122/k=6/communities_links" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt2.nt_files_0.0_w_0.0.bckp_1449563904122/k=6/degree_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt2.nt_files_0.0_w_0.0.bckp_1449563904122/k=6/graph_of_communities" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt2.nt_files_0.0_w_0.0.bckp_1449563904122/k=6/membership_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt2.nt_files_0.0_w_0.0.bckp_1449563904122/k=6/overlap_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt2.nt_files_0.0_w_0.0.bckp_1449563904122/k=6/size_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt2.nt_files_0.0_w_0.0.bckp_1449563904122/k=7/communities" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt2.nt_files_0.0_w_0.0.bckp_1449563904122/k=7/communities_cliques" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt2.nt_files_0.0_w_0.0.bckp_1449563904122/k=7/communities_links" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt2.nt_files_0.0_w_0.0.bckp_1449563904122/k=7/degree_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt2.nt_files_0.0_w_0.0.bckp_1449563904122/k=7/graph_of_communities" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt2.nt_files_0.0_w_0.0.bckp_1449563904122/k=7/membership_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt2.nt_files_0.0_w_0.0.bckp_1449563904122/k=7/overlap_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt2.nt_files_0.0_w_0.0.bckp_1449563904122/k=7/size_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt2.nt_files_0.0_w_0.0.bckp_1449564867684/cliques" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt2.nt_files_0.0_w_0.0.bckp_1449564867684/graph" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt2.nt_files_0.0_w_0.0.bckp_1449564867684/input_params.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt2.nt_files_0.0_w_0.0.bckp_1449564867684/k=3/communities" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt2.nt_files_0.0_w_0.0.bckp_1449564867684/k=3/communities_cliques" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt2.nt_files_0.0_w_0.0.bckp_1449564867684/k=3/communities_links" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt2.nt_files_0.0_w_0.0.bckp_1449564867684/k=3/degree_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt2.nt_files_0.0_w_0.0.bckp_1449564867684/k=3/graph_of_communities" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt2.nt_files_0.0_w_0.0.bckp_1449564867684/k=3/membership_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt2.nt_files_0.0_w_0.0.bckp_1449564867684/k=3/overlap_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt2.nt_files_0.0_w_0.0.bckp_1449564867684/k=3/size_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt2.nt_files_0.0_w_0.0.bckp_1449564867684/k=4/communities" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt2.nt_files_0.0_w_0.0.bckp_1449564867684/k=4/communities_cliques" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt2.nt_files_0.0_w_0.0.bckp_1449564867684/k=4/communities_links" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt2.nt_files_0.0_w_0.0.bckp_1449564867684/k=4/degree_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt2.nt_files_0.0_w_0.0.bckp_1449564867684/k=4/graph_of_communities" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt2.nt_files_0.0_w_0.0.bckp_1449564867684/k=4/membership_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt2.nt_files_0.0_w_0.0.bckp_1449564867684/k=4/overlap_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt2.nt_files_0.0_w_0.0.bckp_1449564867684/k=4/size_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt2.nt_files_0.0_w_0.0.bckp_1449564867684/k=5/communities" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt2.nt_files_0.0_w_0.0.bckp_1449564867684/k=5/communities_cliques" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt2.nt_files_0.0_w_0.0.bckp_1449564867684/k=5/communities_links" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt2.nt_files_0.0_w_0.0.bckp_1449564867684/k=5/degree_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt2.nt_files_0.0_w_0.0.bckp_1449564867684/k=5/graph_of_communities" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt2.nt_files_0.0_w_0.0.bckp_1449564867684/k=5/membership_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt2.nt_files_0.0_w_0.0.bckp_1449564867684/k=5/overlap_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt2.nt_files_0.0_w_0.0.bckp_1449564867684/k=5/size_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt2.nt_files_0.0_w_0.0.bckp_1449564867684/k=6/communities" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt2.nt_files_0.0_w_0.0.bckp_1449564867684/k=6/communities_cliques" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt2.nt_files_0.0_w_0.0.bckp_1449564867684/k=6/communities_links" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt2.nt_files_0.0_w_0.0.bckp_1449564867684/k=6/degree_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt2.nt_files_0.0_w_0.0.bckp_1449564867684/k=6/graph_of_communities" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt2.nt_files_0.0_w_0.0.bckp_1449564867684/k=6/membership_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt2.nt_files_0.0_w_0.0.bckp_1449564867684/k=6/overlap_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt2.nt_files_0.0_w_0.0.bckp_1449564867684/k=6/size_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt2.nt_files_0.0_w_0.0.bckp_1449564867684/k=7/communities" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt2.nt_files_0.0_w_0.0.bckp_1449564867684/k=7/communities_cliques" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt2.nt_files_0.0_w_0.0.bckp_1449564867684/k=7/communities_links" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt2.nt_files_0.0_w_0.0.bckp_1449564867684/k=7/degree_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt2.nt_files_0.0_w_0.0.bckp_1449564867684/k=7/graph_of_communities" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt2.nt_files_0.0_w_0.0.bckp_1449564867684/k=7/membership_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt2.nt_files_0.0_w_0.0.bckp_1449564867684/k=7/overlap_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt2.nt_files_0.0_w_0.0.bckp_1449564867684/k=7/size_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt2.nt_files_0.0_w_0.0/cliques" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt2.nt_files_0.0_w_0.0/graph" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt2.nt_files_0.0_w_0.0/input_params.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt2.nt_files_0.0_w_0.0/k=3/communities" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt2.nt_files_0.0_w_0.0/k=3/communities_cliques" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt2.nt_files_0.0_w_0.0/k=3/communities_links" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt2.nt_files_0.0_w_0.0/k=3/degree_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt2.nt_files_0.0_w_0.0/k=3/graph_of_communities" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt2.nt_files_0.0_w_0.0/k=3/membership_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt2.nt_files_0.0_w_0.0/k=3/overlap_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt2.nt_files_0.0_w_0.0/k=3/size_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt2.nt_files_0.0_w_0.0/k=4/communities" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt2.nt_files_0.0_w_0.0/k=4/communities_cliques" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt2.nt_files_0.0_w_0.0/k=4/communities_links" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt2.nt_files_0.0_w_0.0/k=4/degree_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt2.nt_files_0.0_w_0.0/k=4/graph_of_communities" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt2.nt_files_0.0_w_0.0/k=4/membership_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt2.nt_files_0.0_w_0.0/k=4/overlap_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt2.nt_files_0.0_w_0.0/k=4/size_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt2.nt_files_0.0_w_0.0/k=5/communities" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt2.nt_files_0.0_w_0.0/k=5/communities_cliques" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt2.nt_files_0.0_w_0.0/k=5/communities_links" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt2.nt_files_0.0_w_0.0/k=5/degree_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt2.nt_files_0.0_w_0.0/k=5/graph_of_communities" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt2.nt_files_0.0_w_0.0/k=5/membership_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt2.nt_files_0.0_w_0.0/k=5/overlap_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt2.nt_files_0.0_w_0.0/k=5/size_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt2.nt_files_0.0_w_0.0/k=6/communities" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt2.nt_files_0.0_w_0.0/k=6/communities_cliques" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt2.nt_files_0.0_w_0.0/k=6/communities_links" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt2.nt_files_0.0_w_0.0/k=6/degree_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt2.nt_files_0.0_w_0.0/k=6/graph_of_communities" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt2.nt_files_0.0_w_0.0/k=6/membership_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt2.nt_files_0.0_w_0.0/k=6/overlap_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt2.nt_files_0.0_w_0.0/k=6/size_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt2.nt_files_0.0_w_0.0/k=7/communities" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt2.nt_files_0.0_w_0.0/k=7/communities_cliques" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt2.nt_files_0.0_w_0.0/k=7/communities_links" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt2.nt_files_0.0_w_0.0/k=7/degree_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt2.nt_files_0.0_w_0.0/k=7/graph_of_communities" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt2.nt_files_0.0_w_0.0/k=7/membership_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt2.nt_files_0.0_w_0.0/k=7/overlap_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/topics_gt2.nt_files_0.0_w_0.0/k=7/size_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/users_gt1.nt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/users_gt1.nt_files_0.0_w_0.0/cliques" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/users_gt1.nt_files_0.0_w_0.0/graph" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/users_gt1.nt_files_0.0_w_0.0/input_params.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/users_gt1.nt_files_0.0_w_0.0/k=3/communities" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/users_gt1.nt_files_0.0_w_0.0/k=3/communities_cliques" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/users_gt1.nt_files_0.0_w_0.0/k=3/communities_links" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/users_gt1.nt_files_0.0_w_0.0/k=3/degree_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/users_gt1.nt_files_0.0_w_0.0/k=3/graph_of_communities" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/users_gt1.nt_files_0.0_w_0.0/k=3/membership_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/users_gt1.nt_files_0.0_w_0.0/k=3/overlap_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/users_gt1.nt_files_0.0_w_0.0/k=3/size_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/users_gt1.nt_files_0.0_w_0.0/k=4/communities" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/users_gt1.nt_files_0.0_w_0.0/k=4/communities_cliques" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/users_gt1.nt_files_0.0_w_0.0/k=4/communities_links" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/users_gt1.nt_files_0.0_w_0.0/k=4/degree_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/users_gt1.nt_files_0.0_w_0.0/k=4/graph_of_communities" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/users_gt1.nt_files_0.0_w_0.0/k=4/membership_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/users_gt1.nt_files_0.0_w_0.0/k=4/overlap_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/users_gt1.nt_files_0.0_w_0.0/k=4/size_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/users_gt1.nt_files_0.0_w_0.0/k=5/communities" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/users_gt1.nt_files_0.0_w_0.0/k=5/communities_cliques" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/users_gt1.nt_files_0.0_w_0.0/k=5/communities_links" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/users_gt1.nt_files_0.0_w_0.0/k=5/degree_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/users_gt1.nt_files_0.0_w_0.0/k=5/graph_of_communities" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/users_gt1.nt_files_0.0_w_0.0/k=5/membership_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/users_gt1.nt_files_0.0_w_0.0/k=5/overlap_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/users_gt1.nt_files_0.0_w_0.0/k=5/size_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/users_gt1.nt_files_0.0_w_0.0/k=6/communities" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/users_gt1.nt_files_0.0_w_0.0/k=6/communities_cliques" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/users_gt1.nt_files_0.0_w_0.0/k=6/communities_links" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/users_gt1.nt_files_0.0_w_0.0/k=6/degree_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/users_gt1.nt_files_0.0_w_0.0/k=6/graph_of_communities" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/users_gt1.nt_files_0.0_w_0.0/k=6/membership_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/users_gt1.nt_files_0.0_w_0.0/k=6/overlap_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/users_gt1.nt_files_0.0_w_0.0/k=6/size_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/users_gt1.nt_files_0.0_w_0.0/k=7/communities" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/users_gt1.nt_files_0.0_w_0.0/k=7/communities_cliques" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/users_gt1.nt_files_0.0_w_0.0/k=7/communities_links" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/users_gt1.nt_files_0.0_w_0.0/k=7/degree_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/users_gt1.nt_files_0.0_w_0.0/k=7/graph_of_communities" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/users_gt1.nt_files_0.0_w_0.0/k=7/membership_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/users_gt1.nt_files_0.0_w_0.0/k=7/overlap_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/users_gt1.nt_files_0.0_w_0.0/k=7/size_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/users_gt2.nt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/users_gt2.nt_files_0.0_w_0.0/cliques" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/users_gt2.nt_files_0.0_w_0.0/graph" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/users_gt2.nt_files_0.0_w_0.0/input_params.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/users_gt2.nt_files_0.0_w_0.0/k=3/communities" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/users_gt2.nt_files_0.0_w_0.0/k=3/communities_cliques" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/users_gt2.nt_files_0.0_w_0.0/k=3/communities_links" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/users_gt2.nt_files_0.0_w_0.0/k=3/degree_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/users_gt2.nt_files_0.0_w_0.0/k=3/graph_of_communities" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/users_gt2.nt_files_0.0_w_0.0/k=3/membership_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/users_gt2.nt_files_0.0_w_0.0/k=3/overlap_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/users_gt2.nt_files_0.0_w_0.0/k=3/size_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/users_gt2.nt_files_0.0_w_0.0/k=4/communities" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/users_gt2.nt_files_0.0_w_0.0/k=4/communities_cliques" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/users_gt2.nt_files_0.0_w_0.0/k=4/communities_links" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/users_gt2.nt_files_0.0_w_0.0/k=4/degree_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/users_gt2.nt_files_0.0_w_0.0/k=4/graph_of_communities" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/users_gt2.nt_files_0.0_w_0.0/k=4/membership_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/users_gt2.nt_files_0.0_w_0.0/k=4/overlap_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cFinder/users_gt2.nt_files_0.0_w_0.0/k=4/size_distribution" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mongo_start.sh" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/convertToCFinder.py" afterPath="$PROJECT_DIR$/csvToCFinder.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pyquora" afterPath="$PROJECT_DIR$/pyquora" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/convertToCFinder.py" afterPath="$PROJECT_DIR$/convertToCFinder.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/ed.iml" afterPath="$PROJECT_DIR$/.idea/ed.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ed.iws" />
@@ -20,8 +309,9 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/ed$convertToCFinder.coverage" NAME="convertToCFinder Coverage Results" MODIFIED="1448966950067" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ed$main.coverage" NAME="main Coverage Results" MODIFIED="1448961194940" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ed$convertToCFinder___minWeight_1.coverage" NAME="convertToCFinder Coverage Results" MODIFIED="1450174262587" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ed$convertToCFinder.coverage" NAME="convertToCFinder Coverage Results" MODIFIED="1450704025027" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -31,49 +321,19 @@
     <favorites_list name="ed" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main.py">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="_csv.py" pinned="false" current-in-tab="true">
+        <entry file="file://$USER_HOME$/.IntelliJIdea15/system/python_stubs/-762174762/_csv.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="30" selection-end-column="10" />
+            <state vertical-scroll-proportion="0.16145833">
+              <caret line="99" column="49" selection-start-line="99" selection-start-column="49" selection-end-line="99" selection-end-column="49" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="convertToCFinder.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/convertToCFinder.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.82245433">
-              <caret line="20" column="54" selection-start-line="20" selection-start-column="54" selection-end-line="20" selection-end-column="54" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="__builtin__.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.IntelliJIdea14/system/python_stubs/-762174762/__builtin__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="2024" column="8" selection-start-line="2024" selection-start-column="8" selection-end-line="2024" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="topics.nt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cFinder/topics.nt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.814815">
-              <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="users.nt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cFinder/users.nt">
+      <file leaf-file-name="csvToCFinder.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/csvToCFinder.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -82,28 +342,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dot.py" pinned="false" current-in-tab="false">
-        <entry file="file://C:/Python27/Lib/site-packages/graphviz/dot.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.37931">
-              <caret line="35" column="17" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="files.py" pinned="false" current-in-tab="false">
-        <entry file="file://C:/Python27/Lib/site-packages/graphviz/files.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="103" column="12" selection-start-line="103" selection-start-column="12" selection-end-line="103" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="users_answers.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/results/users_answers.txt">
+      <file leaf-file-name="authors.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/graphs/authors.csv">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -112,27 +352,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="topics.gv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/images/topics.gv">
-          <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-            <state />
-          </provider>
+      <file leaf-file-name="topics.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/graphs/topics.csv">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.6551725">
-              <caret line="928" column="12" selection-start-line="928" selection-start-column="8" selection-end-line="928" selection-end-column="12" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="22" column="102" selection-start-line="22" selection-start-column="102" selection-end-line="22" selection-end-column="102" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="users.gv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/images/users.gv">
-          <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-            <state />
-          </provider>
+      <file leaf-file-name="users.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/graphs/users.csv">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.6551723">
-              <caret line="904" column="29" selection-start-line="904" selection-start-column="29" selection-end-line="904" selection-end-column="31" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="quora.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pyquora/quora/quora.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pyquora/quora/user.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="136" column="24" selection-start-line="136" selection-start-column="24" selection-end-line="136" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -166,16 +420,15 @@
         <option value="$PROJECT_DIR$/crawler.py" />
         <option value="$PROJECT_DIR$/explorer.py" />
         <option value="$PROJECT_DIR$/pyquora/quora/quora.py" />
+        <option value="$PROJECT_DIR$/csvToCFinder.py" />
         <option value="$PROJECT_DIR$/convertToCFinder.py" />
       </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBuildToolPackageJson" detection-done="true" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
-  </component>
-  <component name="NamedScopeManager">
-    <order />
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
@@ -204,9 +457,11 @@
       <autoscrollToSource />
       <autoscrollFromSource />
       <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -225,42 +480,14 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ed" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ed" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ed" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ed" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cFinder" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../inteligencja_obliczeniowa" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FullScreen" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -269,6 +496,14 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.34407365" />
     <property name="restartRequiresConfirmation" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\AGH\ed\graphs" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\AGH\ed" />
+    </key>
   </component>
   <component name="RunManager" selected="Python.convertToCFinder">
     <configuration default="false" name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -303,7 +538,7 @@
       <module name="ed" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/convertToCFinder.py" />
-      <option name="PARAMETERS" value="topics users" />
+      <option name="PARAMETERS" value="authors --minWeight=1 --closeness=True" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
@@ -325,6 +560,15 @@
       <option name="CLEAR_LOGCAT" value="false" />
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="0" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="SELECTED_CLOUD_DEVICE_CONFIGURATION_ID" value="0" />
+      <option name="SELECTED_CLOUD_DEVICE_PROJECT_ID" value="" />
+      <option name="IS_VALID_CLOUD_MATRIX_SELECTION" value="false" />
+      <option name="INVALID_CLOUD_MATRIX_SELECTION_ERROR" value="" />
+      <option name="IS_VALID_CLOUD_DEVICE_SELECTION" value="false" />
+      <option name="INVALID_CLOUD_DEVICE_SELECTION_ERROR" value="" />
+      <option name="CLOUD_DEVICE_SERIAL_NUMBER" value="" />
       <method />
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
@@ -346,6 +590,15 @@
       <option name="CLEAR_LOGCAT" value="false" />
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="0" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="SELECTED_CLOUD_DEVICE_CONFIGURATION_ID" value="0" />
+      <option name="SELECTED_CLOUD_DEVICE_PROJECT_ID" value="" />
+      <option name="IS_VALID_CLOUD_MATRIX_SELECTION" value="false" />
+      <option name="INVALID_CLOUD_MATRIX_SELECTION_ERROR" value="" />
+      <option name="IS_VALID_CLOUD_DEVICE_SELECTION" value="false" />
+      <option name="INVALID_CLOUD_DEVICE_SELECTION_ERROR" value="" />
+      <option name="CLOUD_DEVICE_SERIAL_NUMBER" value="" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -361,6 +614,65 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
       <method />
     </configuration>
     <configuration default="true" type="BashConfigurationType" factoryName="Bash">
@@ -581,12 +893,62 @@
       <patterns />
       <method />
     </configuration>
+    <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
     <configuration default="true" type="JarApplication" factoryName="JAR Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="ed" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
@@ -637,7 +999,6 @@
     </configuration>
     <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <extension name="scalaCoverage" />
       <module name="" />
       <setting name="path" value="" />
       <setting name="package" value="" />
@@ -653,7 +1014,6 @@
     </configuration>
     <configuration default="true" type="Specs2RunConfiguration" factoryName="Specs2">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <extension name="scalaCoverage" />
       <module name="" />
       <setting name="path" value="" />
       <setting name="package" value="" />
@@ -701,6 +1061,34 @@
       <listeners />
       <method />
     </configuration>
+    <configuration default="true" type="TestNGTestDiscovery" factoryName="TestNG Test Discovery" changeList="All">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
     <configuration default="true" type="executeSpecs" factoryName="Gauge Execution">
       <setting name="environment" value="" />
       <setting name="specsToExecute" value="" />
@@ -720,6 +1108,12 @@
       <tasks />
       <arguments />
       <pass-parent-envs>true</pass-parent-envs>
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
       <envs />
       <method />
     </configuration>
@@ -841,7 +1235,6 @@
     </configuration>
     <configuration default="true" type="uTestRunConfiguration" factoryName="utest">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <extension name="scalaCoverage" />
       <module name="" />
       <setting name="path" value="" />
       <setting name="package" value="" />
@@ -882,43 +1275,57 @@
       <option name="number" value="Default" />
       <updated>1444763345246</updated>
       <workItem from="1448549896238" duration="97000" />
-      <workItem from="1448926764690" duration="7712000" />
+      <workItem from="1448926764690" duration="10003000" />
+      <workItem from="1448979844370" duration="110000" />
+      <workItem from="1449011978328" duration="172000" />
+      <workItem from="1449562130235" duration="3333000" />
+      <workItem from="1450171238186" duration="5002000" />
+      <workItem from="1450357561709" duration="44000" />
+      <workItem from="1450699382249" duration="4618000" />
     </task>
+    <task id="LOCAL-00001" summary="www">
+      <created>1448967570774</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1448967570774</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7809000" />
+    <option name="totallyTimeSpent" value="23379000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="TunnelliJ" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952693" sideWeight="0.5030257" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32952693" sideWeight="0.4969743" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20801815" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3213703" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39967373" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Log4jMonitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="TunnelliJ" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952693" sideWeight="0.5030257" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6525285" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32789558" sideWeight="0.4969743" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20877458" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39967373" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Log4jMonitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3213703" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -932,92 +1339,43 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="www" />
+    <option name="LAST_COMMIT_MESSAGE" value="www" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="7" />
+      <option name="time" value="12" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pyquora/quora/user.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mongo_tutorial">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quora_data">
-      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="3" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="58" selection-start-line="20" selection-start-column="58" selection-end-line="20" selection-end-column="58" />
+          <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/crawler.py">
+    <entry file="file://$PROJECT_DIR$/images/topics.gv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="804" column="36" selection-start-line="804" selection-start-column="9" selection-end-line="804" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/topics.gv">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#14#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyquora/quora/quora.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="146" column="45" selection-start-line="146" selection-start-column="31" selection-end-line="146" selection-end-column="45" />
-          <folding>
-            <element signature="e#16#45#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyquora/quora/user.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mongo_tutorial">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="41" selection-start-line="6" selection-start-column="0" selection-end-line="14" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/quora_data">
-      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="16" selection-start-line="5" selection-start-column="12" selection-end-line="11" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1025,7 +1383,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1033,9 +1390,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#14#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1043,9 +1397,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="211" column="0" selection-start-line="211" selection-start-column="0" selection-end-line="211" selection-end-column="0" />
-          <folding>
-            <element signature="e#16#45#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1053,7 +1404,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1061,18 +1411,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="41" selection-start-line="6" selection-start-column="0" selection-end-line="14" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/quora_data">
-      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="16" selection-start-line="5" selection-start-column="12" selection-end-line="11" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1080,7 +1425,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="62" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="66" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1088,9 +1432,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#14#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1098,9 +1439,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="211" column="0" selection-start-line="211" selection-start-column="0" selection-end-line="211" selection-end-column="0" />
-          <folding>
-            <element signature="e#16#45#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1108,7 +1446,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1116,18 +1453,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="41" selection-start-line="6" selection-start-column="0" selection-end-line="14" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/quora_data">
-      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="16" selection-start-line="5" selection-start-column="12" selection-end-line="11" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1135,7 +1467,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1143,9 +1474,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#16#45#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1153,7 +1481,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="41" selection-start-line="6" selection-start-column="0" selection-end-line="14" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1161,7 +1488,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1169,9 +1495,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#16#45#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1179,7 +1502,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="41" selection-start-line="6" selection-start-column="0" selection-end-line="14" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1191,13 +1513,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/quora_data">
-      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="15" column="3" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1205,15 +1523,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="12" column="113" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="113" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyquora/quora/user.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="14" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1221,43 +1530,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="16" column="64" selection-start-line="16" selection-start-column="64" selection-end-line="16" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crawler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#14#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyquora/quora/quora.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="100" column="0" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
-          <folding>
-            <element signature="e#16#45#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mongo_start.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="43" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/results/topic_frequencies.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1265,7 +1537,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1273,7 +1544,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1281,7 +1551,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1289,7 +1558,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1297,7 +1565,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-4.6896553">
           <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1305,7 +1572,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.37931">
           <caret line="35" column="17" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1313,7 +1579,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="103" column="12" selection-start-line="103" selection-start-column="12" selection-end-line="103" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1321,15 +1586,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="30" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1337,22 +1593,73 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="2024" column="8" selection-start-line="2024" selection-start-column="8" selection-end-line="2024" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/images/users.gv">
-      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.6551723">
           <caret line="904" column="29" selection-start-line="904" selection-start-column="29" selection-end-line="904" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/topics.gv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="804" column="36" selection-start-line="804" selection-start-column="9" selection-end-line="804" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results/topic_frequencies.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results/questions_topics.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="57" selection-start-line="27" selection-start-column="57" selection-end-line="27" selection-end-column="57" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cFinder/users.nt">
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <folding>
+            <marker date="1450171236890" expanded="false" signature="0:109" placeholder="import ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyquora/quora/quora.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyquora/quora/user.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="136" column="24" selection-start-line="136" selection-start-column="24" selection-end-line="136" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graphs/users.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1360,29 +1667,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/topics.gv">
-      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/graphs/topics.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.6551725">
-          <caret line="928" column="12" selection-start-line="928" selection-start-column="8" selection-end-line="928" selection-end-column="12" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="102" selection-start-line="22" selection-start-column="102" selection-end-line="22" selection-end-column="102" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cFinder/topics.nt">
+    <entry file="file://$PROJECT_DIR$/graphs/authors.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.814815">
-          <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/convertToCFinder.py">
+    <entry file="file://$PROJECT_DIR$/csvToCFinder.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.82245433">
-          <caret line="20" column="54" selection-start-line="20" selection-start-column="54" selection-end-line="20" selection-end-column="54" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.IntelliJIdea15/system/python_stubs/-762174762/_csv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.16145833">
+          <caret line="99" column="49" selection-start-line="99" selection-start-column="49" selection-end-line="99" selection-end-column="49" />
           <folding />
         </state>
       </provider>
